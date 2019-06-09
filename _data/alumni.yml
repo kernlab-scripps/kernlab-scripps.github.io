@@ -1,5 +1,303 @@
 ##- name: FirstName LastName
-##  position: PositionTitle
-##  startdate: YYYY
-##  enddate: YYYY
+##  position: pick from [Postdoctoral Fellow, Graduate Student, Master Student, Undergraduate Student]
+##  startdate: YYYYMM
+##  enddate: YYYYMM
+##  thesis_title: Thesis title (for all positions, except Postdoctoral Fellow))
+##  thesis_url: https://search.proquest.com/docview/????? (replace ???? with the ProQuest number) for a PhD thesis
+##      or      https://bir.brandeis.edu/handle/?????/????? for BSc/MSc thesis
 ##  current: PositionTitle @ Company/University
+##  website: URL to current job (mainly used for PIs)
+
+- name: Marc Hoemberger
+  position: Graduate Student / Postdoctoral Fellow
+  startdate: 201309
+  enddate: 201903
+  #thesis_title:
+  #thesis_url:
+  current: Scientist @ Biogen
+
+- name: Christopher Wilson
+  position: Graduate Student / Postdoctoral Fellow
+  startdate: 201109
+  enddate: 201708
+  #thesis_title:
+  #thesis_url:
+  current: Postdoctoral Fellow - Liu Lab @ Broad Institute of MIT and Harvard
+
+- name: Vy Nguyen
+  position: Graduate Student / Postdoctoral Fellow
+  startdate: 201109
+  enddate: 201706
+  #thesis_title:
+  #thesis_url:
+  current: Scientist @ Relay Therapeutics
+
+- name: Roman Agafonov
+  position: Postdoctoral Fellow
+  startdate: 201002
+  enddate: 201606
+  current: Senior Research Scientist I @ C4 Therapeutics
+
+- name: Adelajda Zorba
+  position: Graduate Student / Postdoctoral Fellow
+  startdate: 200909
+  enddate: 201607
+  thesis_title: Mechanism of Aurora A kinase activation and catalysis
+  thesis_url: https://search.proquest.com/docview/1351296909/
+  current: Scientist @ Biogen
+
+- name: Janice Villali
+  position: Graduate Student / Postdoctoral Fellow
+  startdate: 200509
+  enddate: 200908
+  thesis_title: Mechanism of activation at atomic resolution of the signaling protein NtrC
+  thesis_url: https://search.proquest.com/docview/304846122
+  current: Associate Principal Scientist @ KSQ Therapeutics
+
+- name: Wladimir Labeikovsky
+  position: Graduate Student
+  startdate: 200309
+  enddate: 200805
+  thesis_title: Proline isomerase dynamics and the modulation of Tau function by Pin1
+  thesis_url: https://search.proquest.com/docview/304692184/
+  current: Senior Instructor @ University of Colorado, Anschutz Medical Campus
+  website: https://profiles.ucdenver.edu/display/14111583
+
+- name: Vu Thai
+  position: Graduate Student
+  startdate: 200009
+  enddate: 200802
+  thesis_title: The role of structure and dynamics in adenylate kinase catalysis
+  thesis_url: https://search.proquest.com/docview/304897857
+  current: Staff Process Development Scientist @ Bayer Healthcare
+
+- name: Jordan Kerns
+  position: Graduate Student / Postdoctoral Fellow
+  startdate: 200409
+  enddate: 201106
+  thesis_title: The Catalytic Energy Landscape of Adenylate Kinase
+  thesis_url: https://search.proquest.com/docview/753469380
+  current: Principal Investigator @ Emulate, Inc.
+
+- name: Alex Milshteyn
+  position: Graduate Student
+  startdate: 200409
+  enddate: 201112
+  thesis_title: Peptidyl-prolyl Isomerization in the Regulation of Neuronal Signaling Pathways
+  thesis_url: https://search.proquest.com/docview/871453656
+  current: Scientist II @ Zymergen, Inc.
+
+- name: Dimitar Pachov
+  position: Graduate Student
+  startdate: 200509
+  enddate: 201102
+  thesis_title: Conformational Transition Pathways in Signaling and Enzyme Catalysis Explored by Computational Methods
+  thesis_url: https://search.proquest.com/docview/851184657
+  current: Entrepeneur, (Bio-) Data Scientist
+
+- name: Alexandra Gardino
+  position: Graduate Student
+  startdate: 1999
+  enddate: 2005
+  thesis_title: Mechanism and energetics of phosphorylation-mediated signaling
+  thesis_url: https://search.proquest.com/docview/305027830
+  current: Principal Scientist @ Accent Therapeutics
+
+- name: Daryl A. Bosco
+  position: Graduate Student
+  startdate: 1998
+  enddate: 2003
+  thesis_title: Investigation of a catalytic role for cyclophilin A in HIV-1 replication
+  thesis_url: https://search.proquest.com/docview/305208275
+  current: Associate Professor - Department of Neurology @ UMASS Medical
+  website: https://www.boscolab.com
+
+- name: Katherine Henzler-Wildman
+  position: Postdoctoral Fellow
+  startdate: 200309
+  enddate: 200809
+  current: Associate Professor - Department of Biochemistry @ University of Wisconsin-Michigan
+  website: https://henzlerwildman.wiscweb.wisc.edu
+
+- name: Magnus Wolf-Watz
+  position: Postdoctoral Fellow
+  startdate: 2001
+  enddate: 2004
+  current: Associate Professor - Department of Chemistry @ University of Umeå, Sweden
+  website: https://www.biostruct.umu.se/principal-investigators/magnus-wolf-watz/
+
+- name: Elan Eisenmesser
+  position: Postdoctoral Fellow
+  startdate: 200109
+  enddate: 200609
+  current: Associate Professor - Department of Biochemistry @ University of Colorado
+  website: http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Eisenmesser.aspx
+
+- name: Annette Sievers
+  position: Postdoctoral Fellow
+  startdate: 200409
+  enddate: 200709
+  current: Senior Research Scientist @ Pfizer
+
+- name: Sabine Akabayov
+  position: Postdoctoral Fellow
+  startdate: 2007
+  enddate: 200809
+  current: Scientific and Medical Translator in Israel
+
+- name: Ming Lei
+  position: Postdoctoral Fellow
+  startdate: 200409
+  enddate: 200909
+  current: Postdoctoral Fellow - Karplus Lab @ Harvard University
+
+- name: Christian Steinbeck
+  position: Postdoctoral Fellow
+  startdate: 200509
+  enddate: 200709
+  current: Senior Developer @ Nike Sporting Goods
+
+- name: Peter Carlsson
+  position: Postdoctoral Fellow
+  startdate: 200509
+  enddate: 200709
+  current: Project Manager @ DeLaval International
+
+- name: Michael Clarkson
+  position: Postdoctoral Fellow
+  startdate: 200602
+  enddate: 201209
+  current: Staff Scientist @ University of Arizona
+
+- name: Young-Jin Cho
+  position: Postdoctoral Fellow
+  startdate: 200806
+  enddate: 201207
+  current: Senior Scientist @ WAVE Life Sciences
+
+- name: Kalyan S. Chakrabarti
+  position: Postdoctoral Fellow
+  startdate: 200904
+  enddate: 201209
+  current: Assistant Professor - Department of Biological Science and Chemistry @ Krea University, Chittoor, Andhra Pradesh, India
+  website: https://www.krea.edu.in/faculty.html
+
+- name: Vanessa Buosi
+  position: Postdoctoral Fellow
+  startdate: 201101
+  enddate: 201407
+  current: Project Manager @ Sanofi Pasteur, France
+
+- name: Timo Eichner
+  position: Postdoctoral Fellow
+  startdate: 201103
+  enddate: 201501
+  current: Associate Director @ Pieris Pharmaceuticals, Germany
+
+- name: Francesco Pontiggia
+  position: Postdoctoral Fellow / Research Computing Specialist
+  startdate: 200810
+  enddate: 2017
+  current: Cyber Infrastructure Research Consultant @ SEAS & FAS RC Harvard University
+
+- name: Steffen Kutter
+  position: Postdoctoral Fellow
+  startdate: 200907
+  enddate: 201708
+  current: Scientist @ Xtal BioStructures
+
+- name: Julius Rentergent
+  position: Postdoctoral Fellow
+  startdate: 201601
+  enddate: 201712
+  #current:
+
+- name: Yizhi Sun
+  position: Postdoctoral Fellow
+  startdate: 201505
+  enddate: 201711
+  current: Research Fellow - Spiegelman Lab @  Dana-Farber Cancer Institute and Harvard Medical School
+
+- name: Ole Clausen
+  position: Exchange Graduate Student
+  startdate: 200902
+  enddate: 200909
+  #current:
+
+- name: Julia Tartaglia
+  position: Undergraduate Student
+  startdate: 201705
+  enddate: 201905
+  #thesis_title:
+  #thesis_url:
+  current: Graduate Student @ UC Berkeley
+
+- name: Chiquita McCoy-Crisp
+  position: Undergraduate Student
+  startdate: 201705
+  enddate: 201812
+  #thesis_title:
+  #thesis_url:
+  ##current: ???
+
+- name: Sarita Biswas
+  position: Undergraduate Student
+  startdate: 201406
+  enddate: 201605
+  #thesis_title:
+  #thesis_url:
+  current: Senior Analyst @ Health Advances
+
+- name: Camelia Zheng
+  position: Undergraduate Student
+  startdate: 201406
+  enddate: 201605
+  #thesis_title:
+  #thesis_url:
+  current: MSTP student - School of Medicine @ Stony Brook University
+
+- name: Ayantu Temesgen
+  position: Undergraduate Student
+  startdate: 201506
+  enddate: 201705
+  #thesis_title:
+  #thesis_url:
+  current: Harvard Medical School
+
+- name: Sara Gelles-Watnick
+  position: Undergraduate Student
+  startdate: 201501
+  enddate: 201705
+  #thesis_title:
+  #thesis_url:
+  current: Research Associate II @ Broad Institute of MIT and Harvard
+
+- name: Lien Phung
+  position: Undergraduate Student
+  startdate: 2011
+  enddate: 2013
+  thesis_title: Insights into Adenylate Kinase Mechanism and Evolution on the Molecular Level
+  thesis_url: https://bir.brandeis.edu/handle/10192/25102
+  current: MD/PhD @ University of Minnesota
+
+- name: Padraig Murphy
+  position: Undergraduate Student
+  startdate: 2012
+  enddate: 2014
+  thesis_title: Mechanistic Characterization and Evolution of Adenylate Kinase
+  thesis_url: https://bir.brandeis.edu/handle/10192/27231
+  current: Consultant - Project Team Lead @ Health Advances
+
+- name: Han Yang
+  position: Master Student
+  startdate: 2015
+  enddate: 2016
+  #thesis_title:
+  #thesis_url:
+  current: Senior Associate Scientist @ Pfizer
+
+- name: Charlene Tribbett-Talley
+  position: Administrative Assistant
+  startdate: 200508
+  enddate: 201707
+  current: Admin Lead to VP of Clinical Research, Head & Executive Director Portfolio Strategy @ Pfizer
