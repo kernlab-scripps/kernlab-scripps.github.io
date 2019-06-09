@@ -1,15 +1,549 @@
-## - citation: 'Petek N, Kraemer J, Derman A, **Fraser JS**, DiMaio F, Baker D,  Pogliano J, Agard D, Mullins RD.Structure and function of actin-like protein Alp7A reveal conserved and unique features of actin-based plasmid segregation. *Submitted*, 2015.'
-##   date: 201507
-##   image: '/static/img/pub/petek_2015.jpg'
-##   pmid: PMID or [Submitted]
-##   pmcid: PMCID or [Submitted / In Process]
+## - citation: "LastName INITIALS, .... & LastName INITIALS. Title *Abbreviated Journal Title*, **Year**"
+##   date: YYYYMMDD
+##   image: "/static/img/publications/lastname_year.jpg"
+##   pmid:  number or Submitted
+##   pmcid: PMC####### or [Submitted; In Process]
+##   doi: ????/????  # part after https://dx.doi.org/
 ##   biorxiv: "??????"
 ##   chemrxiv: "??????"
-##   pdf: '/static/pdf/petek_2015.pdf'
-##   pdbs:
-##     - 5XXX
-##   emdbs:
-##     - ????
+##   pdf: "/static/pdf/lastname_year.pdf"
+##   pdb:
+##     - PDB_ID
+##   bmrb:
+##     - BMRB_ID
+##   emdb:
+##     - "entrynumber"
+##   sasdb:
+##     - entryname
+##   data:
+##     - DOI to other dataset(s), not in the pre-defined categories above
 ##   links:
-##     - name: 'Kern Lab'
-##       url: 'http://www.bio.brandeis.edu/kernlab'
+##     - name: "Fraser Lab"
+##       url: "https://fraser-lab.com/"
+
+- citation: "Pádua RAP<sup>#</sup>, Sun Y<sup>#</sup>, Marko I, Pitsawong W, Stiller JB, Otten R & Kern D. Mechanism of Activating Mutations and Allosteric Drug Inhibition of the Phosphatase SHP2. *Nat. Commun.* **2018**"
+  date: 20181030
+  image: "/static/img/publications/padua_2018.jpg"
+  pmid: 30375376
+  pmcid: PMC6207724
+  doi: 10.1038/s41467-018-06814-w
+  #pdf: "/static/pdf/padua_2018.pdf"
+  pdb:
+    - 6CMP
+    - 6CMQ
+    - 6CMR
+    - 6CMS
+  bmrb:
+    - 27520
+    - 27521
+    - 27522
+  sasdb:
+    - SASDEN4
+    - SASDEP4
+  data:
+    - 10.5452/ma-aks8e
+
+- citation: "Pitsawong W<sup>#</sup>, Buosi V<sup>#</sup>, Otten R<sup>#</sup>, Agafonov RV<sup>#</sup>, Zorba A, Kern N, Kutter S, Kern G, Pádua RAP, Meniche X & Kern D. Dynamics of Human Protein Kinase Aurora A Linked to Drug Selectivity. *eLife* **2018**"
+  date: 20180614
+  image: "/static/img/publications/pitsawong_2018.jpg"
+  pmid: 29901437
+  pmcid: PMC6054532
+  doi: 10.7554/eLife.36656
+  #pdf: "/static/pdf/pitsawong_2018.pdf"
+  pdb:
+    - 6CPE
+    - 6CPF
+    - 6CPG
+
+- citation: "Otten R<sup>#</sup>, Liu L<sup>#</sup>, Kenner LR, Clarkson MW, Mavor D, Tawfik DS, Kern D & Fraser JS. Rescue of Conformational Dynamics in Enzyme Catalysis by Directed Evolution. *Nat. Commun.* **2018**"
+  date: 20180403
+  image: "/static/img/publications/otten_2018.jpg"
+  pmid: 29615624
+  pmcid: PMC5883053
+  biorxiv: "185009"
+  doi: 10.1038/s41467-018-03562-9
+  #pdf: "/static/pdf/otten_2018.pdf"
+  pdb:
+    - 5WC7
+    - 6BTA
+  bmrb:
+    - 27217
+    - 27218
+  links:
+    - name: "Fraser Lab"
+      url: "https://fraserlab.com"
+
+- citation: "Nguyen V<sup>#</sup>, Wilson C<sup>#</sup>, Hoemberger M, Stiller JB, Agafonov RV, Kutter S, English J, Theobald D & Kern D. Evolutionary Drivers of Thermoadaptation in Enzyme Catalysis. *Science* **2017**"
+  date: 20170120
+  image: "/static/img/publications/nguyen_2017.jpg"
+  pmid: 28008087
+  pmcid: PMC5649376
+  doi: 10.1126/science.aah3717
+  #pdf: "/static/pdf/nguyen_2017.pdf"
+  pdb:
+    - 5G3Y
+    - 5G3Z
+    - 5G40
+    - 5G41
+
+- citation: "Kutter S, Eichner T, Deaconescu AM & Kern D. Regulation of Microtubule Assembly by Tau and not by Pin1. *J. Mol. Biol.* **2016**"
+  date: 20160508
+  image: "/static/img/publications/kutter_2016.jpg"
+  pmid: 26996940
+  doi: 10.1016/j.jmb.2016.03.010
+  #pdf: "/static/pdf/kutter_2016.pdf"
+
+- citation: "Eichner T, Kutter S, Labeikovsky W, Buosi V & Kern D. Molecular Mechanism of Pin1-Tau Recognition and Catalysis. *J. Mol. Biol.* **2016**"
+  date: 20160508
+  image: "/static/img/publications/eichner_2016.jpg"
+  pmid: 26996941
+  doi: 10.1016/j.jmb.2016.03.009
+  #pdf: "/static/pdf/eichner_2016.pdf"
+
+- citation: "Chakrabarti KS<sup>#</sup>, Agafonov RV<sup>#</sup>, Pontiggia F, Otten R, Higgins MK, Schertler GF, Oprian DD & Kern D. Conformational Selection in a Protein-Protein Interaction Revealed by Dynamic Pathway Analysis. *Cell Reports* **2016**"
+  date: 20161224
+  image: "/static/img/publications/chakrabarti_2016.jpg"
+  pmid: 26725117
+  pmcid: PMC4706811
+  doi: 10.1016/j.celrep.2015.12.010
+  #pdf: "/static/pdf/chaktrabarti_2016.pdf"
+  links:
+    - name: "Oprian Lab"
+      url: "https://sites.google.com/a/brandeis.edu/oprianlab/"
+
+- citation: "Wilson C, Agafonov RV & Kern D. Drug targets evolve, and so should the methods. *Mol. Cell Oncol.* **2016**"
+  date: 20160531
+  image: "/static/img/publications/wilson_2016.jpg"
+  pmid: 27652309
+  pmcid: PMC4972104
+  doi: 10.1080/23723556.2015.1046580
+  #pdf: "/static/pdf/wilson_2016.pdf"
+
+- citation: "Agafonov RV, Wilson C & Kern D. Evolution and intelligent design in drug development. *Front. Mol. Biosci.* **2015**"
+  date: 20150521
+  image: "/static/img/publications/agafonov_2015a.jpg"
+  pmid: 26052517
+  pmcid: PMC4440380
+  doi: 10.3389/fmolb.2015.00027
+  #pdf: "/static/pdf/agafonov_2015a.pdf"
+
+- citation: "Pontiggia F, Pachov DV, Clarkson MW, Villali J, Hagan MF, Pande VS & Kern D. Free energy landscape of activation in a signaling protein at atomic resolution. *Nat. Commun.* **2015**"
+  date: 20150615
+  image: "/static/img/publications/pontiggia_2015.jpg"
+  pmid: 26073309
+  pmcid: PMC4470301
+  doi: 10.1038/ncomms8284
+  #pdf: "/static/pdf/pontiggia_2015.pdf"
+  pdb:
+    - 2MSL
+    - 2MSK
+  links:
+    - name: "Hagan Lab"
+      url: "https://www.brandeis.edu/departments/physics/hagan/index.html"
+    - name: "Pande Lab"
+      url: "https://pande.stanford.edu"
+
+- citation: "Wilson C<sup>#</sup>, Agafonov RV<sup>#</sup>, Hoemberger M, Kutter S, Zorba A, Halpin J, Buosi V, Otten R, Waterman D, Theobald DL & Kern D. Using ancient protein kinases to unravel a modern cancer drug's mechanism. *Science* **2015**"
+  date: 20150220
+  image: "/static/img/publications/wilson_2015.jpg"
+  pmid: 25700521
+  pmcid: PMC4405104
+  doi: 10.1126/science.aaa1823
+  #pdf: "/static/pdf/wilson_2015.pdf"
+  pdb:
+    - 4CSV
+    - 4UEU
+  links:
+    - name: "Theobald Lab"
+      url: "https://theobald.brandeis.edu"
+
+- citation: "Kerns SJ<sup>#</sup>, Agafonov RV<sup>#</sup>, Cho YJ<sup>#</sup>, Pontiggia F, Otten R, Pachov DV, Kutter S, Phung LA, Murphy PN, Thai V, Alber T, Hagan MF & Kern D. The energy landscape of adenylate kinase during catalysis. *Nat. Struct. Mol. Biol.* **2015**"
+  date: 20150112
+  image: "/static/img/publications/kerns_2015.jpg"
+  pmid: 25580578
+  pmcid: PMC4318763
+  doi: 10.1038/nsmb.2941
+  #pdf: "/static/pdf/kerns_2015.pdf"
+  pdb:
+    - 3SR0
+    - 4CF7
+    - 4JKY
+    - 4JL5
+    - JL6
+    - 4JL8
+    - 4JLA
+    - 4JLB
+    - 4JLD
+    - 4JLO
+    - 4JLP
+  bmrb:
+    - 9089
+    - 19090
+    - 19091
+    - 19092
+    - 19093
+  links:
+    - name: "Commentary: An enzyme cofactor with a split personality"
+      url: "http://dx.doi.org/10.1038/nsmb.2968"
+    - name: "Hagan Lab"
+      url: "https://www.brandeis.edu/departments/physics/hagan/index.html"
+
+- citation: "Hass MA, Liu WM, Agafonov R.V., Otten R, Phung LA, Schilder JT, Kern D & Ubbink M. A minor conformation of a lanthanide tag on adenylate kinase characterized by paramagnetic relaxation dispersion NMR spectroscopy. *J. Biomol. NMR.* **2015**"
+  date: 20150108
+  image: "/static/img/publications/hass_2015.gif"
+  pmid: 25563704
+  #pmcid:
+  doi: 10.1007/s10858-014-9894-3
+  #pdf: "/static/pdf/hass_2015.pdf"
+  links:
+    - name: "Ubbink Lab"
+      url: "https://www.universiteitleiden.nl/en/science/chemistry/macbio/"
+
+
+- citation: "Agafonov RV<sup>#</sup>, Wilson C<sup>#</sup>, Otten R, Buosi V & Kern D. Energetic dissection of Gleevec's selectivity toward human tyrosine kinases. *Nat. Struct. Mol. Biol.* **2014**"
+  date: 20140914
+  image: "/static/img/publications/agafonov_2015b.jpg"
+  pmid: 25218445
+  pmcid: PMC4266587
+  doi: 10.1038/nsmb.2891
+  #pdf: "/static/pdf/agafonov_2015b.pdf"
+
+- citation: "Zorba A<sup>#</sup>, Buosi V<sup>#</sup>, Kutter S, Kern N, Pontiggia F, Cho YJ & Kern D. Molecular mechanism of Aurora A kinase autophosphorylation and its allosteric activation by TPX2. *eLife* **2014**"
+  date: 20140527
+  image: "/static/img/publications/zorba_2014.jpg"
+  pmid: 24867643
+  pmcid: PMC4032492
+  doi: 10.7554/eLife.02667
+  #pdf: "/static/pdf/zorba_2014.pdf"
+  pdb:
+    - 4C3P
+    - 4C3R
+
+- citation: 'Villali J, Pontiggia F, Clarkson MW, Hagan MF & Kern D. Evidence against the "Y-T coupling" mechanism of activation in the response regulator NtrC. *J. Mol. Biol.* **2014**'
+  date: 20140403
+  image: "/static/img/publications/villali_2014.jpg"
+  pmid: 24406745
+  pmcid: PMC4384162
+  doi: 10.1016/j.jmb.2013.12.027
+  #pdf: "/static/pdf/villali_2014.pdf"
+  links:
+    - name: "Hagan Lab"
+      url: "https://www.brandeis.edu/departments/physics/hagan/index.html"
+
+- citation: "Ranaghan MJ, Kumar RP, Chakrabarti KS, Buosi V, Kern D & Oprian DD. A Highly Conserved Cysteine of Neuronal Calcium-sensing Proteins Controls Cooperative Binding of Ca<sup>2+</sup> to Recoverin. *J. Biol. Chem.* **2013**"
+  date: 20131213
+  image: "/static/img/publications/ranaghan_2013.gif"
+  pmid: 24189072
+  pmcid: PMC3861663
+  doi: 10.1074/jbc.M113.524355
+  #pdf: "/static/pdf/ranaghan_2013.pdf"
+  pdb:
+    - 4M2O
+    - 4M2P
+    - 4MLW
+    - 4M2Q
+  links:
+    - name: "Oprian Lab"
+      url: "https://sites.google.com/a/brandeis.edu/oprianlab/"
+
+- citation: "Park JM, Hu J-H, Milshteyn A, Zhang, P-W, Moore CG, Park S, Datko MC, Doming RD, Reyes CM, Wang XJ, Etzkorn FA, Xiao B, Szumlinski KK, Kern D, Linden DJ & Worley PF. A Prolyl-isomerase Mediates Dopamine-dependent Plasticity and Cocaine Motor Sensitization. *Cell* **2013**"
+  date: 20130801
+  image: "/static/img/publications/park_2013.jpg"
+  pmid: 23911326
+  pmcid: PMC3785238
+  doi: 10.1016/j.cell.2013.07.001
+  #pdf: "/static/pdf/park_2013.pdf"
+  links:
+    - name: "Worley Lab"
+      url: "http://neuroscience.jhu.edu/PaulWorley.php"
+
+- citation: "Morrison EA, DeKoster GT, Dutta S, Vafabakhsh R, Clarkson MW, Bahl A, Kern D, Ha T & Henzler-Wildman KA. Antiparallel EmrE exports drugs by exchanging between asymmetric structures. *Nature* **2012**"
+  date: 20120105
+  image: "/static/img/publications/morrison_2012.jpg"
+  pmid: 22178925
+  pmcid: PMC3253143
+  doi: 10.1038/nature10703
+  #pdf: "/static/pdf/morrison_2012.pdf"
+  links:
+    - name: "Henzler-Wildman Lab"
+      url: "https://henzlerwildman.wiscweb.wisc.edu"
+
+- citation: "Otten R, Villali J, Kern D & Mulder FAA. Probing Microsecond Time Scale Dynamics in Proteins by Methyl <sup>1</sup>H Carr−Purcell−Meiboom−Gill Relaxation Dispersion NMR Measurements. Application to Activation of the Signaling Protein NtrC<sup>r</sup>. *J. Am. Chem. Soc.* **2010**"
+  date: 20101108
+  image: "/static/img/publications/otten_2010.jpg"
+  pmid: 21058670
+  pmcid: PMC2991065
+  doi: 10.1021/ja107410x
+  #pdf: "/static/pdf/otten_2010.pdf"
+  links:
+    - name: "Mulder Lab"
+      url: "https://www.protein-nmr.org"
+
+- citation: "Villali J & Kern D. Choreographing an enzyme's dance. *Curr. Opin. Chem. Biol.* **2010**"
+  date: 20101001
+  image: "/static/img/publications/villali_2010.jpg"
+  pmid: 20822946
+  pmcid: PMC2987738
+  doi: 10.1016/j.cbpa.2010.08.007
+  #pdf: "/static/pdf/villali_2010.pdf"
+
+- citation: "Gardino AK, Villali J, Kivenson A, Lei M, Liu CF, Steindel P, Eisenmesser EZ, Labeikovsky W, Wolf-Watz M, Clarkson MW & Kern D. Transient Non-native Hydrogen Bonds Promote Activation of a Signaling Protein. *Cell* **2009**"
+  date: 20091211
+  image: "/static/img/publications/gardino_2009.jpg"
+  pmid: 20005804
+  pmcid: PMC2891250
+  doi: 10.1016/j.cell.2009.11.022
+  #pdf: "/static/pdf/gardino_2009.pdf"
+  links:
+    - name: "Commentary: During Transitions Proteins Make Fleeting Bonds"
+      url: "https://doi.org/10.1016/j.cell.2009.11.031"
+
+- citation: "Fraser JS, Clarkson MW, Degnan SC, Erion R, Kern D & Alber T. Hidden alternative structures of proline isomerase essential for catalysis. *Nature* **2009**"
+  date: 20091203
+  image: "/static/img/publications/fraser_2009.jpg"
+  pmid: 19956261
+  pmcid: PMC2805857
+  doi: 10.1038/nature08615
+  #pdf: "/static/pdf/fraser_2009.pdf"
+  pdb:
+    - 3K0M
+    - 3K0N
+    - 3K0O
+    - 3K0P
+    - 3K0Q
+    - 3K0R
+
+- citation: "Clarkson MW, Lei M, Eisenmesser EZ, Labeikovsky W, Redfield A & Kern D. Mesodynamics in the SARS nucleocapsid measured by NMR field cycling. *J. Biomol. NMR.* **2009**"
+  date: 20091001
+  image: "/static/img/publications/clarkson_2009.gif"
+  pmid: 19641854
+  pmcid: PMC2728245
+  doi: 10.1007/s10858-009-9347-6
+  #pdf: "/static/pdf/clarkson_2009.pdf"
+
+- citation: "Lei M, Velos J, Gardino A, Kivenson A, Karplus M & Kern D. Segmented Transition Pathway of the Signaling Protein Nitrogen Regulatory Protein C. *J. Mol. Biol.* **2009**"
+  date: 20090925
+  image: "/static/img/publications/lei_2009.jpg"
+  pmid: 19576227
+  pmcid: PMC2765875
+  doi: 10.1016/j.jmb.2009.06.065
+  #pdf: "/static/pdf/lei_2009.pdf"
+  links:
+    - name: "Karplus Lab"
+      url: "https://faculty.chemistry.harvard.edu/martin-karplus"
+
+- citation: "Shim S, Yuan JP, Kim JY, Zeng W, Huang G, Milshteyn A, Kern D, Muallem S, Ming G-L & Worley PF. Peptidyl-Prolyl Isomerase FKBP52 Controls Chemotropic Guidance of Neuronal Growth Cones via Regulation of TRPC1 Channel Opening. *Neuron* **2009**"
+  date: 20091125
+  image: "/static/img/publications/shim_2009.jpg"
+  pmid: 19945390
+  pmcid: PMC2786904
+  doi: 10.1016/j.neuron.2009.09.025
+  #pdf: "/static/pdf/shim_2009.pdf"
+  links:
+    - name: "Worley Lab"
+      url: "http://neuroscience.jhu.edu/PaulWorley.php"
+
+- citation: "Thai V, Renesto P, Fowler CA, Brown DJ, Davis T, Gu W, Pollock DD, Kern D, Raoult D & Eisenmesser EZ. Structural, Biochemical, and *in Vivo* Characterization of the First Virally Encoded Cyclophilin from the Mimivirus. *J. Mol. Biol.* **2008**"
+  date: 20080418
+  image: "/static/img/publications/thai_2008.jpg"
+  pmid: 18342330
+  pmcid: PMC2884007
+  doi: 10.1016/j.jmb.2007.08.051
+  #pdf: "/static/pdf/thai_2008.pdf"
+  pdb:
+    - 2OAO
+  links:
+    - name: "Eisenmesser Lab"
+      url: "http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Eisenmesser.aspx"
+
+- citation: "Gardino AK & Kern D. Functional Dynamics of Response Regulators Using NMR Relaxation Techniques. *Methods Enzymol.* **2007**"
+  date: 20070701
+  image: "/static/img/publications/gardino_2007.jpg"
+  pmid: 17609130
+  #pmcid:
+  doi: 10.1016/S0076-6879(07)23006-X
+  #pdf: "/static/pdf/gardino_2007.pdf"
+
+- citation: "Henzler-Wildman KA & Kern D. Dynamic personalities of proteins. *Nature* **2007**"
+  date: 20071213
+  image: "/static/img/publications/henzler-wildman_2007a.jpg"
+  pmid: 18075575
+  #pmcid:
+  doi: 10.1038/nature06522
+  #pdf: "/static/pdf/henzler-wildman_2007a.pdf"
+
+- citation: "Henzler-Wildman KA, Lei M, Thai V, Kerns SJ, Karplus M & Kern D. A hierarchy of timescales in protein dynamics is linked to enzyme catalysis. *Nature* **2007**"
+  date: 20071206
+  image: "/static/img/publications/henzler-wildman_2007b.jpg"
+  pmid: 18026087
+  #pmcid:
+  doi: 10.1038/nature06407
+  #pdf: "/static/pdf/henzler-wildman_2007b.pdf"
+  links:
+    - name: "Karplus Lab"
+      url: "https://faculty.chemistry.harvard.edu/martin-karplus"
+
+- citation: "Henzler-Wildman KA, Vu T, Lei M, Ott M, Wolf-Watz M, Fenn T, Pozharski E, Wilson MA, Petsko GA, Karplus M, Hübner CG & Kern D. Intrinsic motions along an enzymatic reaction trajectory. *Nature* **2007**"
+  date: 20071206
+  image: "/static/img/publications/henzler-wildman_2007c.jpg"
+  pmid: 18026086
+  #pmcid:
+  doi: 10.1038/nature06410
+  #pdf: "/static/pdf/henzler-wildman_2007c.pdf"
+  links:
+    - name: "Karplus Lab"
+      url: "https://faculty.chemistry.harvard.edu/martin-karplus"
+
+- citation: "Labeikovsky W, Eisenmesser EZ, Bosco DA & Kern D. Structure and Dynamics of Pin1 During Catalysis by NMR. *J. Mol. Biol.* **2007**"
+  date: 20070413
+  image: "/static/img/publications/labeikovsky_2007.jpg"
+  pmid: 17316687
+  pmcid: PMC2975599
+  doi: 10.1016/j.jmb.2007.01.049
+  #pdf: "/static/pdf/labeikovsky_2007.pdf"
+
+- citation: "Eisenmesser EZ, Millet O, Labeikovsky W, Korzhnev DM, Wolf-Watz M, Bosco DA, Skalicky JJ, Kay LE & Kern D. Intrinsic dynamics of an enzyme underlies catalysis. *Nature* **2005**"
+  date: 20051103
+  image: "/static/img/publications/eisenmesser_2005.jpg"
+  pmid: 16267559
+  #pmcid:
+  doi: 10.1038/nature04105
+  #pdf: "/static/pdf/eisenmesser_2005.pdf"
+  links:
+    - name: "Commentary: Structural biology: proteins flex to function"
+      url: "https://doi.org/10.1038/438036a"
+    - name: "Kay Lab"
+      url: "http://biochemistry.utoronto.ca/person/lewis-e-kay/"
+
+- citation: "Kern D, Eisenmesser EZ & Wolf-Watz M. Enzyme Dynamics During Catalysis Measured by NMR Spectroscopy. *Methods Enzymol.* **2005**"
+  date: 20050404
+  image: "/static/img/publications/kern_2005.jpg"
+  pmid: 15808235
+  #pmcid:
+  doi: 10.1016/S0076-6879(05)94021-4
+  #pdf: "/static/pdf/kern_2005.pdf"
+
+- citation: "Tittmann K, Neef H, Golbik R, Hübner G & Kern D. Kinetic Control of Thiamin Diphosphate Activation in Enzymes Studied by Proton-Nitrogen Correlated NMR Spectroscopy. *Biochemistry*, **2005**"
+  date: 20050526
+  image: "/static/img/publications/tittmann_2005.gif"
+  pmid: 15952776
+  #pmcid:
+  doi: 10.1021/bi050522x
+  #pdf: "/static/pdf/tittmann_2005.pdf"
+
+- citation: "Wemmer DE & Kern D. Beryllofluoride Binding Mimics Phosphorylation of Aspartate in Response Regulators. *J. Bacteriol.* **2005**"
+  date: 20051201
+  image: "/static/img/publications/wemmer_2005.jpg"
+  pmid: 16321925
+  pmcid: PMC1316999
+  doi: 10.1128/JB.187.24.8229-8230.2005
+  #pdf: "/static/pdf/wemmer_2005.pdf"
+  links:
+    - name: "Wemmer Lab"
+      url: "http://www.cchem.berkeley.edu/wemmer/home.html"
+
+- citation: "Bosco DA & Kern D. Catalysis and Binding of Cyclophilin A with Different HIV-1 Capsid Constructs. *Biochemistry* **2004**"
+  date: 20040430
+  image: "/static/img/publications/bosco_2004.gif"
+  pmid: 15147195
+  #pmcid:
+  doi: 10.1021/bi049841z
+  #pdf: "/static/pdf/bosco_2004.pdf"
+
+- citation: "Wolf-Watz M, Thai V, Henzler-Wildman KA, Hadjipavlou G, Eisenmesser EZ & Kern D. Linkage between dynamics and catalysis in a thermophilic-mesophilic enzyme pair. *Nat. Struct. Mol. Biol.* **2004**"
+  date: 20040829
+  image: "/static/img/publications/wolf-watz_2004.jpg"
+  pmid: 15334070
+  #pmcid:
+  doi: 10.1038/nsmb821
+  #pdf: "/static/pdf/wolf-watz_2004.pdf"
+
+- citation: "Gardino AK, Volkman BF, Cho HS, Lee S-Y, Wemmer DE & Kern D. The NMR Solution Structure of BeF<sup>3-</sup>-Activated Spo0F Reveals the Conformational Switch in a Phosphorelay System. *J. Mol. Biol.* **2003**"
+  date: 20030801
+  image: "/static/img/publications/gardino_2003.jpg"
+  pmid: 12875849
+  #pmcid:
+  doi: 10.1016/S0022-2836(03)00733-2
+  #pdf: "/static/pdf/gardino_2003.pdf"
+  links:
+    - name: "Wemmer Lab"
+      url: "http://www.cchem.berkeley.edu/wemmer/home.html"
+  pdb:
+    - 1PUX
+
+- citation: "Kern D & Zuiderweg ERP. The role of dynamics in allosteric regulation. *Curr. Opin. Struct. Biol.* **2003**"
+  date: 20031113
+  image: "/static/img/publications/kern_2003.jpg"
+  pmid: 14675554
+  #pmcid:
+  doi: 10.1016/j.sbi.2003.10.008
+  #pdf: "/static/pdf/kern_2003.pdf"
+
+- citation: "Bosco DA, Eisenmesser E, Pochapsky S, Sundquist WI & Kern D. Catalysis of cis/trans isomerization in native HIV-1 capsid by human cyclophilin A. *Proc. Natl. Acad. Sci. USA*, **2002**"
+  date: 20020416
+  image: "/static/img/publications/bosco_2002.jpg"
+  pmid: 11929983
+  pmcid: PMC122755
+  doi: 10.1073/pnas.082100499
+  #pdf: "/static/pdf/bosco_2002.pdf"
+
+- citation: "Eisenmesser EZ, Bosco DA, Akke M & Kern D. Enzyme Dynamics During Catalysis. *Science* **2002**"
+  date: 20020222
+  image: "/static/img/publications/eisenmesser_2002.jpg"
+  pmid: 11859194
+  #pmcid:
+  doi: 10.1126/science.1066176
+  #pdf: "/static/pdf/eisenmesser_2002.pdf"
+  links:
+    - name: "Commentary: Enzymology. A moving story"
+      url: "https://dx.doi.org/10.1126/science.1069823"
+    - name: "Akke lab"
+      url: "http://www.cmps.lu.se/bpc/research/akke/"
+
+- citation: "Kern D. Cutting the leash. *Nat. Struct. Biol.* **2002**"
+  date: 20020701
+  image: "/static/img/publications/kern_2002a.gif"
+  pmid: 12080334
+  #pmcid:
+  doi: 10.1038/nsb0702-496
+  #pdf: "/static/pdf/kern_2002a.pdf"
+
+- citation: "Kern G, Pelton J, Marqusee S & Kern D. Structural properties of the histidine-containing loop in HIV-1 Rnase H. *Biophys. Chem.* **2002**"
+  date: 20020201
+  image: "/static/img/publications/kern_2002b.gif"
+  pmid: 12034447
+  #pmcid:
+  doi: 10.1016/S0301-4622(02)00019-4
+  #pdf: "/static/pdf/kern_2002b.pdf"
+
+- citation: "Volkman BF, Lipson D, Wemmer DE & Kern D. Two-State Allosteric Behavior in a Single-Domain Signaling Protein. *Science* **2001**"
+  date: 20010323
+  image: "/static/img/publications/volkman_2001.jpg"
+  pmid: 11264542
+  #pmcid:
+  doi: 10.1126/science.291.5512.2429
+  #pdf: "/static/pdf/volkman_2001.pdf"
+  links:
+    - name: "Commentary: Structural biology. Flipping a switch"
+      url: "https://doi.org/10.1126/science.1060383"
+    - name: "Wemmer Lab"
+      url: "http://www.cchem.berkeley.edu/wemmer/home.html"
+
+- citation: 'Kern D, Volkman BF, Luginbühl P, Nohaile MJ, Kustu S & Wemmer DE. Structure of a transiently phosphorylated "switch" in bacterial signal transduction. *Nature* **1999**'
+  date: 19991223
+  image: "/static/img/publications/kern_1999.gif"
+  pmid: 10622255
+  #pmcid:
+  doi: 10.1038/47273
+  #pdf: "/static/pdf/kern_1999.pdf"
+  links:
+    - name: "Wemmer Lab"
+      url: "http://www.cchem.berkeley.edu/wemmer/home.html"
+
+- citation: "Kern D, Kern G, Neef H, Tittmann K, Killenberg-Jabs M, Wikner C, Schneider G & Hübner G. How Thiamin Diphosphate is Activated in Enzymes. *Science* **1997**"
+  date: 19970103
+  image: "/static/img/publications/kern_1997.jpg"
+  pmid: 8974393
+  #pmcid:
+  doi: 10.1126/science.275.5296.67
+  #pdf: "/static/pdf/kern_1997.pdf"
