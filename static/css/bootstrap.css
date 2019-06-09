@@ -4534,10 +4534,10 @@ a.list-group-item.active > .badge,
   margin-left: 3px;
 }
 .jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eeeeee;
+  background-image: url("../img/background.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .jumbotron h1,
 .jumbotron .h1 {
