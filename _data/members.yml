@@ -1,9 +1,227 @@
-##- name: FirstName LastName
-##  image: /static/img/members/<firstname>.jpg
-##  altimage:
-##  position: PositionTitle
+##- name: Dorothee Kern
+##  webmaster: "True" (only for the person who is currently webmaster)
+##  image: /static/img/members/firstname.jpg or /static/img/members/default.jpg
+##  position: pick one of [Principal Investigator, Postdoctoral Fellow, Graduate Student, Master Student, Undergraduate Student]
 ##  email: UNETid (at) brandeis.edu
-##  scholar: ????????????
-##  twitter: "twitter_name"
-##  orcid: "orcid.org/????-????-????-????"
+##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
+##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
+##  startdate: YYYYMM
+##  education:
+##    - BSc Biochemistry, University, Country
+##    - MSc Biochemistry, University, Country
+##    - PhD Biochemistry, University, Country
 ##  description:
+##  publications:
+##    - citation (only for papers not published in the Kern Lab)
+
+- name: Dorothee Kern
+  image: /static/img/members/dorothee.jpg
+  position: Principal Investigator
+  email: dkern (at) brandeis.edu
+  orcid: 0000-0002-7631-8328
+  education:
+    - 1988 - BSc Biochemistry, Martin-Luther University of Halle, Germany
+    - 1989 - MSc Biochemistry, Martin-Luther University of Halle, Germany
+    - 1994 - PhD Biochemistry, Martin-Luther University of Halle, Germany
+    - 1998 - Postdoc Structural Biology, Dept. of Chemistry, University of California, Berkeley & Structural Biology Division, Lawrence Berkeley National Laboratory
+  description: 'Motions are the basis for the function of biological macromolecules. Whereas for many enzymes the structures have been solved, very little is known about dynamic processes, which trigger catalysis. Our main goal is to characterize these motions in enzymes to provide a better understanding of the atomic events in enzyme catalysis as a function of time. We use NMR as a primary tool because it is an excellent method to measure dynamic processes ranging from picoseconds to days. We complement our experiments by computational techniques, namely, molecular dynamics simulations, which provide atomistic insight into the dynamics of macromolecules. Our aim is to reveal the physical mechanism of transitions by combining experimental to computational methods.'
+
+
+# Postdoctoral fellows
+
+- name: Renee Otten
+  webmaster: "True"
+  image: /static/img/members/renee.jpg
+  position: Postdoctoral Fellow
+  email: ottenr (at) brandeis.edu
+  scholar: FK0VswsAAAAJ&hl
+  orcid: 0000-0001-7342-6131
+  startdate: 201104
+  education:
+    - 2006 - MSc Chemistry, Department of Biophysical Chemistry, University of Groningen, Groningen, The Netherlands
+    - 2011 - PhD Chemistry, Department of Biophysical Chemistry, Groningen Biomolecular Sciences and Biotechnology Institute (GBB), University of Groningen, Groningen, The Netherlands
+  description: Over the past decade(s) it has been become increasingly evident that both a high-resolution structure and a detailed insight in its dynamics are of critical importance to understand the function of a biological macromolecule. Nuclear magnetic resonance (NMR) spectroscopy is one of the most powerful techniques to study protein dynamics over a wide range of time scales and, moreover, can provide such information for many different nuclei with atomic resolution. I am interested in the development and application of NMR methodology to study protein structure/dynamics, with the goal to elucidate the intricate relationship between protein structure/dynamics and enzyme catalysis.
+  publications:
+      - Niklasson M, Otten R, Ahlner A, Andresen C, Schlagnitweit J, Petzhold K & Lundström P. Comprehensive Analysis of NMR Data Using Advanced Line Shape Fitting. *J. Biomol. NMR* **2017**
+      - Oktaviani NA, Risor MW, Lee YH, Megens RP, de Jong DH, Otten R, Scheek RM, Enghild JJ, Nielsen NC, Ikegami T & Mulder FAA. Optimized Co-Solute Paramagnetic Relaxation Enhancement for the Rapid NMR Analysis of a Highly Fibrillogenic Peptide. *J. Biomol. NMR* **2015**
+      - 'Maeno SJ, Sindhikara D, Hirata F, Otten R, Dahlquist FW, Yokoyama S, Akasaka K, Mulder FAA & Kitahara R. Cavity as a Source of Conformational Fluctuation and High-Energy State: High-Pressure NMR Study of a Cavity-Enlarged Mutant of T4 Lysozyme. *Biophys. J.* **2015**'
+      - Chu BCH, Otten R, Krewulak KD, Mulder FAA & Vogel HJ. The Solution Structure, Binding Properties, and Dynamics of the Bacterial Siderophore-Binding Protein FepB. *J. Biol. Chem.* **2014**
+      - Meniche X, Otten R, Siegrist MS, Baer CE, Murphy KC, Bertozzi CR & Sassetti CM. Subpolar Addition of New Cell Wall Is Directed by DivIVA in Mycobacteria. *Proc Natl. Acad. Sci. USA* **2014**
+      - Wood K<sup>#</sup>, Gallat FX<sup>#</sup>, Otten R<sup>#</sup>, van Heel AJ, Lethier M, van Eijck L, Moulin M, Haertlein M, Weik M & Mulder FAA. Protein Surface and Core Dynamics Show Concerted Hydration-Dependent Activation. *Angew. Chem. Int. Ed.* **2013**
+      - Stockbridge RB, Lim HH, Otten R, Williams C, Shane T, Weinberg Z & Miller C. Fluoride Resistance and Transport by Riboswitch-Controlled CLC Antiporters. *Proc Natl. Acad. Sci. USA* **2012**
+      - Wood K, Paz A, Dijkstra K, Scheek RM, Otten R, Silman I, Sussman JL & Mulder FAA. Backbone and Side Chain NMR Assignments for the Intrinsically Disordered Cytoplasmic Domain of Human neuroligin-3. *Biomol. NMR Assign.* **2012**
+      - Karasawa A, Erkens GB, Berntsson RPA, Otten R, Schuurman-Wolters GK, Mulder FAA & Poolman B. Cystathionine β-Synthase (CBS) Domains 1 and 2 Fulfill Different Roles in Ionic Strength Sensing of the ATP-binding Cassette (ABC) Transporter OpuA. *J. Biol. Chem.* **2011**
+      - Mulder FAA, Otten R & Scheek RM. Origin and Removal of Mixed-Phase Artifacts in Gradient Sensitivity Enhanced Heteronuclear Single Quantum Correlation Apectra. *J. Biomol. NMR* **2011**
+      - Meinema AC<sup>#</sup>, Laba JK<sup>#</sup>, Hapsari RA<sup>#</sup>, Otten R, Mulder FAA, Kralt A, van den Bogaart G, Lusk CP, Poolman B & Veenhoff LM. Long Unfolded Linkers Facilitate Membrane Protein Import Through the Nuclear Pore Complex. *Science* **2011**
+      - Wood K, Paz A, Dijkstra K, Scheek RM, Otten R, Silman I, Sussman JL & Mulder FAA. Backbone and Side Chain NMR Assignments for the Intrinsically Disordered Cytoplasmic Domain of Human neuroligin-3. *Biomol. NMR Assign.* **2011**
+      - Oktaviani NA, Otten R, Dijkstra K, Scheek RM, Thulin E, Akke M & Mulder FAA. 100% Complete Assignment of Non-Labile <sup>1</sup>H, <sup>13</sup>C, and <sup>15</sup>N Signals for Calcium-Loaded Calbindin D<sub>9k</sub> P43G *Biomol. NMR Assign.* **2011**
+      - 'Otten R, Villali J, Kern D & Mulder FAA. Probing Microsecond Time Scale Dynamics in Proteins by Methyl <sup>1</sup>H Carr−Purcell−Meiboom−Gill Relaxation Dispersion     NMR Measurements. Application to Activation of the Signaling Protein NtrC<sup>r</sup>. *J. Am. Chem. Soc.* **2010**'
+      - Otten R, Chu B, Krewulak KD, Vogel HJ & Mulder FAA. Comprehensive and Cost-Effective NMR Spectroscopy of Methyl Groups in Large Proteins *J. Am. Chem. Soc.* **2010**
+      - Otten R<sup>#</sup>, Wood K<sup>#</sup> & Mulder FAA. Comprehensive Determination of <sup>3</sup>J<sub>HNHα</sub> for Unfolded Proteins Using <sup>13</sup>C′-Resolved Spin-Echo Difference Spectroscopy. *J. Biomol. NMR* **2009**
+      - Louhivuori M, Otten R, Salminen T & Annila A. Evidence of Molecular Alignment Fluctuations in Aqueous Dilute Liquid Crystalline Media. *J. Biomol. NMR* **2007**
+      - Louhivuori M, Otten R, Lindorff-Larsen K & Annila A. Conformational Fluctuations Affect Protein Alignment in Dilute Liquid Crystal Media. *J. Am. Chem. Soc.* **2006**
+      - 'Otten R, van Lune FS, Dijkstra K & Scheek RM. Letter to the Editor: <sup>1</sup>H, <sup>13</sup>C, and <sup>15</sup>N Resonance Assignments of the Phosphorylated Enzyme IIB of the Mannitol-Specific Phophoenolpyruvate-Dependent Phosphotransferase System of *Escherichia coli*. *J. Biomol. NMR* **2004**'
+
+- name: Warintra Pitsawong
+  image: /static/img/members/warintra.jpg
+  position: Postdoctoral Fellow
+  email: warintra (at) brandeis.edu
+  scholar: fyoW_PIAAAAJ
+  orcid: 0000-0001-5438-1783
+  startdate: 201505
+  education:
+    - 2007 - BSc Chemistry, Mahidol University, Bangkok, Thailand
+    - 2009 - MSc Biochemistry, Mahidol University, Bangkok, Thailand
+    - 2014 - PhD Chemistry, University of Kentucky, Lexington, KY, USA
+  #description:
+  publications:
+    - Miller A-F, Park JT, Ferguson KL, Pitsawong W & Bommarius AS. Informing Efforts to Develop Nitroreductase for Amine Production. *Molecules* **2018**
+    - "Pitsawong W, Haynes CA, Koder RL, Rodgers DW & Miller A-F. Mechanism-Informed Refinement Reveals Altered Substrate-Binding Mode for Catalytically Competent Nitroreductase. *Structure* **2017**"
+    - Pitsawong W, Hoben JP & Miller A-F. Understanding and Exploiting the Broad Substrate Repertoire of Nitroreductase via Kinetic Mechanism. *J. Biol. Chem.* **2014**
+    - Tinikul R<sup>#</sup>, Pitsawong W<sup>#</sup>, Sucharitakul J, Nijvipakul S, Ballou DP & Chaiyen P. The Transfer of Reduced Flavin Mononucleotide from LuxG Oxidoreductase to Luciferase Occurs via Free Diffusion. *Biochemistry* **2013**
+    - "Tan T-C, Pitsawong W, Wongnate T, Spadiut O, Haltrich D, Chaiyen P & Divne C. H-bonding and Positive Charge at the N(5)/O(4) Locus Are Critical for Covalent Flavin Attachment in Trametes Pyranose 2-Oxidase. *J. Mol. Biol.* **2010**"
+    - Pitsawong W, Sucharitakul J, Prongjit M, Tan T-C, Spadiut O, Haltrich D, Divne C, & Chaiyen P. A Conserved Active-site Threonine Is Important for Both Sugar and Flavin Oxidation of Pyranose 2-Oxidase. *J. Biol. Chem.* **2010**
+
+- name: Ricardo Pádua
+  image: /static/img/members/ricardo.jpg
+  position: Postdoctoral Fellow
+  email: rpadua (at) brandeis.edu
+  orcid: 0000-0001-9719-3440
+  startdate: 201505
+  education:
+    - 2008 - BSc Pharmacy and Biochemistry, Universidade de São Paulo, Ribeirão Preto, Brazil
+    - 2014 - PhD in Sciences, Faculdade de Ciências Farmacêuticas de Ribeirão Preto Universidade de São Paulo (Brazil) and Queen Mary - University of London (England)
+    - 2015 - Postdoctoral Fellow at Laboratory of Protein Crystallography of Ribeirão Preto - FCFRP-USP, Brazil
+  #description:
+  publications:
+    - Sartim MA, Pinheiro MP, Pádua RAP, Sampaio SV & Nonato MC. Structural and Binding Studies of a C-type Galactose-Binding Lectin from *Bothrops jararacussu* Snake Venom. *Toxicon.* **2017**
+    - Pádua RAP, Kia AM, Costa-Filho AJ, Wilkinson SR & Nonato MC. Characterisation of the Fumarate Hydratase Repertoire in *Trypanosoma cruzi*. *Int. J. Biol. Macromol.* **2017**
+    - Pádua RAP, Tomaleri GP, Reis RAG, David JS, Silva V, Pinheiro MP & Nonato MC. ThermoFMN - a Thermofluor Assay Developed for Ligand-Screening as an Alternative Strategy for Drug Discovery. *J. Braz. Chem. Soc.* **2014**
+    - Pádua RAP &  Nonato MC. Cloning, Expression, Purification, Crystallization and Preliminary X-ray Diffraction Analysis of Recombinant Human Fumarase. *Acta Crystallogr. F. Struct. Biol. Commun.* **2014**
+
+- name: Daniel Woldring
+  image: /static/img/members/daniel.jpg
+  position: Postdoctoral Fellow
+  email: woldring (at) brandeis.edu
+  scholar: yGt235QAAAAJ
+  orcid: 0000-0001-8881-9931
+  startdate: 201705
+  education:
+    - "2011 - BSc Chemical Engineering (minor: Mathematics), Michigan Technological University"
+    - 2017 - PhD Chemical Engineering, University of Minnesota, USA
+  #description:
+  publications:
+    - Woldring DR, Holec PV, Stern LA, Du Y & Hackel BJ. Sitewise Diversity to Optimize Evolutionary Fitness of a Three-helix Bundle Combinatorial Library. *Biochemistry* **2017**
+    - Stern LA, Csizmar CM, Woldring DR, Wagner CR & Hackel BJ. Titratable Avidity Reduction Enhances Affinity Discrimination in Cell Selections of Yeast-Display Ligands. *ACS Comb. Sci.* **2017**
+    - Kruziki MA, Case BA, Chan JY, Zudock EJ, Woldring DR, Yee D & Hackel BJ. A <sup>64</sup>Cu-Labeled Gp2 Domain for PET Imaging of Epidermal Growth Factor Receptor. *Molecular Pharma.* **2016**
+    - "Woldring DR, Holec PV & Hackel BJ. ScaffoldSeq: Software for Characterization of Directed Evolution Populations. *Proteins: Structure, Function and Bioinformatics* **2016**"
+    - Woldring DR, Holec PV, Zhou H & Hackel BJ. High-Throughput Ligand Discovery Reveals a Sitewise Gradient of Diversity in Broadly Evolved Hydrophilic Fibronectin Domains. *PLoS One* **2016**
+    - Kruziki MA, Bhatnagar S, Woldring DR, Duong VD & Hackel BJ. A 45-Amino-Acid Scaffold Mined from the PDB for High-Affinity Ligand Engineering. *Chemistry & Biology* **2015**
+    - Hackel BJ, Zhou H & Woldring DR. Compositions and Methods that Involve Protein Scaffolds that Specifically Bind to Hepatocyte Growth Factor Receptor. *US Patent App 15/198,839*  (June 30 2016)
+
+- name: Hadar Ivanir-Dabora
+  image: /static/img/members/hadar.jpg
+  position: Postdoctoral Fellow
+  email: hadariva (at) brandeis.edu
+  startdate: 201707
+  education:
+    - 2015 - PhD Physical Chemistry, Tel-Aviv University, Tel-Aviv, Israel
+    - 2009 - BSc Chemistry, Tel-Aviv University, Tel-Aviv, Israel
+  description: Study the dynamic properties of biological systems at atomic level using complementary methods.
+  publications:
+    - Ivanir-Dabora H, Nimerovsky E & Goldbourt A. Site-Resolved Backbone and Side-Chain Intermediate Dynamics in a Carbohydrate-Binding Module Protein Studied by Magic-Angle Spinning NMR Spectroscopy. *Chem. Eur. J.* **2015**
+    - Ivanir-Dabora H & Goldbourt A. Solid State NMR Chemical Shift Assignment and Conformational Analysis of a Cellulose Binding Protein Facilitated by Optimized Glycerol Enrichment. *J. Biomol. NMR.* **2014**
+
+
+# Graduate students
+
+- name: Patrick Finneran
+  image: /static/img/members/patrick.jpg
+  position: Graduate Student
+  email: pfinneran (at) brandeis.edu
+  startdate: 201505
+  education:
+    - 2014 - BA Chemistry / Biochemistry, Western Connecticut State University, Danbury, CT, USA
+  description: Thirty-two non-receptor tyrosine kinases have been identified in humans. All of these kinases had evolved from the same common ancestor at one point in time. These proteins are similar by their function (kinase activity), but they differ in the mechanism in which they are regulated, and in their substrate specificity. I am interested in researching the mechanism of how a kinase is able to recognize its target protein. By using ancestral sequence reconstruction (ASR) it may be possible to map what evolutionary changes in the protein led to a difference in its specificity. I also research how regulatory abilities evolved over time using similar techniques.
+
+- name: John Stiller
+  image: /static/img/members/john.jpg
+  position: Graduate Student
+  email: jstiller (at) brandeis.edu
+  startdate: 201505
+  education:
+    - 2014 - BSc Biochemistry, Trinity College, Hartford, CT, USA
+  description: Protein’s exist upon a delicate energy landscape where multiple states are within several kJ of one another. While current structural techniques characterize the lowest energy conformation, the higher energy states remain obscured. However, recently NMR techniques have been developed which allows one to infer structural information about these excited states. With that in mind, my interests involve structurally investigating protein ensembles and discovering how regulation and drug binding are manipulated by conformational interexchange.
+
+- name: Austin Bannister
+  image: /static/img/members/austin.jpg
+  position: Graduate Student
+  email: bannista (at) brandeis.edu
+  startdate: 201705
+  education:
+    - 2016 - BSc Biochemistry  BA French and Francophone Studies, Union College, Schenectady, NY, USA
+  description: Proteins are highly dynamic macromolecules that adopt various high-energy conformational states in solution to perform catalysis. These states are often fleeting and exist at low concentrations, which is why they are often thought of as subpopulations of a protein. Although X-ray crystallography has made recent advances in observing subpopulations, nuclear magnetic resonance (NMR) spectroscopy remains the most powerful instrument to understand the dynamic processes involved in the interconversion between major and minor conformational states. Therefore, my research interests lie in using NMR spectroscopy, to detect these subpopulations and understand how they contribute to protein regulation and catalysis.
+  publications:
+      - Kretschmer PM, Bannister AM, MacManus-Spencer LA & Paulick MG. A Liquid Chromatography Tandem Mass Spectrometry Assay for the Detection and Quantification of Trehalose in Biological Samples. *J. Chromatogr. B.* **2016**
+
+- name: Chansik Kim
+  image: /static/img/members/chansik.jpg
+  position: Graduate Student
+  email: kva0987 (at) brandeis.edu
+  startdate: 201705
+  education:
+    - 2016 - BSc Biochemistry, Texas A&M University, College Station, TX, USA
+  #description:
+
+- name: Ingrid Marko
+  image: /static/img/members/ingrid.jpg
+  position: Graduate Student
+  email: imarko (at) brandeis.edu
+  startdate: 201705
+  education:
+    - 2016 - BSc Biochemistry, Worcester Polytechnic Institute, Worcester, MA, USA
+  #description:
+
+- name: Andrew Glaser
+  image: /static/img/members/andrew.jpg
+  position: Graduate Student
+  email: andrewglaser (at) brandeis.edu
+  startdate: 201905
+  education:
+    - 2016 - BSc Biochemistry, Union College, Schenectady, NY, USA
+  #description:
+
+- name: MacKenzie Patterson
+  image: /static/img/members/mackenzie.jpg
+  position: Graduate Student
+  email: mpatterson (at) brandeis.edu
+  startdate: 201905
+  education:
+    - 2018 - BSc Biochemistry, University of Massachusetts Boston, Boston, MA, USA
+  description: Adenylate kinase (ADK) is a phosphotransferase that regulates energy homeostasis by controlling intracellular nucleotide levels. ADK is an essential enzyme that is found across all domains of life, and its stability is correlated to organismal growth. This stability/fitness relationship imposes that ancestral ADK evolved modern sequences that are stable in the same environments occupied by their native organisms. I am interested in studying how ADK evolved by investigating the effects of mutations on the structural and dynamic properties of the enzyme using biophysical techniques such as X-ray crystallography and NMR spectroscopy.
+
+
+# Master students
+
+- name: Liuyu Chen
+  image: /static/img/members/liuyu.jpg
+  position: Master Student
+  email: chenl (at) brandeis.edu
+  startdate: 201902
+  education:
+    - 2018 - BSc Biochemistry, Zhejiang University, China
+
+
+# Undergraduate students
+
+- name: Klarissa Hollander
+  image: /static/img/members/klarissa.jpg
+  position: Undergraduate Student
+  email: khollander (at) brandeis.edu
+  startdate: 201808
+
+- name: Joseph Irvin
+  image: /static/img/members/joseph.jpg
+  position: Undergraduate Student
+  email: jirvin (at) brandeis.edu
+  startdate: 201808
