@@ -1,0 +1,15 @@
+name: "Kern Lab @ Brandeis University"
+description: "This is the official web page for Dorothee Kern's lab at Brandeis University."
+
+url: "https://kernlab-brandeis.github.io"
+
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "news/page:num"
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+  parse_block_html: true

@@ -1,0 +1,9 @@
+##- name: FirstName LastName
+##  image: /static/img/members/<firstname>.jpg
+##  altimage:
+##  position: PositionTitle
+##  email: UNETid (at) brandeis.edu
+##  scholar: ????????????
+##  twitter: "twitter_name"
+##  orcid: "orcid.org/????-????-????-????"
+##  description:
