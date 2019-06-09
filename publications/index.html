@@ -4,77 +4,116 @@ layout: default
 group: publications
 ---
 
-<h1>Publications</h1>
+<h1>Publications</h1> <hr>
+
+{% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
+
 <div class="container-fluid">
-{% for publication in site.data.publications | sort: date %}
-<hr>
-<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
-<div style="font-size: 120% !important;">{{ publication.citation | markdownify }}</div>
-	<div class="col-sm-6">
-		<img class = "img-responsive" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
-	</div>
-	<ul class="col-sm-6">
-			<strong>Access the paper</strong>
-			<!--PMID-->
-			<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+{% for publication in sorted_publications %}
+  <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{ publication.pmid }}">
+    <div style="font-size: 120% !important;">{{ publication.citation | markdownify }}</div>
 
-			<!--PMCID - optional -->
-			{% if publication.pmcid %}
-			<li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
-			{% endif %}
+    <div class="col-sm-6">
+      {% if publication.doi %}<a href="https://doi.org/{{ publication.doi }}"><img class="img-responsive center-block" src="{{ publication.image }}" alt="Graphical Abstract" style="max-height:200px"></a>
+      {% else %}<img class="img-responsive center-block" src="{{ publication.image }}" alt="Graphical Abstract" style="max-height:200px">
+      {% endif %}
+    </div>
 
-			<!--Biorxiv - optional -->
-			{% if publication.biorxiv %}
-			<li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv}}</a></li>
-			{% endif %}
+    <div class="col-sm-6">
+      <strong>Access the paper</strong>
+      <ul>
+      <!-- PMID -->
+      <li>PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}">{{ publication.pmid }}</a></li>
 
-			<!--Chemrxiv - optional -->
-			{% if publication.chemrxiv %}
-			<li>ChemRxiv Preprint: <a href=" https://doi.org/10.26434/chemrxiv.{{publication.chemrxiv}}" alt = "chemrxiv preprint link: {{publication.chemrxiv}}"> {{publication.chemrxiv}}</a></li>
-			{% endif %}
+      <!-- PMCID - optional -->
+      {% if publication.pmcid %}
+        <li>PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ publication.pmcid }}">{{ publication.pmcid }}</a></li>
+      {% endif %}
 
-			<!-- PDF -->
-			<li><a href="{{publication.pdf}}" alt = "PDF"> Full Text</a></li>
+      <!-- bioRxiv - optional -->
+      {% if publication.biorxiv %}
+        <li>bioRxiv Preprint: <a href="https://dx.doi.org/10.1101/{{ publication.biorxiv }}">{{ publication.biorxiv }}</a></li>
+      {% endif %}
 
-			<!-- Datasets - optional -->
-			{% if publication.data %}
-			<li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
-				{% if publication.data.size > 1 %}
-				<ul>
-					{% for dataset in publication.data %}
-					<li><a href="http://dx.doi.org/{{dataset}}" alt = "sbgrid data repository">doi:{{dataset}}</a></li>
-					{% endfor %}
-				</ul>
-				{% else %}
-				<a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
-				{% endif %}
-			</li>
-			{% endif %}
+      <!-- ChemRxiv - optional -->
+      {% if publication.chemrxiv %}
+        <li>ChemRxiv Preprint: <a href=" https://doi.org/10.26434/chemrxiv.{{ publication.chemrxiv }}">{{ publication.chemrxiv }}</a></li>
+      {% endif %}
 
-			<!--PDBS - optional-->
-			{% if publication.pdbs %}
-			<li>Deposited Structure{% if publication.pdbs.size > 1 %}s{% endif %}:
-				{% for code in publication.pdbs %}
-				<a href="http://www.rcsb.org/pdb/explore/explore.do?structureId={{code}}">{{code}}</a>{% unless forloop.last %}, {% endunless %}
-				{% endfor %}
-			</li>
-			{% endif %}
+      <!-- PDF - optional -->
+      {% if publication.pdf %}
+        <li><a href="{{ publication.pdf }}">Full Text</a></li>
+      {% endif %}
+      </ul>
 
-			<!--EMBDS - optional-->
-			{% if publication.emdbs %}
-			<li>Deposited Map{% if publication.emdbs.size > 1 %}s{% endif %}:
-				{% for code in publication.emdbs %}
-				<a href="http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-{{code}}">{{code}}</a>{% unless forloop.last %}, {% endunless %}
-				{% endfor %}
-			</li>
+      {% if publication.pdb or publication.bmrb or publication.sasdb or publication.data or publication.emdb %}
+        <strong>Deposited Datasets</strong>
+        <ul>
+        <!-- PDB - optional -->
+        {% if publication.pdb %}
+          <li>PDB Structure{% if publication.pdb.size > 1 %}s{% endif %}:
+          {% for code in publication.pdb %}
+            <a href="https://www.rcsb.org/pdb/explore/explore.do?structureId={{ code }}">{{ code | upcase }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          </li>
+        {% endif %}
 
-			{% endif %}
-			<!--Extra junk-->
-			<strong>Additional Links</strong>
-			{% for link in publication.links %}
-			<li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
-			{% endfor %}
-	</ul>
-</div> <br>
-{% endfor %}
+        <!-- BMRB - optional -->
+        {% if publication.bmrb %}
+          <li>BMRB {% if publication.bmrb.size > 1 %}Entries{% else %}Entry{% endif %}:
+          {% for code in publication.bmrb %}
+            <a href="https://doi.org/10.13018/BMR{{ code }}">{{ code }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          </li>
+        {% endif %}
+
+        <!-- SASDB - optional -->
+        {% if publication.sasdb %}
+          <li>SASDB {% if publication.sasdb.size > 1 %}Entries{% else %}Entry{% endif %}:
+          {% for code in publication.sasdb %}
+            <a href="https://www.sasbdb.org/data/{{ code }}">{{ code }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          </li>
+        {% endif %}
+
+        <!-- Datasets - optional -->
+        {% if publication.data %}
+          <li>Other Dataset{% if publication.data.size > 1 %}s{% endif %}:
+          {% if publication.data.size > 1 %}
+            <ul>
+            {% for dataset in publication.data %}
+              <li><a href="https://dx.doi.org/{{ dataset }}">doi:{{ dataset }}</a></li>
+            {% endfor %}
+            </ul>
+          {% else %}
+            <a href="https://dx.doi.org/{{ publication.data }}">doi:{{ publication.data }}</a>
+          {% endif %}
+          </li>
+        {% endif %}
+
+        <!-- EMBD - optional -->
+        {% if publication.emdb %}
+          <li>EM Map{% if publication.emdb.size > 1 %}s{% endif %}:
+          {% for code in publication.emdb %}
+            <a href="https://www.ebi.ac.uk/pdbe/entry/emdb/EMD-{{ code }}">{{ code }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          </li>
+        {% endif %}
+        </ul>
+      {% endif %}
+
+      <!-- Extra links - optional -->
+      {% if publication.links %}
+        <strong>Additional Links</strong>
+        <ul>
+        {% for link in publication.links %}
+          <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+
+  </div>
+  {% unless forloop.last %} <hr> {% endunless %}
+  {% endfor %}
 </div>
