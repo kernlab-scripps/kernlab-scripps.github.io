@@ -8,7 +8,7 @@ group: alumni
 
 {% assign webmaster = site.data.members | where: "webmaster", "True" %}
 Below is a list of Kern Lab alumni and their "last known" (and hopefully current) position. If you are an alumnus and want to update your listing, please contact
-<a href="/member#{{ webmaster.first.name | url_encode }}">the webmaster</a> or submit an <a href="https://github.com/kernlab-brandeis/kernlab-brandeis.github.io/issues">Issue</a> / <a href="https://github.com/kernlab-brandeis/kernlab-brandeis.github.io/pulls">PR</a> on GitHub. <br> <hr>
+<a href="/member/#{{ webmaster.first.name | url_encode }}">the webmaster</a> or submit an <a href="https://github.com/kernlab-brandeis/kernlab-brandeis.github.io/issues">Issue</a> / <a href="https://github.com/kernlab-brandeis/kernlab-brandeis.github.io/pulls">PR</a> on GitHub. <br> <hr>
 
 {% assign sorted_alumni = site.data.alumni | sort: "enddate" | reverse %}
 {% for alum in sorted_alumni %}

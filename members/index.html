@@ -10,8 +10,8 @@ group: members
 {% assign investigator = site.data.members | where: "position", "Principal Investigator" %}
 <div class="row text-center">
 {% for pi in investigator %}
-  <a href="/member#{{ pi.name | url_encode }}"><img class="img-responsive center-block" src="{{ pi.image }}" title="{{ pi.name }}" alt="{{ pi.name }}" style="max-height:250px;max-width:250px"></a> <br>
-  <a href="/member#{{ pi.name | url_encode}}"><strong>{{ pi.name }}</strong></a> <br>
+  <a href="/member/#{{ pi.name | url_encode }}"><img class="img-responsive center-block" src="{{ pi.image }}" title="{{ pi.name }}" alt="{{ pi.name }}" style="max-height:250px;max-width:250px"></a> <br>
+  <a href="/member/#{{ pi.name | url_encode}}"><strong>{{ pi.name }}</strong></a> <br>
   <em>{{ pi.email }}</em> <br>
   {% if pi.orcid %}
     {% assign orcid_link = "https://orcid.org/" | append: pi.orcid %}
@@ -29,8 +29,8 @@ group: members
 <div class="row">
 {% for person in postdocs %}
   <div class="col-sm-3">
-    <a href="/member#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
-    <a href="/member#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
+    <a href="/member/#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
+    <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
 
     {% if person.orcid %}
@@ -53,8 +53,8 @@ group: members
 <div class="row">
 {% for person in gradstudents %}
   <div class="col-sm-3">
-    <a href="/member#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
-    <a href="/member#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
+    <a href="/member/#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
+    <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
 
     {% if person.orcid %}
@@ -77,8 +77,8 @@ group: members
 <div class="row">
 {% for person in masterstudents %}
   <div class="col-sm-3">
-    <a href="/member#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
-    <a href="/member#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
+    <a href="/member/#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
+    <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
 
     {% if person.orcid %}
@@ -101,8 +101,8 @@ group: members
 <div class="row">
 {% for person in undergrads %}
   <div class="col-sm-3">
-    <a href="/member#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
-    <a href="/member#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
+    <a href="/member/#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
+    <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
 
     {% if person.orcid %}
