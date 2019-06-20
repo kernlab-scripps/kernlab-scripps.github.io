@@ -6,26 +6,26 @@ group: alumni
 
 <h1>Kern Lab Alumni</h1> <hr>
 
-{% assign webmaster = site.data.members | where: "webmaster", "True" %}
+{% assign webmaster = site.data.members | where: "webmaster", "True" -%}
 Below is a list of Kern Lab alumni and their "last known" (and hopefully current) position. If you are an alumnus and want to update your listing, please contact
 <a href="/member/#{{ webmaster.first.name | url_encode }}">the webmaster</a> or submit an <a href="https://github.com/kernlab-brandeis/kernlab-brandeis.github.io/issues">Issue</a> / <a href="https://github.com/kernlab-brandeis/kernlab-brandeis.github.io/pulls">PR</a> on GitHub. <br> <hr>
 
 {% assign sorted_alumni = site.data.alumni | sort: "enddate" | reverse %}
-{% for alum in sorted_alumni %}
+{%- for alum in sorted_alumni %}
   <div id="{{ alum.name | url_encode }}" class="row">
     <div class="col-sm-8">
       <p><strong>{{ alum.name }}</strong> - <em>{{ alum.position }}</em><br>
-      {% if alum.thesis_title %}
-        <br> Thesis: {% if alum.thesis_url %} <a href="{{ alum.thesis_url }}">{{ alum.thesis_title }}</a> {% else %} {{alum.thesis_title}} {% endif %}<br>
-      {% endif %}
+      {%- if alum.thesis_title %}
+        <br> Thesis: {% if alum.thesis_url -%} <a href="{{ alum.thesis_url }}">{{ alum.thesis_title }}</a> {%- else -%} {{alum.thesis_title}} {%- endif %} <br>
+      {%- endif %}
     </div>
 
     <div class="col-sm-4">
       {{ alum.startdate | slice: 0,4 }} - {{ alum.enddate | slice: 0,4 }} <br>
-      {% if alum.current %}
-        Current Position: {% if alum.website %} <a href="{{ alum.website }}">{{ alum.current }}</a> {% else %} {{ alum.current }} {% endif %}
-      {% endif %}
+      {%- if alum.current %}
+        Current Position: {% if alum.website -%} <a href="{{ alum.website }}">{{ alum.current }}</a> {% else -%} {{ alum.current }} {%- endif -%}
+      {%- endif %}
     </div>
   </div>
-  {% if forloop.last %}{% else %} <hr> {% endif %}
-{% endfor %}
+  {%- if forloop.last -%}{%- else %} <hr> {%- endif %}
+{% endfor -%}

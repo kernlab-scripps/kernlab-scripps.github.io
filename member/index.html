@@ -4,62 +4,62 @@ layout: members
 group: members
 ---
 
-{% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
-{% assign all_citations = site.data.publications | map: "citation" | join: "" %}
+{%- assign sorted_publications = site.data.publications | sort: "date" | reverse -%}
+{%- assign all_citations = site.data.publications | map: "citation" | join: "" -%}
 
 {% for person in site.data.members %}
 <div class="row">
   <div id="{{ person.name | url_encode }}" class="col-sm-3" style="padding-top:60px; margin-top:-60px;">
     <img class="img-responsive" src="{{ person.image }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"> <br>
 
-    {% if person.orcid %}
-      {% assign orcid_link = "https://orcid.org/" | append: person.orcid %}
+    {%- if person.orcid -%}
+      {%- assign orcid_link = "https://orcid.org/" | append: person.orcid -%}
       <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
       <a href="{{ orcid_link }}">{{ person.orcid }}</a> <br>
-    {% endif %}
+    {%- endif -%}
 
-    {% if person.scholar %}
+    {%- if person.scholar -%}
       <a href= "https://scholar.google.com/citations?user={{ person.scholar }}">Google Scholar Citations</a> <br>
-    {% endif %}
+    {%- endif %}
   </div>
 
   <div class="col-sm-3">
-    {% if person.position == "Principal Investigator" %}
+    {% if person.position == "Principal Investigator" -%}
       <strong>{{ person.name }}</strong> - <i>{{ person.position }}</i> <br><br>
       <a href="http://www.bio.brandeis.edu/faculty/kern.html">Professor of Biochemistry</a> <br>
       <a href="https://www.hhmi.org/scientists/dorothee-kern">HHMI Investigator</a> <br>
-    {% else %}
+    {% else -%}
       <strong>{{ person.name }}</strong> <br>
       <i>{{ person.position }}</i> <br>
-    {% endif %}
+    {%- endif -%}
 
-    {% if person.startdate %} Joined the lab in: {{ person.startdate | slice: 0,4 }} <br><br> {% else %} <br> {% endif %}
+    {% if person.startdate %} Joined the lab in: {{ person.startdate | slice: 0,4 }} <br><br> {%- else -%} <br> {%- endif %}
 
-    {% if person.position == "Principal Investigator" %}
+    {% if person.position == "Principal Investigator" -%}
       Volen 444 <br>
       Department of Biochemistry, MS 009 <br>
       Brandeis University <br>
       415 South Street <br>
       Waltham, MA 02453-2728 <br><br>
       tel: 781 736 2354 <br>
-    {% else %}
+    {% else -%}
       Volen 443 <br>
       Department of Biochemistry, MS 009 <br>
       Brandeis University <br>
       415 South Street <br>
       Waltham, MA 02453-2728 <br><br>
       tel: 781 736 2326 <br>
-    {% endif %}
+    {%- endif %}
 
     <em>{{ person.email }}</em>
   </div>
 
   <div class="col-sm-6">
-    {% if person.education %} <br><br><br><br> {% if person.position == "Principal Investigator" %} <br> {% endif %} <strong>Education</strong> {% endif %}
+    {% if person.education %} <br><br><br><br> {%- if person.position == "Principal Investigator" -%} <br> {%- endif -%} <strong>Education</strong> {%- endif %}
     <ul>
-    {% for degree in person.education %}
+    {%- for degree in person.education %}
       <li>{{ degree }}</li>
-    {% endfor %}
+    {%- endfor %}
     </ul>
   </div>
 </div>
@@ -67,33 +67,33 @@ group: members
 <div class="col">
   {% if person.description %} <br> {{ person.description }} {% endif %}
 
-  {% if person.position == "Principal Investigator" %}
+  {%- if person.position == "Principal Investigator" %}
     Click <a href="/research">here</a> for more details about our current research and/or read our <a href="/publications">published</a> work.
-  {% else %}
-    {% assign split_name = person.name | split: " " %}
-    {% assign first_initial = split_name[0] | split: "" %}
-    {% assign author_name = split_name.last | append: " " | append: first_initial[0] %}
-    {% assign author_year_joined = person.startdate | slice: 0,4 %}
+  {%- else -%}
+    {%- assign split_name = person.name | split: " " -%}
+    {%- assign first_initial = split_name[0] | split: "" -%}
+    {%- assign author_name = split_name.last | append: " " | append: first_initial[0] -%}
+    {%- assign author_year_joined = person.startdate | slice: 0,4 -%}
 
-    {% if person.publications or all_citations contains author_name %}
+    {%- if person.publications or all_citations contains author_name -%}
       <br><br><strong>Publications</strong>
     {% endif %}
 
-    {% if all_citations contains author_name %} <br><br> <i>From the Kern Lab:</i> <br><br> {% endif %}
+    {%- if all_citations contains author_name %} <br><br> <i>From the Kern Lab:</i> <br><br> {% endif %}
     <ul>
-    {% for pub in sorted_publications %}
-      {% assign pub_year = pub.date | slice: 0,4 %}
-      {% if pub.citation contains author_name and author_year_joined <= pub_year %} <li>{{ pub.citation | markdownify }}</li> {% endif %}
-    {% endfor %}
+    {% for pub in sorted_publications -%}
+      {%- assign pub_year = pub.date | slice: 0,4 -%}
+      {%- if pub.citation contains author_name and author_year_joined <= pub_year -%} <li>{{ pub.citation | markdownify }}</li> {%- endif -%}
+    {%- endfor %}
     </ul><br>
 
     {% if person.publications and all_citations contains author_name %} <i>Other:</i> <br><br> {% endif %}
     <ul>
-    {% for pub in person.publications %}
+    {% for pub in person.publications -%}
       <li>{{ pub | markdownify }}</li>
-    {% endfor %}
+    {%- endfor %}
     </ul>
-  {% endif %}
+  {%- endif -%}
 </div>
-{% unless forloop.last %} <hr> {% endunless %}
+{%- unless forloop.last -%} <hr> {% endunless %}
 {% endfor %}

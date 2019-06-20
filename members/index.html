@@ -7,117 +7,119 @@ group: members
 <h1>Kern Lab Members</h1> <hr>
 
 <h3>Principal Investigator</h3> <hr>
-{% assign investigator = site.data.members | where: "position", "Principal Investigator" %}
+{% assign investigator = site.data.members | where: "position", "Principal Investigator" -%}
 <div class="row text-center">
-{% for pi in investigator %}
+{%- for pi in investigator -%}
   <a href="/member/#{{ pi.name | url_encode }}"><img class="img-responsive center-block" src="{{ pi.image }}" title="{{ pi.name }}" alt="{{ pi.name }}" style="max-height:250px;max-width:250px"></a> <br>
   <a href="/member/#{{ pi.name | url_encode}}"><strong>{{ pi.name }}</strong></a> <br>
   <em>{{ pi.email }}</em> <br>
-  {% if pi.orcid %}
-    {% assign orcid_link = "https://orcid.org/" | append: pi.orcid %}
+
+  {%- if pi.orcid %}
+    {%- assign orcid_link = "https://orcid.org/" | append: pi.orcid -%}
     <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
     <a href="{{ orcid_link }}">{{ pi.orcid }}</a> <br>
-  {% endif %}
-  {% if pi.scholar %}
+  {%- endif -%}
+
+  {%- if pi.scholar %}
     <a href= "https://scholar.google.com/citations?user={{ pi.scholar }}">Google Scholar Citations</a> <br>
-  {% endif %}
-{% endfor %}
+  {%- endif -%}
+{%- endfor -%}
 </div>
 
 <h3>Postdoctoral Fellows</h3> <hr>
-{% assign postdocs = site.data.members | where: "position", "Postdoctoral Fellow" | sort: "startdate" %}
+{% assign postdocs = site.data.members | where: "position", "Postdoctoral Fellow" | sort: "startdate" -%}
 <div class="row">
-{% for person in postdocs %}
+{%- for person in postdocs %}
   <div class="col-sm-3">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
 
-    {% if person.orcid %}
-      {% assign orcid_link = "https://orcid.org/" | append: person.orcid %}
+    {%- if person.orcid %}
+      {%- assign orcid_link = "https://orcid.org/" | append: person.orcid -%}
       <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
       <a href="{{ orcid_link }}">{{ person.orcid }}</a> <br>
-    {% else %} <br>
-    {% endif %}
+    {%- else -%} <br>
+    {%- endif -%}
 
-    {% if person.scholar %}
+    {%- if person.scholar %}
       <a href= "https://scholar.google.com/citations?user={{ person.scholar }}">Google Scholar Citations</a> <br>
-    {% else %} <br>
-    {% endif %} <br>
+    {%- else -%} <br>
+    {%- endif -%} <br>
   </div>
-{% endfor %}
+{% endfor -%}
 </div>
 
 <h3>Graduate Students</h3> <hr>
-{% assign gradstudents = site.data.members | where: "position", "Graduate Student" | sort: "startdate" %}
+{% assign gradstudents = site.data.members | where: "position", "Graduate Student" | sort: "startdate" -%}
 <div class="row">
-{% for person in gradstudents %}
+{%- for person in gradstudents %}
   <div class="col-sm-3">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
 
-    {% if person.orcid %}
-      {% assign orcid_link = "https://orcid.org/" | append: person.orcid %}
+    {%- if person.orcid %}
+      {%- assign orcid_link = "https://orcid.org/" | append: person.orcid -%}
       <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
       <a href="{{ orcid_link }}">{{ person.orcid }}</a> <br>
-    {% else %} <br>
-    {% endif %}
+    {%- else -%} <br>
+    {%- endif -%}
 
-    {% if person.scholar %}
+    {%- if person.scholar %}
       <a href= "https://scholar.google.com/citations?user={{ person.scholar }}">Google Scholar Citations</a> <br>
-    {% else %} <br>
-    {% endif %} <br>
+    {%- else -%} <br>
+    {%- endif -%} <br>
   </div>
-{% endfor %}
+{% endfor -%}
 </div>
 
 <h3>Master Students</h3> <hr>
-{% assign masterstudents = site.data.members | where: "position", "Master Student" | sort: "startdate" %}
+{% assign masterstudents = site.data.members | where: "position", "Master Student" | sort: "startdate" -%}
 <div class="row">
-{% for person in masterstudents %}
+{%- for person in masterstudents %}
   <div class="col-sm-3">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
 
-    {% if person.orcid %}
-      {% assign orcid_link = "https://orcid.org/" | append: person.orcid %}
+    {%- if person.orcid %}
+      {%- assign orcid_link = "https://orcid.org/" | append: person.orcid -%}
       <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
       <a href="{{ orcid_link }}">{{ person.orcid }}</a> <br>
-    {% else %} <br>
-    {% endif %}
+    {%- else -%} <br>
+    {%- endif -%}
 
-    {% if person.scholar %}
+    {%- if person.scholar %}
       <a href= "https://scholar.google.com/citations?user={{ person.scholar }}">Google Scholar Citations</a> <br>
-    {% else %} <br>
-    {% endif %} <br>
+    {%- else -%} <br>
+    {%- endif -%} <br>
   </div>
-{% endfor %}
+{% endfor -%}
 </div>
 
 <h3>Undergraduate Students</h3> <hr>
-{% assign undergrads = site.data.members | where: "position", "Undergraduate Student" | sort: "startdate" %}
+{% assign undergrads = site.data.members | where: "position", "Undergraduate Student" | sort: "startdate" -%}
 <div class="row">
-{% for person in undergrads %}
+{%- for person in undergrads %}
   <div class="col-sm-3">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-responsive" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
 
-    {% if person.orcid %}
-      {% assign orcid_link = "https://orcid.org/" | append: person.orcid %}
+    {%- if person.orcid %}
+      {%- assign orcid_link = "https://orcid.org/" | append: person.orcid -%}
       <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
       <a href="{{ orcid_link }}">{{ person.orcid }}</a> <br>
-    {% else %} <br>
-    {% endif %}
+    {%- else -%} <br>
+    {%- endif -%}
 
-    {% if person.scholar %}
+    {%- if person.scholar %}
       <a href= "https://scholar.google.com/citations?user={{ person.scholar }}">Google Scholar Citations</a> <br>
-    {% else %} <br>
-    {% endif %} <br>
+    {%- else -%} <br>
+    {%- endif -%} <br>
   </div>
-{% endfor %}
+{% endfor -%}
 </div>
 
 <hr>
