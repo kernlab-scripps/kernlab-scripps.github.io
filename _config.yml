@@ -5,6 +5,7 @@ url: "https://kernlab-brandeis.github.io"
 
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 5
 paginate_path: "news/page:num"
@@ -13,3 +14,10 @@ permalink: pretty
 markdown: kramdown
 kramdown:
   parse_block_html: true
+
+defaults:
+  -
+    scope:
+      path: "/static/*"
+    values:
+      sitemap: false
