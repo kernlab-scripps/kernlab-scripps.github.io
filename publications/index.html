@@ -22,7 +22,8 @@ group: publications
     <div class="col-sm-6">
       <strong>Access the paper</strong>
       <ul>
-        <li>PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}">{{ publication.pmid }}</a></li>
+        {%- assign pmid_number = publication.pmid | abs %}
+        <li>PMID: {% if pmid_number != 0 -%}<a href="https://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}">{{ publication.pmid }}</a>{%- else -%}{{ publication.pmid }} {%- endif %}</li>
       {%- if publication.pmcid %}
         <li>PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ publication.pmcid }}">{{ publication.pmcid }}</a></li>
       {%- endif -%}
