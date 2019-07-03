@@ -8,17 +8,17 @@ group: publications
 
 {% assign sorted_publications = site.data.publications | sort: "date" | reverse -%}
 
-<div class="container-fluid">
 {%- for publication in sorted_publications -%}
 {%- assign pmid_number = publication.pmid | abs -%}
 
 {%- if pmid_number != 0 -%}
-  <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{ publication.pmid }}">
+  <div style="padding-top: 60px; margin-top: -60px;" id="{{ publication.pmid }}"></div>
 {%- else -%}
-  <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{ publication.date }}">
+  <div style="padding-top: 60px; margin-top: -60px;" id="{{ publication.date }}"></div>
 {%- endif -%}
-    <div style="font-size: 120% !important;">{{ publication.citation | markdownify }}</div>
 
+  <div style="font-size: 120% !important;">{{ publication.citation | markdownify }}</div>
+  <div class="row">
     <div class="col-sm-6">
       {%- if publication.doi -%}<a href="https://doi.org/{{ publication.doi }}"><img class="img-responsive center-block" src="{{ publication.image }}" alt="Graphical Abstract" style="max-height:200px"></a>
       {%- else -%}<img class="img-responsive center-block" src="{{ publication.image }}" alt="Graphical Abstract" style="max-height:200px">
@@ -107,4 +107,3 @@ group: publications
   </div>
   {%- unless forloop.last -%} <hr> {%- endunless -%}
   {%- endfor -%}
-</div>

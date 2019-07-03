@@ -7,6 +7,7 @@ group: contact
 # Contact the Kern Lab
 ---
 
+<div class="row">
 <div class="col-md-4">
   <h4>Dorothee Kern</h4>
   Professor of Biochemistry <br>
@@ -45,4 +46,5 @@ The [MBTA commuter train](https://www.mbta.com/schedules_and_maps/rail/lines/?ro
 <a href="/static/img/campus_map.pdf" id="pop">
   <img class="img-responsive center-block" src="/static/img/campus_map.jpg" style="max-width: 75%;" title="Brandeis campus map - click to enlarge" alt="How to reach us">
 </a>
+</div>
 </div>

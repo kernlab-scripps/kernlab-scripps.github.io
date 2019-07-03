@@ -16,7 +16,7 @@ We are also investigating the hierarchy in space and time for protein dynamics. 
 
 We propose that the pre-sampling of conformational states needed for catalysis and selective binding of substrates to these substates might be a general paradigm of enzyme catalysis. We are attacking the next immediate questions: How does a protein move from one energy valley into another, and what are the pathways and the transition states? Can minor conformational substates be predicted from known structures? Can we apply the knowledge gained about physical principles of proteins to design proteins with desired functions? Can we successfully incorporate a dynamic view into rational drug design?
 
-<div class="row text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL9BXLQ4wcldFh-hCi5LgvxdgfpvIogUdi" allowfullscreen></iframe></div>
+<div class="text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL9BXLQ4wcldFh-hCi5LgvxdgfpvIogUdi" allowfullscreen></iframe></div>
 **The two substrate molecules in green are “hidden” in the active site in the closed state where phosphoryl-transfer happens. The visualized opening is the rate-limiting step for this kinase.**
 
 ## Evolution of Enzymatic Power and Complex Signaling
