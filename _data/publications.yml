@@ -40,15 +40,17 @@
 - citation: "Stiller JB<sup>#</sup>, Kerns SJ<sup>#</sup>, Hoemberger M, Cho Y-J, Otten R, Hagan MF & Kern D. Probing the Transition State in Enzyme Catalysis by High-Pressure NMR Dynamics. *Nat. Catal.* **2019**"
   date: 20190624
   image: "/static/img/publications/stiller_2019.jpg"
-  pmid: <a href='https://doi.org/10.1038/s41929-019-0307-6'>Epub Ahead of Print</a>
+  pmid: <a href='https://doi.org/10.1038/s41929-019-0307-6'>In Process</a>
   #pmcid: PMC???????
   doi: 10.1038/s41929-019-0307-6
   #pdf: "/static/pdf/stiller_2019.pdf"
   pdb:
     - 4K46
   links:
-   - name: "Hagan Lab"
-     url: "https://www.brandeis.edu/departments/physics/hagan/index.html"
+    - name: "Commentary: Enzyme catalysis under pressure"
+      url: https://doi.org/10.1038/s41929-019-0326-3
+    - name: "Hagan Lab"
+      url: "https://www.brandeis.edu/departments/physics/hagan/index.html"
 
 - citation: "Pádua RAP<sup>#</sup>, Sun Y<sup>#</sup>, Marko I, Pitsawong W, Stiller JB, Otten R & Kern D. Mechanism of Activating Mutations and Allosteric Drug Inhibition of the Phosphatase SHP2. *Nat. Commun.* **2018**"
   date: 20181030
