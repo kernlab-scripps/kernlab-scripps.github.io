@@ -8,6 +8,13 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Daniel Woldring
+  position: Postdoctoral Fellow
+  startdate: 201705
+  enddate: 201908
+  current: Assistant Professor @ Michigan State University
+  website: https://www.egr.msu.edu/people/profile/woldring
+
 - name: Marc Hoemberger
   position: Graduate Student / Postdoctoral Fellow
   startdate: 201309

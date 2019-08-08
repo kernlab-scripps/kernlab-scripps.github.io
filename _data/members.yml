@@ -99,26 +99,6 @@
     - Pádua RAP, Tomaleri GP, Reis RAG, David JS, Silva V, Pinheiro MP & Nonato MC. ThermoFMN - a Thermofluor Assay Developed for Ligand-Screening as an Alternative Strategy for Drug Discovery. *J. Braz. Chem. Soc.* **2014**
     - Pádua RAP &  Nonato MC. Cloning, Expression, Purification, Crystallization and Preliminary X-ray Diffraction Analysis of Recombinant Human Fumarase. *Acta Crystallogr. F. Struct. Biol. Commun.* **2014**
 
-- name: Daniel Woldring
-  image: /static/img/members/daniel.jpg
-  position: Postdoctoral Fellow
-  email: woldring (at) brandeis.edu
-  scholar: yGt235QAAAAJ
-  orcid: 0000-0001-8881-9931
-  startdate: 201705
-  education:
-    - "2011 - BSc Chemical Engineering (minor: Mathematics), Michigan Technological University"
-    - 2017 - PhD Chemical Engineering, University of Minnesota, USA
-  #description:
-  publications:
-    - Woldring DR, Holec PV, Stern LA, Du Y & Hackel BJ. Sitewise Diversity to Optimize Evolutionary Fitness of a Three-helix Bundle Combinatorial Library. *Biochemistry* **2017**
-    - Stern LA, Csizmar CM, Woldring DR, Wagner CR & Hackel BJ. Titratable Avidity Reduction Enhances Affinity Discrimination in Cell Selections of Yeast-Display Ligands. *ACS Comb. Sci.* **2017**
-    - Kruziki MA, Case BA, Chan JY, Zudock EJ, Woldring DR, Yee D & Hackel BJ. A <sup>64</sup>Cu-Labeled Gp2 Domain for PET Imaging of Epidermal Growth Factor Receptor. *Molecular Pharma.* **2016**
-    - "Woldring DR, Holec PV & Hackel BJ. ScaffoldSeq: Software for Characterization of Directed Evolution Populations. *Proteins: Structure, Function and Bioinformatics* **2016**"
-    - Woldring DR, Holec PV, Zhou H & Hackel BJ. High-Throughput Ligand Discovery Reveals a Sitewise Gradient of Diversity in Broadly Evolved Hydrophilic Fibronectin Domains. *PLoS One* **2016**
-    - Kruziki MA, Bhatnagar S, Woldring DR, Duong VD & Hackel BJ. A 45-Amino-Acid Scaffold Mined from the PDB for High-Affinity Ligand Engineering. *Chemistry & Biology* **2015**
-    - Hackel BJ, Zhou H & Woldring DR. Compositions and Methods that Involve Protein Scaffolds that Specifically Bind to Hepatocyte Growth Factor Receptor. *US Patent App 15/198,839*  (June 30 2016)
-
 - name: Hadar Ivanir-Dabora
   image: /static/img/members/hadar.jpg
   position: Postdoctoral Fellow
