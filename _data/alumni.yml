@@ -8,6 +8,11 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Hadar Ivanir-Dabora
+  position: Postdoctoral Fellow
+  startdate: 201707
+  enddate: 201909
+
 - name: Daniel Woldring
   position: Postdoctoral Fellow
   startdate: 201705

@@ -1,4 +1,4 @@
-##- name: Dorothee Kern
+##- name: FirstName LastName
 ##  webmaster: "True" (only for the person who is currently webmaster)
 ##  image: /static/img/members/firstname.jpg or /static/img/members/default.jpg
 ##  position: pick one of [Principal Investigator, Postdoctoral Fellow, Graduate Student, Master Student, Undergraduate Student]
@@ -98,20 +98,6 @@
     - Pádua RAP, Kia AM, Costa-Filho AJ, Wilkinson SR & Nonato MC. Characterisation of the Fumarate Hydratase Repertoire in *Trypanosoma cruzi*. *Int. J. Biol. Macromol.* **2017**
     - Pádua RAP, Tomaleri GP, Reis RAG, David JS, Silva V, Pinheiro MP & Nonato MC. ThermoFMN - a Thermofluor Assay Developed for Ligand-Screening as an Alternative Strategy for Drug Discovery. *J. Braz. Chem. Soc.* **2014**
     - Pádua RAP &  Nonato MC. Cloning, Expression, Purification, Crystallization and Preliminary X-ray Diffraction Analysis of Recombinant Human Fumarase. *Acta Crystallogr. F. Struct. Biol. Commun.* **2014**
-
-- name: Hadar Ivanir-Dabora
-  image: /static/img/members/hadar.jpg
-  position: Postdoctoral Fellow
-  email: hadariva (at) brandeis.edu
-  startdate: 201707
-  education:
-    - 2015 - PhD Physical Chemistry, Tel-Aviv University, Tel-Aviv, Israel
-    - 2009 - BSc Chemistry, Tel-Aviv University, Tel-Aviv, Israel
-  description: Study the dynamic properties of biological systems at atomic level using complementary methods.
-  publications:
-    - Ivanir-Dabora H, Nimerovsky E & Goldbourt A. Site-Resolved Backbone and Side-Chain Intermediate Dynamics in a Carbohydrate-Binding Module Protein Studied by Magic-Angle Spinning NMR Spectroscopy. *Chem. Eur. J.* **2015**
-    - Ivanir-Dabora H & Goldbourt A. Solid State NMR Chemical Shift Assignment and Conformational Analysis of a Cellulose Binding Protein Facilitated by Optimized Glycerol Enrichment. *J. Biomol. NMR.* **2014**
-
 
 # Graduate students
 
