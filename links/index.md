@@ -14,3 +14,5 @@ group: links
 
 ## Research Facilities
 * [Brandeis NMR facility](https://sites.google.com/a/brandeis.edu/nmr/home)
+* [Brandeis HPC facility (login required)](https://https://kb.brandeis.edu/display/SCI/High+Performance+Compute+Cluster)
+* [Kern Lab Knowledge Base (login required)](https://kb.brandeis.edu/display/KL/Kern+Lab)
