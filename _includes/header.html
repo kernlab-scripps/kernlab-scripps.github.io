@@ -18,29 +18,22 @@
   </head>
 
   <body>
-    <div class="navbar navbar-fixed-top navbar-default" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">{{ site.name }}</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            {%- for link in site.data.navlinks -%}
-              {%- if page.group == link.group %}
-                <li class="active"><a href="{{ link.link }}">{{ link.name }}</a></li>
-              {%- else %}
-                <li><a href="{{ link.link }}">{{ link.name }}</a></li>
-              {%- endif -%}
-            {%- endfor %}
-          </ul>
-        </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="/">{{ site.name }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          {%- for link in site.data.navlinks -%}
+          {%- if page.group == link.group %}
+          <li class="nav-item active"><a class="nav-link" href="{{ link.link }}">{{ link.name }}</a></li>
+          {%- else %}
+          <li class=nav-item><a class="nav-link" href="{{ link.link }}">{{ link.name }}</a></li>
+          {%- endif -%}
+          {%- endfor %}
+        </ul>
       </div>
-    </div>
+    </nav>
 
   <div class="container">
