@@ -6,6 +6,7 @@ group: home
 
 # Welcome to the Kern Lab!
 
+<br>
 We are part of the [Department of Biochemistry](https://www.bio.brandeis.edu/biochem)
 at Brandeis University and since 2005 supported by the
 [Howard Hughes Medical Institute](https://www.hhmi.org/scientists/dorothee-kern).
