@@ -30,7 +30,7 @@ group: members
 {% assign postdocs = site.data.members | where: "position", "Postdoctoral Fellow" | sort: "startdate" -%}
 <div class="row">
 {%- for person in postdocs %}
-  <div class="col-sm-3">
+  <div class="col-lg-3">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
@@ -54,7 +54,7 @@ group: members
 {% assign gradstudents = site.data.members | where: "position", "Graduate Student" | sort: "startdate" -%}
 <div class="row">
 {%- for person in gradstudents %}
-  <div class="col-sm-3">
+  <div class="col-lg-3">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
@@ -78,7 +78,7 @@ group: members
 {% assign masterstudents = site.data.members | where: "position", "Master Student" | sort: "startdate" -%}
 <div class="row">
 {%- for person in masterstudents %}
-  <div class="col-sm-3">
+  <div class="col-lg-3">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
@@ -102,7 +102,7 @@ group: members
 {% assign undergrads = site.data.members | where: "position", "Undergraduate Student" | sort: "startdate" -%}
 <div class="row">
 {%- for person in undergrads %}
-  <div class="col-sm-3">
+  <div class="col-lg-3">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
@@ -124,11 +124,11 @@ group: members
 
 <hr>
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-6">
     <img class="img-fluid center-block" src="/static/img/members/kernlab.jpg" title="Kern Lab in 2018" alt="Kern Lab group picture">
     From left to right: Warintra Pitsawong, Renee Otten, Ingrid Marko, John Stiller, Dorothee Kern, Patrick Finneran, Chansik Kim, Julia Tartaglia, Chris Neil, Austin Bannister, Hadar Ivanir-Dabora, Ricardo Padua, Chiquita McCoy-Crisp, Daniel Woldring, Brandon Black, and Marc Hoemberger.
   </div>
-  <div class="col-sm-6">
+  <div class="col-6">
   <!-- map generated using https://www.amcharts.com/visited_countries/#AL,FR,DE,IT,NL,RU,US,BR,ET,CN,IN,IL,KR,TH,VN -->
     <img class="img-fluid center-block" src="/static/img/members/country_map.png" title="Nationalities of lab members shown on the map" alt="Map indicating the nationalities of current/former Kern lab members">
     Current and previous Kern lab members came from all over the world to Waltham as can be seen from the map. To complete our world/continent-coverage, scientists from Antartica and Australia/Oceania are particularly encouraged to apply ;)

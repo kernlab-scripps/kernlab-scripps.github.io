@@ -19,13 +19,13 @@ group: publications
 
   <div style="font-size: 120% !important;">{{ publication.citation | markdownify }}</div>
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-lg-8">
       {%- if publication.doi -%}<a href="https://doi.org/{{ publication.doi }}"><img class="rounded mx-auto d-block" src="{{ publication.image }}" alt="Graphical Abstract" style="max-height:200px"></a>
       {%- else -%}<img class="rounded mx-auto d-block" src="{{ publication.image }}" alt="Graphical Abstract" style="max-height:200px">
       {%- endif -%}
     </div>
 
-    <div class="col-sm-4">
+    <div class="col-lg-4">
       <strong>Access the paper</strong>
       <ul>
         <li>PMID: {% if pmid_number != 0 -%}<a href="https://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}">{{ publication.pmid }}</a>{%- else -%}{{ publication.pmid }} {%- endif %}</li>
