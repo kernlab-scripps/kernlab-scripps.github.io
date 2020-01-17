@@ -14,16 +14,16 @@ Below is a list of Kern Lab alumni and their "last known" (and hopefully current
 {%- for alum in sorted_alumni %}
   <div id="{{ alum.name | url_encode }}" class="row" style="padding-top:60px; margin-top:-60px;">
     <div class="col-6">
-      <p><strong>{{ alum.name }}</strong> - <em>{{ alum.position }}</em><br>
+      <strong>{{ alum.name }}</strong> - <em>{{ alum.position }}</em>
       {%- if alum.thesis_title %}
-        <br> Thesis: {% if alum.thesis_url -%} <a href="{{ alum.thesis_url }}">{{ alum.thesis_title }}</a> {%- else -%} {{alum.thesis_title}} {%- endif %} <br>
+        <br><br> Thesis: {% if alum.thesis_url -%} <a href="{{ alum.thesis_url }}">{{ alum.thesis_title }}</a> {%- else -%} {{alum.thesis_title}} {%- endif %}
       {%- endif %}
     </div>
 
     <div class="col-6">
-      {{ alum.startdate | slice: 0,4 }} - {{ alum.enddate | slice: 0,4 }} <br>
+      {{ alum.startdate | slice: 0,4 }} - {{ alum.enddate | slice: 0,4 }}
       {%- if alum.current %}
-        Current Position: {% if alum.website -%} <a href="{{ alum.website }}">{{ alum.current }}</a> {% else -%} {{ alum.current }} {%- endif -%}
+        <br>Current Position: {% if alum.website -%} <a href="{{ alum.website }}">{{ alum.current }}</a> {% else -%} {{ alum.current }} {%- endif -%}
       {%- endif %}
     </div>
   </div>
