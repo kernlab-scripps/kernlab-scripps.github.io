@@ -18,8 +18,8 @@ group: publications
 {%- endif -%}
 
   <div style="font-size: 120% !important;">{{ publication.citation | markdownify }}</div>
-  <div class="d-flex justify-content-around align-items-center">
-    <div class="col-lg-8">
+  <div class="row">
+    <div class="col-lg-8 d-flex justify-content-around align-items-center">
       {%- if publication.doi -%}<a href="https://doi.org/{{ publication.doi }}"><img class="rounded mx-auto d-block" src="{{ publication.image }}" alt="Graphical Abstract" style="max-height:200px"></a>
       {%- else -%}<img class="rounded mx-auto d-block" src="{{ publication.image }}" alt="Graphical Abstract" style="max-height:200px">
       {%- endif -%}
