@@ -16,16 +16,24 @@ We are also investigating the hierarchy in space and time for protein dynamics. 
 
 We propose that the pre-sampling of conformational states needed for catalysis and selective binding of substrates to these substates might be a general paradigm of enzyme catalysis. We are attacking the next immediate questions: How does a protein move from one energy valley into another, and what are the pathways and the transition states? Can minor conformational substates be predicted from known structures? Can we apply the knowledge gained about physical principles of proteins to design proteins with desired functions? Can we successfully incorporate a dynamic view into rational drug design?
 
-<div class="text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL9BXLQ4wcldFh-hCi5LgvxdgfpvIogUdi" allowfullscreen></iframe></div>
-**The two substrate molecules in green are “hidden” in the active site in the closed state where phosphoryl-transfer happens. The visualized opening is the rate-limiting step for this kinase.**
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-8">
+   <div class="embed-responsive embed-responsive-16by9">
+   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PL9BXLQ4wcldFh-hCi5LgvxdgfpvIogUdi" allowfullscreen></iframe>
+   </div>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="text-center">**The two substrate molecules in green are “hidden” in the active site in the closed state where phosphoryl-transfer happens. The visualized opening is the rate-limiting step for this kinase.**
 
 ## Evolution of Enzymatic Power and Complex Signaling
 Our success in characterizing energy landscapes of enzymes and our first steps toward understanding the molecular pathways of conformational transitions have prompted us to begin applying these lessons to the development of artificial enzymes. While these first designer enzymes are a breakthrough, their catalytic turnover rates have been very low, most likely because we do not yet understand the defined and efficient changes in structure during catalysis. To address this principal question, we recapitulate a proven successful "design" of enzymes, the work of natural evolution. While the calculation of phylogenetic trees has become very popular (and meaningful) in the last years due to the huge explosion of sequences of diverse organisms, many basic questions of molecular evolution are unresolved, such as (1) Were the ancestors promiscuous enzymes from which specificity evolved? (2) Would it therefore be easier to design desired function from ancestors? Almost completely missing in the evolutionary field is the detailed biophysical characterization of ancestors and the lineage from those to our modern enzymes. Our first resurrected enzymes (up to ~3 billion years back) are not only active, but indeed give clues about the evolution of protein dynamics as an essential part of catalysis.
 
-<img class="rounded mx-auto d-block" src="/static/img/asr_abl_src.jpg" alt="ASR and phylogentic tree of Src and Abl kinases" style="max-height:400px;">
+<img class="img-fluid rounded mx-auto d-block" src="/static/img/asr_abl_src.jpg" alt="ASR and phylogentic tree of Src and Abl kinases" style="max-height:400px;">
 <p class="text-center">**The Evolution on modern tyrosine protein kinases Abl and Src via ancestral resurrection**</p>
 <br>
-<img class="rounded mx-auto d-block" src="/static/img/xray_anc_as.jpg" alt="X-ray structures with Gleevec bound" style="max-height:200px;">
+<img class="img-fluid rounded mx-auto d-block" src="/static/img/xray_anc_as.jpg" alt="X-ray structures with Gleevec bound" style="max-height:200px;">
 <p class="text-center">**X-Ray structures of 1.5 Billion year old ancestor (ANC-AS) reveal molecular mechanism of Gleevec selectivity for cancer kinase Bcr-Abl. Loss of H-bonds remote from the Gleevec binding site result in increased protein dynamics needed to allow for P-loop kinking to “hug” the drug (right).**</p>
 
 ## Molecular Mechanism of Phosphorylation-Mediated Signaling
