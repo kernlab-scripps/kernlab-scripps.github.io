@@ -8,29 +8,31 @@ group: members
 
 <h3>Principal Investigator</h3> <hr>
 {% assign investigator = site.data.members | where: "position", "Principal Investigator" -%}
-<div class="text-center">
+<div class="row d-flex justify-content-around">
 {%- for pi in investigator -%}
-  <a href="/member/#{{ pi.name | url_encode }}"><img class="img-fluid center-block" src="{{ pi.image }}" title="{{ pi.name }}" alt="{{ pi.name }}" style="max-height:250px;max-width:250px"></a> <br>
-  <a href="/member/#{{ pi.name | url_encode}}"><strong>{{ pi.name }}</strong></a> <br>
-  <em>{{ pi.email }}</em> <br>
+  <div class="p-2 text-center">
+    <a href="/member/#{{ pi.name | url_encode }}"><img class="img-fluid center-block" src="{{ pi.image }}" title="{{ pi.name }}" alt="{{ pi.name }}" style="max-height:250px;max-width:250px"></a> <br>
+    <a href="/member/#{{ pi.name | url_encode}}"><strong>{{ pi.name }}</strong></a> <br>
+    <em>{{ pi.email }}</em> <br>
 
-  {%- if pi.orcid %}
-    {%- assign orcid_link = "https://orcid.org/" | append: pi.orcid -%}
-    <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
-    <a href="{{ orcid_link }}">{{ pi.orcid }}</a> <br>
-  {%- endif -%}
+    {%- if pi.orcid %}
+      {%- assign orcid_link = "https://orcid.org/" | append: pi.orcid -%}
+      <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
+      <a href="{{ orcid_link }}">{{ pi.orcid }}</a> <br>
+    {%- endif -%}
 
-  {%- if pi.scholar %}
-    <a href= "https://scholar.google.com/citations?user={{ pi.scholar }}">Google Scholar Citations</a> <br>
-  {%- endif -%}
+    {%- if pi.scholar %}
+      <a href= "https://scholar.google.com/citations?user={{ pi.scholar }}">Google Scholar Citations</a> <br>
+    {%- endif -%}
+  </div>
 {%- endfor -%}
 </div>
 
 <h3>Postdoctoral Fellows</h3> <hr>
 {% assign postdocs = site.data.members | where: "position", "Postdoctoral Fellow" | sort: "startdate" -%}
-<div class="row">
+<div class="row d-flex justify-content-around">
 {%- for person in postdocs %}
-  <div class="col-lg-3">
+  <div class="p-2 text-center">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
@@ -39,12 +41,10 @@ group: members
       {%- assign orcid_link = "https://orcid.org/" | append: person.orcid -%}
       <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
       <a href="{{ orcid_link }}">{{ person.orcid }}</a> <br>
-    {%- else -%} <br>
     {%- endif -%}
 
     {%- if person.scholar %}
       <a href= "https://scholar.google.com/citations?user={{ person.scholar }}">Google Scholar Citations</a> <br>
-    {%- else -%} <br>
     {%- endif -%} <br>
   </div>
 {% endfor -%}
@@ -52,9 +52,9 @@ group: members
 
 <h3>Graduate Students</h3> <hr>
 {% assign gradstudents = site.data.members | where: "position", "Graduate Student" | sort: "startdate" -%}
-<div class="row">
+<div class="row d-flex justify-content-around">
 {%- for person in gradstudents %}
-  <div class="col-lg-3">
+  <div class="p-2 text-center">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
@@ -63,12 +63,10 @@ group: members
       {%- assign orcid_link = "https://orcid.org/" | append: person.orcid -%}
       <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
       <a href="{{ orcid_link }}">{{ person.orcid }}</a> <br>
-    {%- else -%} <br>
     {%- endif -%}
 
     {%- if person.scholar %}
       <a href= "https://scholar.google.com/citations?user={{ person.scholar }}">Google Scholar Citations</a> <br>
-    {%- else -%} <br>
     {%- endif -%} <br>
   </div>
 {% endfor -%}
@@ -76,9 +74,9 @@ group: members
 
 <h3>Master Students</h3> <hr>
 {% assign masterstudents = site.data.members | where: "position", "Master Student" | sort: "startdate" -%}
-<div class="row">
+<div class="row d-flex justify-content-around">
 {%- for person in masterstudents %}
-  <div class="col-lg-3">
+  <div class="p-2 text-center">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
@@ -87,12 +85,10 @@ group: members
       {%- assign orcid_link = "https://orcid.org/" | append: person.orcid -%}
       <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
       <a href="{{ orcid_link }}">{{ person.orcid }}</a> <br>
-    {%- else -%} <br>
     {%- endif -%}
 
     {%- if person.scholar %}
       <a href= "https://scholar.google.com/citations?user={{ person.scholar }}">Google Scholar Citations</a> <br>
-    {%- else -%} <br>
     {%- endif -%} <br>
   </div>
 {% endfor -%}
@@ -100,9 +96,9 @@ group: members
 
 <h3>Undergraduate Students</h3> <hr>
 {% assign undergrads = site.data.members | where: "position", "Undergraduate Student" | sort: "startdate" -%}
-<div class="row">
+<div class="row d-flex justify-content-around">
 {%- for person in undergrads %}
-  <div class="col-lg-3">
+  <div class="p-2 text-center">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
     <a href="/member/#{{ person.name | url_encode }}"><strong>{{ person.name }}</strong></a> <br>
     <em>{{ person.email }}</em> <br>
@@ -111,12 +107,10 @@ group: members
       {%- assign orcid_link = "https://orcid.org/" | append: person.orcid -%}
       <a href="https://orcid.org"><img class="inline-block" src="/static/img/orcid_logo.svg" alt="ORCID iD logo" style="height:16px;width:16px"></a>
       <a href="{{ orcid_link }}">{{ person.orcid }}</a> <br>
-    {%- else -%} <br>
     {%- endif -%}
 
     {%- if person.scholar %}
       <a href= "https://scholar.google.com/citations?user={{ person.scholar }}">Google Scholar Citations</a> <br>
-    {%- else -%} <br>
     {%- endif -%} <br>
   </div>
 {% endfor -%}
@@ -124,13 +118,13 @@ group: members
 
 <hr>
 <div class="row">
-  <div class="col-6">
-    <img class="img-fluid center-block" src="/static/img/members/kernlab.jpg" title="Kern Lab in 2018" alt="Kern Lab group picture">
+  <div class="col-lg">
+    <img class="img-fluid" src="/static/img/members/kernlab.jpg" title="Kern Lab in 2018" alt="Kern Lab group picture">
     From left to right: Warintra Pitsawong, Renee Otten, Ingrid Marko, John Stiller, Dorothee Kern, Patrick Finneran, Chansik Kim, Julia Tartaglia, Chris Neil, Austin Bannister, Hadar Ivanir-Dabora, Ricardo Padua, Chiquita McCoy-Crisp, Daniel Woldring, Brandon Black, and Marc Hoemberger.
   </div>
-  <div class="col-6">
+  <div class="col-lg">
   <!-- map generated using https://www.amcharts.com/visited_countries/#AL,FR,DE,IT,NL,RU,US,BR,ET,CN,IN,IL,KR,TH,VN -->
-    <img class="img-fluid center-block" src="/static/img/members/country_map.png" title="Nationalities of lab members shown on the map" alt="Map indicating the nationalities of current/former Kern lab members">
+    <img class="img-fluid" src="/static/img/members/country_map.png" title="Nationalities of lab members shown on the map" alt="Map indicating the nationalities of current/former Kern lab members">
     Current and previous Kern lab members came from all over the world to Waltham as can be seen from the map. To complete our world/continent-coverage, scientists from Antartica and Australia/Oceania are particularly encouraged to apply ;)
   </div>
 </div>
