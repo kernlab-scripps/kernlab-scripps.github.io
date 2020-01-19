@@ -9,8 +9,8 @@ group: members
 
 {% for person in site.data.members %}
 <div class="row">
-  <div id="{{ person.name | url_encode }}" class="col-lg-3" style="padding-top:60px; margin-top:-60px;">
-    <img class="img-fluid" src="{{ person.image }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"> <br>
+  <div id="{{ person.name | url_encode }}" class="col-12 col-sm-6 col-lg-3 text-center" style="padding-top:60px; margin-top:-60px">
+    <img class="img-fluid" src="{{ person.image }}" alt="{{ person.name }}" style="max-height:250px; max-width:250px"> <br>
 
     {%- if person.orcid -%}
       {%- assign orcid_link = "https://orcid.org/" | append: person.orcid -%}
@@ -22,9 +22,10 @@ group: members
       <a href="https://scholar.google.com"><img class="inline-block" src="/static/img/google-scholar.svg" alt="Google Scholar logo" style="height:16px;width:16px"></a>
       <a href="https://scholar.google.com/citations?user={{ person.scholar }}">Google Scholar Citations</a> <br>
     {%- endif %}
+    <br>
   </div>
 
-  <div class="col-lg-3">
+  <div class="col-12 col-sm-6 col-lg-3">
     {% if person.position == "Principal Investigator" -%}
       <strong>{{ person.name }}</strong> - <i>{{ person.position }}</i> <br><br>
       <a href="http://www.bio.brandeis.edu/faculty/kern.html">Professor of Biochemistry</a> <br>
@@ -55,7 +56,7 @@ group: members
     <em>{{ person.email }}</em>
   </div>
 
-  <div class="col-lg-6">
+  <div class="col-12 col-lg-6">
     {% if person.education %} <br><br><br><br> {%- if person.position == "Principal Investigator" -%} <br> {%- endif -%} <strong>Education</strong> {%- endif %}
     <ul>
     {%- for degree in person.education %}
