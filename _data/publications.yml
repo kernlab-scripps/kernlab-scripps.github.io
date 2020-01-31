@@ -25,6 +25,7 @@
   date: 20190625
   image: "/static/img/publications/zorba_2019.jpg"
   pmid: 31239342
+  pmcid: PMC6628680
   doi: 10.1073/pnas.1906024116
   #pdf: "/static/pdf/zorba_2019.pdf"
   pdb:
