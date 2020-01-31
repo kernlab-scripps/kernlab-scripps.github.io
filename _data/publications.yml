@@ -82,6 +82,7 @@
   image: "/static/img/publications/pitsawong_2018.jpg"
   pmid: 29901437
   pmcid: PMC6054532
+  biorxiv: "286310"
   doi: 10.7554/eLife.36656
   #pdf: "/static/pdf/pitsawong_2018.pdf"
   pdb:
