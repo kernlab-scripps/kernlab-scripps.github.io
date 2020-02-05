@@ -7,9 +7,9 @@
 ##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
 ##  startdate: YYYYMM
 ##  education:
-##    - BSc Biochemistry, University, Country
-##    - MSc Biochemistry, University, Country
-##    - PhD Biochemistry, University, Country
+##    - YYYY - BSc Biochemistry, University, Country
+##    - YYYY - MSc Biochemistry, University, Country
+##    - YYYY - PhD Biochemistry, University, Country
 ##  description:
 ##  publications:
 ##    - citation (only for papers not published in the Kern Lab)
@@ -98,6 +98,27 @@
     - Pádua RAP, Kia AM, Costa-Filho AJ, Wilkinson SR & Nonato MC. Characterisation of the Fumarate Hydratase Repertoire in *Trypanosoma cruzi*. *Int. J. Biol. Macromol.* **2017**
     - Pádua RAP, Tomaleri GP, Reis RAG, David JS, Silva V, Pinheiro MP & Nonato MC. ThermoFMN - a Thermofluor Assay Developed for Ligand-Screening as an Alternative Strategy for Drug Discovery. *J. Braz. Chem. Soc.* **2014**
     - Pádua RAP &  Nonato MC. Cloning, Expression, Purification, Crystallization and Preliminary X-ray Diffraction Analysis of Recombinant Human Fumarase. *Acta Crystallogr. F. Struct. Biol. Commun.* **2014**
+
+
+- name: Hannes Ludewig
+  image: /static/img/members/hannes.jpg
+  position: Postdoctoral Fellow
+  email: hannesludewig (at) brandeis.edu
+  scholar: GRtUKOEAAAAJ
+  orcid: 0000-0003-1130-1442
+  startdate: 202002
+  education:
+    - 2012 - B.Sc. Biochemistry, University of Bayreuth, Germany
+    - 2014 - M.Sc. Biochemistry & Molecular Biology, University of Bayreuth, Germany
+    - 2020 - Ph.D. Chemistry, Centre for Doctoral Training in Critical Resource Catalysis, School of Chemistry, University of St Andrews, United Kingdom (Scotland)
+##  description:
+  publications:
+    - Gkotsi DS, Ludewig H, Sharma SV, Connolly JA, Dhaliwal J, Wang Y, Unsworth WP, Taylor RJK, McLachlan MWM, Shanahan S, Naismith JH, Goss RJM. A marine viral halogenase that iodinates divers substrates. *Nat. Chem.* **2019**
+    - Ludewig H, Czekster CM, Oueis E, Munday ES, Arshad M, Synowsky SA, Bent AF, Naismith JH. Characterization of the Fast and Promiscuous Macrocyclase from Plant PCY1 Enables the Use of Simple Substrates. *ACS Chem. Biol.* **2018**
+    - Czekster CM, Ludewig H, McMahon SA, Naismith JH. Characterization of a dual function macrocyclase enables design and use of efficient macrocyclization substrates. *Nat. Commun.* **2017**
+    - 'Oueis E, Adamson C, Mann G, Ludewig H, Redpath P, Migaud M, Westwood NJ, Naismith JH. Derivatisable Cyanobactin Analogues: A Semisynthetic Approach. *ChemBioChem* **2015**'
+    - Koehnke J, Mann G, Bent AF, Ludewig H, Shirran S, Botting C, Lebl T, Houssen WE, Jaspars M, Naismith JH. Structural analysis of leader peptide binding enables leader-free cyanobactin processing. *Nat. Chem. Biol.* **2015**
+
 
 # Graduate students
 
