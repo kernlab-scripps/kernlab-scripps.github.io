@@ -27,7 +27,7 @@
   pmid: 32079772
   #pmcid: PMC####### or [Submitted; Epub Ahead of Print]
   doi: 10.1126/science.aay9959
-  #pdf: "/static/pdf/hadzipasic_2020.pdf"
+  pdf: "http://science.sciencemag.org/cgi/rapidpdf/367/6480/912?ijkey=QbbNWEc4/bUQM&keytype=ref&siteid=sci"
 
 - citation: "Zorba A<sup>#</sup>, Nguyen V<sup>#</sup>, Koide A, Hoemberger M, Zheng Y, Kutter S, Kim C, Koide S & Kern D. Allosteric Modulation of a Human Protein Kinase with Monobodies. *Proc. Natl. Acad. Sci. USA* **2019**"
   date: 20190625
