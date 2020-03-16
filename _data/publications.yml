@@ -51,8 +51,8 @@
 - citation: "Stiller JB<sup>#</sup>, Kerns SJ<sup>#</sup>, Hoemberger M, Cho Y-J, Otten R, Hagan MF & Kern D. Probing the Transition State in Enzyme Catalysis by High-Pressure NMR Dynamics. *Nat. Catal.* **2019**"
   date: 20190624
   image: "/static/img/publications/stiller_2019.jpg"
-  pmid: <a href='https://doi.org/10.1038/s41929-019-0307-6'>In Process</a>
-  #pmcid: PMC???????
+  pmid: 32159076
+  pmcid: PMC7063682
   doi: 10.1038/s41929-019-0307-6
   #pdf: "/static/pdf/stiller_2019.pdf"
   pdb:
