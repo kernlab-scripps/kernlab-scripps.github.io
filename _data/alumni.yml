@@ -8,6 +8,17 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Liuyu Chen
+  position: Master Student
+  startdate: 201902
+  enddate: 202005
+
+- name: Klarissa Hollander
+  position: Undergraduate Student
+  startdate: 201808
+  enddate: 202005
+  current: Graduate Student @ Yale University
+
 - name: Hadar Ivanir-Dabora
   position: Postdoctoral Fellow
   startdate: 201707

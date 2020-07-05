@@ -191,22 +191,7 @@
 
 # Master students
 
-- name: Liuyu Chen
-  image: /static/img/members/liuyu.jpg
-  position: Master Student
-  email: chenl (at) brandeis.edu
-  startdate: 201902
-  education:
-    - 2018 - BSc Biochemistry, Zhejiang University, China
-
-
 # Undergraduate students
-
-- name: Klarissa Hollander
-  image: /static/img/members/klarissa.jpg
-  position: Undergraduate Student
-  email: khollander (at) brandeis.edu
-  startdate: 201808
 
 - name: Joseph Irvin
   image: /static/img/members/joseph.jpg
