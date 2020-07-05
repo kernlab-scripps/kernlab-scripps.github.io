@@ -29,8 +29,8 @@ group: members
 {%- endfor -%}
 </div>
 
-<h3>Postdoctoral Fellows</h3> <hr>
 {% assign postdocs = site.data.members | where: "position", "Postdoctoral Fellow" | sort: "startdate" -%}
+{%- if postdocs.size -%}<h3>Postdoctoral Fellows</h3> <hr>{%- endif -%}
 <div class="row d-flex justify-content-around">
 {%- for person in postdocs %}
   <div class="p-2 text-center">
@@ -52,8 +52,8 @@ group: members
 {% endfor -%}
 </div>
 
-<h3>Graduate Students</h3> <hr>
 {% assign gradstudents = site.data.members | where: "position", "Graduate Student" | sort: "startdate" -%}
+{%- if gradstudents.size -%}<h3>Graduate Students</h3> <hr>{%- endif -%}
 <div class="row d-flex justify-content-around">
 {%- for person in gradstudents %}
   <div class="p-2 text-center">
@@ -75,8 +75,8 @@ group: members
 {% endfor -%}
 </div>
 
-<h3>Master Students</h3> <hr>
 {% assign masterstudents = site.data.members | where: "position", "Master Student" | sort: "startdate" -%}
+{%- if mastertudents.size -%}<h3>Master Students</h3> <hr>{%- endif -%}
 <div class="row d-flex justify-content-around">
 {%- for person in masterstudents %}
   <div class="p-2 text-center">
@@ -98,8 +98,8 @@ group: members
 {% endfor -%}
 </div>
 
-<h3>Undergraduate Students</h3> <hr>
 {% assign undergrads = site.data.members | where: "position", "Undergraduate Student" | sort: "startdate" -%}
+{%- if undergrads.size -%}<h3>Undergraduate Students</h3> <hr>{%- endif -%}
 <div class="row d-flex justify-content-around">
 {%- for person in undergrads %}
   <div class="p-2 text-center">
