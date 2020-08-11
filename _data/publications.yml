@@ -21,6 +21,14 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
+- citation: "Hoemberger M, Pitsawong W & Kern D. Cumulative mechanism of several major imatinib-resistant mutations in Abl kinase *PNAS* **2020**"
+  date: 20200727
+  image: "/static/img/publications/hoemberger_2020.jpg"
+  pmid: 32719139
+  pmcid: Epub Ahead of Print
+  #pmcid: PMC####### or [Submitted; Epub Ahead of Print]
+  doi: 10.1073/pnas.1919221117
+
 - citation: "Hadzipasic A, Wilson C, Nguyen V, Kern N, Kim C, Pitsawong W, Villali J, Zheng Y & Kern D. Ancient origins of allosteric activation in a Ser-Thr kinase *Science* **2020**"
   date: 20200221
   image: "/static/img/publications/hadzipasic_2020.jpg"
