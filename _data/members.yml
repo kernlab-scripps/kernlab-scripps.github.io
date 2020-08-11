@@ -98,8 +98,7 @@
     - Sartim MA, Pinheiro MP, Pádua RAP, Sampaio SV & Nonato MC. Structural and Binding Studies of a C-type Galactose-Binding Lectin from *Bothrops jararacussu* Snake Venom. *Toxicon.* **2017**
     - Pádua RAP, Kia AM, Costa-Filho AJ, Wilkinson SR & Nonato MC. Characterisation of the Fumarate Hydratase Repertoire in *Trypanosoma cruzi*. *Int. J. Biol. Macromol.* **2017**
     - Pádua RAP, Tomaleri GP, Reis RAG, David JS, Silva V, Pinheiro MP & Nonato MC. ThermoFMN - a Thermofluor Assay Developed for Ligand-Screening as an Alternative Strategy for Drug Discovery. *J. Braz. Chem. Soc.* **2014**
-    - Pádua RAP &  Nonato MC. Cloning, Expression, Purification, Crystallization and Preliminary X-ray Diffraction Analysis of Recombinant Human Fumarase. *Acta Crystallogr. F. Struct. Biol. Commun.* **2014**
-
+    - Pádua RAP & Nonato MC. Cloning, Expression, Purification, Crystallization and Preliminary X-ray Diffraction Analysis of Recombinant Human Fumarase. *Acta Crystallogr. F. Struct. Biol. Commun.* **2014**
 
 - name: Hannes Ludewig
   image: /static/img/members/hannes.jpg
@@ -120,6 +119,16 @@
     - 'Oueis E, Adamson C, Mann G, Ludewig H, Redpath P, Migaud M, Westwood NJ & Naismith JH. Derivatisable Cyanobactin Analogues: A Semisynthetic Approach. *ChemBioChem* **2015**'
     - Koehnke J, Mann G, Bent AF, Ludewig H, Shirran S, Botting C, Lebl T, Houssen WE, Jaspars M & Naismith JH. Structural analysis of leader peptide binding enables leader-free cyanobactin processing. *Nat. Chem. Biol.* **2015**
 
+- name: John Stiller
+  image: /static/img/members/john.jpg
+  position: Postdoctoral Fellow
+  email: jstiller (at) brandeis.edu
+  startdate: 202007
+  education:
+    - 2014 - BSc Biochemistry, Trinity College, Hartford, CT, USA
+    - 2020 - PhD Biochemistry, Brandeis University, Waltham, MA, USA
+  description: Protein’s exist upon a delicate energy landscape where multiple states are within several kJ of one another. While current structural techniques characterize the lowest energy conformation, the higher energy states remain obscured. However, recently NMR techniques have been developed which allows one to infer structural information about these excited states. With that in mind, my interests involve structurally investigating protein ensembles and discovering how regulation and drug binding are manipulated by conformational interexchange.
+
 
 # Graduate students
 
@@ -131,15 +140,6 @@
   education:
     - 2014 - BA Chemistry / Biochemistry, Western Connecticut State University, Danbury, CT, USA
   description: Thirty-two non-receptor tyrosine kinases have been identified in humans. All of these kinases had evolved from the same common ancestor at one point in time. These proteins are similar by their function (kinase activity), but they differ in the mechanism in which they are regulated, and in their substrate specificity. I am interested in researching the mechanism of how a kinase is able to recognize its target protein. By using ancestral sequence reconstruction (ASR) it may be possible to map what evolutionary changes in the protein led to a difference in its specificity. I also research how regulatory abilities evolved over time using similar techniques.
-
-- name: John Stiller
-  image: /static/img/members/john.jpg
-  position: Graduate Student
-  email: jstiller (at) brandeis.edu
-  startdate: 201505
-  education:
-    - 2014 - BSc Biochemistry, Trinity College, Hartford, CT, USA
-  description: Protein’s exist upon a delicate energy landscape where multiple states are within several kJ of one another. While current structural techniques characterize the lowest energy conformation, the higher energy states remain obscured. However, recently NMR techniques have been developed which allows one to infer structural information about these excited states. With that in mind, my interests involve structurally investigating protein ensembles and discovering how regulation and drug binding are manipulated by conformational interexchange.
 
 - name: Austin Bannister
   image: /static/img/members/austin.jpg
@@ -190,6 +190,7 @@
 
 
 # Master students
+
 
 # Undergraduate students
 
