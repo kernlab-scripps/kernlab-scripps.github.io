@@ -35,7 +35,9 @@ group: members
       <i>{{ person.position }}</i> <br>
     {%- endif -%}
 
-    {% if person.startdate %} Joined the lab in: {{ person.startdate | slice: 0,4 }} <br><br> {%- else -%} <br> {%- endif %}
+    {% if person.startdatelab %} Joined the lab in: {{ person.startdatelab | slice: 0,4 }} <br><br> {%- else -%}
+    {% if person.startdate %} Joined the lab in: {{ person.startdate | slice: 0,4 }} <br><br> {%- else -%}
+    <br> {%- endif %}{%- endif -%}
 
     {% if person.position == "Principal Investigator" -%}
       Volen 444 <br>
@@ -75,7 +77,11 @@ group: members
     {%- assign split_name = person.name | split: " " -%}
     {%- assign first_initial = split_name[0] | split: "" -%}
     {%- assign author_name = split_name.last | append: " " | append: first_initial[0] -%}
-    {%- assign author_year_joined = person.startdate | slice: 0,4 -%}
+    {%- if person.startdatelab -%}
+      {%- assign author_year_joined = person.startdatelab | slice: 0,4 -%}
+    {%- else -%}
+      {%- assign author_year_joined = person.startdate | slice: 0,4 -%}
+    {%- endif -%}
 
     {%- if person.publications or all_citations contains author_name -%}
       <br><br><strong>Publications</strong>

@@ -5,7 +5,8 @@
 ##  email: UNETid (at) brandeis.edu
 ##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
 ##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
-##  startdate: YYYYMM
+##  startdate: YYYYMM [start date for current position]
+##  startdatelab: YYYYMM [date for joining the lab]
 ##  education:
 ##    - YYYY - BSc Biochemistry, University, Country
 ##    - YYYY - MSc Biochemistry, University, Country
@@ -124,6 +125,7 @@
   position: Postdoctoral Fellow
   email: jstiller (at) brandeis.edu
   startdate: 202007
+  startdatelab: 201505
   education:
     - 2014 - BSc Biochemistry, Trinity College, Hartford, CT, USA
     - 2020 - PhD Biochemistry, Brandeis University, Waltham, MA, USA
