@@ -134,15 +134,6 @@
 
 # Graduate students
 
-- name: Patrick Finneran
-  image: /static/img/members/patrick.jpg
-  position: Graduate Student
-  email: pfinneran (at) brandeis.edu
-  startdate: 201505
-  education:
-    - 2014 - BA Chemistry / Biochemistry, Western Connecticut State University, Danbury, CT, USA
-  description: Thirty-two non-receptor tyrosine kinases have been identified in humans. All of these kinases had evolved from the same common ancestor at one point in time. These proteins are similar by their function (kinase activity), but they differ in the mechanism in which they are regulated, and in their substrate specificity. I am interested in researching the mechanism of how a kinase is able to recognize its target protein. By using ancestral sequence reconstruction (ASR) it may be possible to map what evolutionary changes in the protein led to a difference in its specificity. I also research how regulatory abilities evolved over time using similar techniques.
-
 - name: Austin Bannister
   image: /static/img/members/austin.jpg
   position: Graduate Student

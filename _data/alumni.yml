@@ -8,6 +8,12 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Patrick Finneran
+  position: Graduate Student
+  startdate: 201505
+  enddate: 202008
+  current: Senior Scientist Biophysics @ Menten AI
+
 - name: Liuyu Chen
   position: Master Student
   startdate: 201902
