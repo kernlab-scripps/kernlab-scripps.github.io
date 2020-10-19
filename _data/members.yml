@@ -131,6 +131,20 @@
     - 2020 - PhD Biochemistry, Brandeis University, Waltham, MA, USA
   description: Protein’s exist upon a delicate energy landscape where multiple states are within several kJ of one another. While current structural techniques characterize the lowest energy conformation, the higher energy states remain obscured. However, recently NMR techniques have been developed which allows one to infer structural information about these excited states. With that in mind, my interests involve structurally investigating protein ensembles and discovering how regulation and drug binding are manipulated by conformational interexchange.
 
+- name: Zachary Boswell
+  image: /static/img/members/zach.jpg
+  position: Postdoctoral Fellow
+  email: zboswell (at) brandeis.edu
+  startdate: 202010
+  education:
+    - 2015 - BSc Biochemistry and Molecular Biology, Hardin-Simmons University, Abilene, TX, USA
+    - 2020 - PhD Biochemistry, Texas Tech University, Lubbock, TX, USA
+  publications:
+    - Boswell ZK, Canny MD, Buschmann TA, Sang J & Latham, MP. Adjacent mutations in the archaeal Rad50 ABC ATPase D-loop disrupt allosteric regulation of ATP hydrolysis through different mechanisms. *Nucleic Acids Res.* **2020**
+    - Boswell ZK & Latham MP. Methyl-Based NMR Spectroscopy Methods for Uncovering Structural Dynamics in Large Proteins and Protein Complexes. *Biochemistry* **2019**
+    - Boswell ZK, Rahman S, Canny, MD & Latham MP. A dynamic allosteric pathway underlies Rad50 ABC ATPase function in DNA repair. *Sci. Rep.* **2018**
+  #description:
+
 
 # Graduate students
 
