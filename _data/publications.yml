@@ -21,6 +21,22 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
+- citation: "Otten R<sup>#</sup>, Pádua RAP<sup>#</sup>, Bunzel HA<sup>#</sup>, Nguyen V, Pitsawong W, Patterson M, Sui S, Perry SL, Cohen AE, Hilvert D & Kern D. How directed evolution reshapes the energy landscape in an enzyme to boost catalysis. *Science*, **2020**"
+  date: 20201116
+  image: "/static/img/publications/otten_2020.jpg"
+  pmid: 33214289
+  ## pmcid: PMC####### or [Submitted; Epub Ahead of Print]
+  doi: 10.1126/science.abd3623
+  ##pdb:
+  ##  - PDB_ID
+  ##bmrb:
+  ##  - BMRB_ID
+  links:
+    - name: "Protein dynamics play major role in directed evolution’s success"
+      url: "https://cen.acs.org/biological-chemistry/Protein-dynamics-play-major-role/98/web/2020/11"
+    - name: "Hilvert Lab"
+      url: "https://protein.ethz.ch"
+
 - citation: "Hoemberger M, Pitsawong W & Kern D. Cumulative mechanism of several major imatinib-resistant mutations in Abl kinase *PNAS* **2020**"
   date: 20200727
   image: "/static/img/publications/hoemberger_2020.jpg"
