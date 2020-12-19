@@ -27,10 +27,21 @@
   pmid: 33214289
   ## pmcid: PMC####### or [Submitted; Epub Ahead of Print]
   doi: 10.1126/science.abd3623
-  ##pdb:
-  ##  - PDB_ID
-  ##bmrb:
-  ##  - BMRB_ID
+  pdf: "https://science.sciencemag.org/cgi/rapidpdf/370/6523/1442?ijkey=W.7V23cCkduwQ&keytype=ref&siteid=sci"
+  pdb:
+    - 7K4P
+    - 7K4Q
+    - 7K4R
+    - 7K4U
+    - 7K4S
+    - 7K4X
+    - 7K4V
+    - 7K4W
+    - 7K4T
+    - 7K4Z
+    - 7K4Y
+  bmrb:
+    - 50471
   links:
     - name: "Protein dynamics play major role in directed evolution’s success"
       url: "https://cen.acs.org/biological-chemistry/Protein-dynamics-play-major-role/98/web/2020/11"
