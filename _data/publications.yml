@@ -41,8 +41,7 @@
   date: 20200727
   image: "/static/img/publications/hoemberger_2020.jpg"
   pmid: 32719139
-  pmcid: Epub Ahead of Print
-  #pmcid: PMC####### or [Submitted; Epub Ahead of Print]
+  pmcid: PMC7431045
   doi: 10.1073/pnas.1919221117
 
 - citation: "Hadzipasic A, Wilson C, Nguyen V, Kern N, Kim C, Pitsawong W, Villali J, Zheng Y & Kern D. Ancient origins of allosteric activation in a Ser-Thr kinase *Science* **2020**"
