@@ -1,4 +1,4 @@
-## - citation: "LastName INITIALS, .... & LastName INITIALS. Title *Abbreviated Journal Title*, **Year**"
+## - citation: "LastName INITIALS, .... & LastName INITIALS. Title. *Abbreviated Journal Title* **Year**"
 ##   date: YYYYMMDD
 ##   image: "/static/img/publications/lastname_year.jpg"
 ##   pmid:  number or [Submitted ; Epub Ahead of Print]
@@ -21,7 +21,7 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
-- citation: "Otten R<sup>#</sup>, Pádua RAP<sup>#</sup>, Bunzel HA<sup>#</sup>, Nguyen V, Pitsawong W, Patterson M, Sui S, Perry SL, Cohen AE, Hilvert D & Kern D. How directed evolution reshapes the energy landscape in an enzyme to boost catalysis. *Science*, **2020**"
+- citation: "Otten R<sup>#</sup>, Pádua RAP<sup>#</sup>, Bunzel HA<sup>#</sup>, Nguyen V, Pitsawong W, Patterson M, Sui S, Perry SL, Cohen AE, Hilvert D & Kern D. How directed evolution reshapes the energy landscape in an enzyme to boost catalysis. *Science* **2020**"
   date: 20201116
   image: "/static/img/publications/otten_2020.jpg"
   pmid: 33214289
@@ -48,14 +48,14 @@
     - name: "Hilvert Lab"
       url: "https://protein.ethz.ch"
 
-- citation: "Hoemberger M, Pitsawong W & Kern D. Cumulative mechanism of several major imatinib-resistant mutations in Abl kinase *PNAS* **2020**"
+- citation: "Hoemberger M, Pitsawong W & Kern D. Cumulative mechanism of several major imatinib-resistant mutations in Abl kinase. *PNAS* **2020**"
   date: 20200727
   image: "/static/img/publications/hoemberger_2020.jpg"
   pmid: 32719139
   pmcid: PMC7431045
   doi: 10.1073/pnas.1919221117
 
-- citation: "Hadzipasic A, Wilson C, Nguyen V, Kern N, Kim C, Pitsawong W, Villali J, Zheng Y & Kern D. Ancient origins of allosteric activation in a Ser-Thr kinase *Science* **2020**"
+- citation: "Hadzipasic A, Wilson C, Nguyen V, Kern N, Kim C, Pitsawong W, Villali J, Zheng Y & Kern D. Ancient origins of allosteric activation in a Ser-Thr kinase. *Science* **2020**"
   date: 20200221
   image: "/static/img/publications/hadzipasic_2020.jpg"
   pmid: 32079772
@@ -269,7 +269,7 @@
     - name: "Hagan Lab"
       url: "https://www.brandeis.edu/departments/physics/hagan/index.html"
 
-- citation: "Hass MA, Liu WM, Agafonov R.V., Otten R, Phung LA, Schilder JT, Kern D & Ubbink M. A minor conformation of a lanthanide tag on adenylate kinase characterized by paramagnetic relaxation dispersion NMR spectroscopy. *J. Biomol. NMR.* **2015**"
+- citation: "Hass MA, Liu WM, Agafonov R.V., Otten R, Phung LA, Schilder JT, Kern D & Ubbink M. A minor conformation of a lanthanide tag on adenylate kinase characterized by paramagnetic relaxation dispersion NMR spectroscopy. *J. Biomol. NMR* **2015**"
   date: 20150108
   image: "/static/img/publications/hass_2015.gif"
   pmid: 25563704
@@ -394,7 +394,7 @@
     - 3K0Q
     - 3K0R
 
-- citation: "Clarkson MW, Lei M, Eisenmesser EZ, Labeikovsky W, Redfield A & Kern D. Mesodynamics in the SARS nucleocapsid measured by NMR field cycling. *J. Biomol. NMR.* **2009**"
+- citation: "Clarkson MW, Lei M, Eisenmesser EZ, Labeikovsky W, Redfield A & Kern D. Mesodynamics in the SARS nucleocapsid measured by NMR field cycling. *J. Biomol. NMR* **2009**"
   date: 20091001
   image: "/static/img/publications/clarkson_2009.gif"
   pmid: 19641854
@@ -422,7 +422,7 @@
   #pdf: "/static/pdf/shim_2009.pdf"
   links:
     - name: "Worley Lab"
-      url: "http://neuroscience.jhu.edu/PaulWorley.php"
+      url: "https://neuroscience.jhu.edu/research/faculty/97"
 
 - citation: "Thai V, Renesto P, Fowler CA, Brown DJ, Davis T, Gu W, Pollock DD, Kern D, Raoult D & Eisenmesser EZ. Structural, Biochemical, and *in Vivo* Characterization of the First Virally Encoded Cyclophilin from the Mimivirus. *J. Mol. Biol.* **2008**"
   date: 20080418
@@ -435,7 +435,7 @@
     - 2OAO
   links:
     - name: "Eisenmesser Lab"
-      url: "http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Eisenmesser.aspx"
+      url: "https://medschool.cuanschutz.edu/biochemistry/people/primary-faculty/eisenmesser-elan"
 
 - citation: "Gardino AK & Kern D. Functional Dynamics of Response Regulators Using NMR Relaxation Techniques. *Methods Enzymol.* **2007**"
   date: 20070701
@@ -504,7 +504,7 @@
   doi: 10.1016/S0076-6879(05)94021-4
   #pdf: "/static/pdf/kern_2005.pdf"
 
-- citation: "Tittmann K, Neef H, Golbik R, Hübner G & Kern D. Kinetic Control of Thiamin Diphosphate Activation in Enzymes Studied by Proton-Nitrogen Correlated NMR Spectroscopy. *Biochemistry*, **2005**"
+- citation: "Tittmann K, Neef H, Golbik R, Hübner G & Kern D. Kinetic Control of Thiamin Diphosphate Activation in Enzymes Studied by Proton-Nitrogen Correlated NMR Spectroscopy. *Biochemistry* **2005**"
   date: 20050526
   image: "/static/img/publications/tittmann_2005.gif"
   pmid: 15952776
@@ -560,7 +560,7 @@
   doi: 10.1016/j.sbi.2003.10.008
   #pdf: "/static/pdf/kern_2003.pdf"
 
-- citation: "Bosco DA, Eisenmesser E, Pochapsky S, Sundquist WI & Kern D. Catalysis of cis/trans isomerization in native HIV-1 capsid by human cyclophilin A. *Proc. Natl. Acad. Sci. USA*, **2002**"
+- citation: "Bosco DA, Eisenmesser E, Pochapsky S, Sundquist WI & Kern D. Catalysis of cis/trans isomerization in native HIV-1 capsid by human cyclophilin A. *Proc. Natl. Acad. Sci. USA* **2002**"
   date: 20020416
   image: "/static/img/publications/bosco_2002.jpg"
   pmid: 11929983
