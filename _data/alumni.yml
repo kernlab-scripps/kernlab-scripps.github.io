@@ -49,7 +49,7 @@
   enddate: 201903
   #thesis_title:
   #thesis_url:
-  current: Scientist @ Biogen
+  current: Scientist II @ Biogen
 
 - name: Christopher Wilson
   position: Graduate Student / Postdoctoral Fellow
@@ -57,7 +57,7 @@
   enddate: 201708
   #thesis_title:
   #thesis_url:
-  current: Postdoctoral Fellow - Liu Lab @ Broad Institute of MIT and Harvard
+  current: Scientist @ Prime Medicine
 
 - name: Vy Nguyen
   position: Graduate Student / Postdoctoral Fellow
@@ -65,7 +65,7 @@
   enddate: 201706
   #thesis_title:
   #thesis_url:
-  current: Scientist @ Relay Therapeutics
+  current: Scientist II @ Relay Therapeutics
 
 - name: Roman Agafonov
   position: Postdoctoral Fellow
@@ -73,13 +73,13 @@
   enddate: 201606
   current: Senior Research Scientist I @ C4 Therapeutics
 
-- name: Adelajda Zorba
+- name: Adelajda Hadzipasic-Zorba
   position: Graduate Student / Postdoctoral Fellow
   startdate: 200909
   enddate: 201607
   thesis_title: Mechanism of Aurora A kinase activation and catalysis
   thesis_url: https://search.proquest.com/docview/1351296909/
-  current: Scientist @ Biogen
+  current: Scientist II @ Biogen
 
 - name: Janice Villali
   position: Graduate Student / Postdoctoral Fellow
@@ -112,7 +112,7 @@
   enddate: 201106
   thesis_title: The Catalytic Energy Landscape of Adenylate Kinase
   thesis_url: https://search.proquest.com/docview/753469380
-  current: Principal Investigator @ Emulate, Inc.
+  current: Director of Biological Science @ Emulate, Inc.
 
 - name: Alex Milshteyn
   position: Graduate Student
@@ -120,7 +120,7 @@
   enddate: 201112
   thesis_title: Peptidyl-prolyl Isomerization in the Regulation of Neuronal Signaling Pathways
   thesis_url: https://search.proquest.com/docview/871453656
-  current: Scientist II @ Zymergen, Inc.
+  current: Scientist III @ Zymergen, Inc.
 
 - name: Dimitar Pachov
   position: Graduate Student
@@ -136,7 +136,7 @@
   enddate: 2005
   thesis_title: Mechanism and energetics of phosphorylation-mediated signaling
   thesis_url: https://search.proquest.com/docview/305027830
-  current: Principal Scientist @ Accent Therapeutics
+  current: Associate Director @ Accent Therapeutics
 
 - name: Daryl A. Bosco
   position: Graduate Student
@@ -158,7 +158,7 @@
   position: Postdoctoral Fellow
   startdate: 2001
   enddate: 2004
-  current: Associate Professor - Department of Chemistry @ University of Umeå, Sweden
+  current: Professor - Department of Chemistry @ University of Umeå, Sweden
   website: https://www.biostruct.umu.se/principal-investigators/magnus-wolf-watz/
 
 - name: Elan Eisenmesser
@@ -166,7 +166,7 @@
   startdate: 200109
   enddate: 200609
   current: Associate Professor - Department of Biochemistry @ University of Colorado
-  website: http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Eisenmesser.aspx
+  website: https://medschool.cuanschutz.edu/biochemistry/people/primary-faculty/eisenmesser-elan
 
 - name: Annette Sievers
   position: Postdoctoral Fellow
@@ -208,14 +208,14 @@
   position: Postdoctoral Fellow
   startdate: 200806
   enddate: 201207
-  current: Senior Scientist @ WAVE Life Sciences
+  current: Principal Scientist @ Arrakis Therapeutics
 
 - name: Kalyan S. Chakrabarti
   position: Postdoctoral Fellow
   startdate: 200904
   enddate: 201209
   current: Assistant Professor - Department of Biological Science and Chemistry @ Krea University, Chittoor, Andhra Pradesh, India
-  website: https://www.krea.edu.in/faculty.html
+  website: https://krea.edu.in/sias/kalyan-s-chakrabarti/
 
 - name: Vanessa Buosi
   position: Postdoctoral Fellow
@@ -227,7 +227,7 @@
   position: Postdoctoral Fellow
   startdate: 201103
   enddate: 201501
-  current: Associate Director @ Pieris Pharmaceuticals, Germany
+  current: Associate Director, Head of Data Science & Digitalization @ Pieris Pharmaceuticals, Germany
 
 - name: Francesco Pontiggia
   position: Postdoctoral Fellow / Research Computing Specialist
@@ -281,7 +281,7 @@
   enddate: 201605
   #thesis_title:
   #thesis_url:
-  current: Senior Analyst @ Health Advances
+  current: Manager, Business Development @ Alnylam Pharmaceuticals
 
 - name: Camelia Zheng
   position: Undergraduate Student
