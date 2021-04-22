@@ -8,6 +8,12 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: John Stiller
+  position: Graduate Student / Postdoctoral Fellow
+  startdate: 201505
+  enddate: 202104
+  current: Scientist @ Prime Medicine
+
 - name: Patrick Finneran
   position: Graduate Student
   startdate: 201505

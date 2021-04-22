@@ -119,17 +119,6 @@
     - 'Oueis E, Adamson C, Mann G, Ludewig H, Redpath P, Migaud M, Westwood NJ & Naismith JH. Derivatisable Cyanobactin Analogues: A Semisynthetic Approach. *ChemBioChem* **2015**'
     - Koehnke J, Mann G, Bent AF, Ludewig H, Shirran S, Botting C, Lebl T, Houssen WE, Jaspars M & Naismith JH. Structural analysis of leader peptide binding enables leader-free cyanobactin processing. *Nat. Chem. Biol.* **2015**
 
-- name: John Stiller
-  image: /static/img/members/john.jpg
-  position: Postdoctoral Fellow
-  email: jstiller (at) brandeis.edu
-  startdate: 202007
-  startdatelab: 201505
-  education:
-    - 2014 - BSc Biochemistry, Trinity College, Hartford, CT, USA
-    - 2020 - PhD Biochemistry, Brandeis University, Waltham, MA, USA
-  description: Protein’s exist upon a delicate energy landscape where multiple states are within several kJ of one another. While current structural techniques characterize the lowest energy conformation, the higher energy states remain obscured. However, recently NMR techniques have been developed which allows one to infer structural information about these excited states. With that in mind, my interests involve structurally investigating protein ensembles and discovering how regulation and drug binding are manipulated by conformational interexchange.
-
 - name: Zachary Boswell
   image: /static/img/members/zach.jpg
   position: Postdoctoral Fellow
