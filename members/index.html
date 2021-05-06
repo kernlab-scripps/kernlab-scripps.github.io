@@ -8,7 +8,7 @@ group: members
 
 <h3>Principal Investigator</h3> <hr>
 {% assign investigator = site.data.members | where: "position", "Principal Investigator" -%}
-<div class="row d-flex justify-content-around">
+<div class="d-flex justify-content-around">
 {%- for pi in investigator -%}
   <div class="p-2 text-center">
     <a href="/member/#{{ pi.name | url_encode }}"><img class="img-fluid center-block" src="{{ pi.image }}" title="{{ pi.name }}" alt="{{ pi.name }}" style="max-height:250px;max-width:250px"></a> <br>
@@ -31,7 +31,7 @@ group: members
 
 {% assign postdocs = site.data.members | where: "position", "Postdoctoral Fellow" | sort: "startdate" -%}
 {%- if postdocs.size -%}<h3>Postdoctoral Fellows</h3> <hr>{%- endif -%}
-<div class="row d-flex justify-content-around">
+<div class="d-flex flex-wrap justify-content-around">
 {%- for person in postdocs %}
   <div class="p-2 text-center">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
@@ -54,7 +54,7 @@ group: members
 
 {% assign gradstudents = site.data.members | where: "position", "Graduate Student" | sort: "startdate" -%}
 {%- if gradstudents.size -%}<h3>Graduate Students</h3> <hr>{%- endif -%}
-<div class="row d-flex justify-content-around">
+<div class="d-flex flex-wrap justify-content-around">
 {%- for person in gradstudents %}
   <div class="p-2 text-center">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
@@ -77,7 +77,7 @@ group: members
 
 {% assign masterstudents = site.data.members | where: "position", "Master Student" | sort: "startdate" -%}
 {%- if mastertudents.size -%}<h3>Master Students</h3> <hr>{%- endif -%}
-<div class="row d-flex justify-content-around">
+<div class="d-flex flex-wrap justify-content-around">
 {%- for person in masterstudents %}
   <div class="p-2 text-center">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
@@ -100,7 +100,7 @@ group: members
 
 {% assign undergrads = site.data.members | where: "position", "Undergraduate Student" | sort: "startdate" -%}
 {%- if undergrads.size -%}<h3>Undergraduate Students</h3> <hr>{%- endif -%}
-<div class="row d-flex justify-content-around">
+<div class="d-flex flex-wrap justify-content-around">
 {%- for person in undergrads %}
   <div class="p-2 text-center">
     <a href="/member/#{{ person.name | url_encode }}"><img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px"></a> <br>
