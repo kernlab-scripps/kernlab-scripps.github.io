@@ -12,9 +12,13 @@ Before pushing changes to the live website, please verify that everything works 
 1. install Ruby (https://www.ruby-lang.org)
 2. install Bundler (https://bundler.io)
 
-In the root-directory of the website, run the following commands:
+In the root-directory of the website, run the following commands to install the packages and show
+the website:
 
-    bundle install --path vendor/bundle
+    bundle update --bundler
+    bundle config set path 'vendor/bundle'
+    bundle install
+
     bundle exec jekyll serve
 
 the website will be available at [http://127.0.0.1:4000](http://127.0.0.1:4000).
