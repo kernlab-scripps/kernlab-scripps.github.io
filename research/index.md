@@ -19,8 +19,8 @@ We propose that the pre-sampling of conformational states needed for catalysis a
 <div class="row">
   <div class="col-2"></div>
   <div class="col-8">
-   <div class="embed-responsive embed-responsive-16by9">
-   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PL9BXLQ4wcldFh-hCi5LgvxdgfpvIogUdi" allowfullscreen></iframe>
+   <div class="ratio ratio-16x9">
+   <iframe src="https://www.youtube.com/embed/videoseries?list=PL9BXLQ4wcldFh-hCi5LgvxdgfpvIogUdi" allowfullscreen></iframe>
    </div>
   </div>
   <div class="col-2"></div>
