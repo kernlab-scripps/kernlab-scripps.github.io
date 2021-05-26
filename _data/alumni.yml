@@ -8,6 +8,12 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Joseph Irvin
+  position: Undergraduate Student
+  startdate: 201808
+  enddate: 202105
+  current: Graduate Student @ University of Rochester
+
 - name: John Stiller
   position: Graduate Student / Postdoctoral Fellow
   startdate: 201505
