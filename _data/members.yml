@@ -184,6 +184,17 @@
     - 2018 - BSc Biochemistry, University of Massachusetts Boston, Boston, MA, USA
   description: Adenylate kinase (ADK) is a phosphotransferase that regulates energy homeostasis by controlling intracellular nucleotide levels. ADK is an essential enzyme that is found across all domains of life, and its stability is correlated to organismal growth. This stability/fitness relationship imposes that ancestral ADK evolved modern sequences that are stable in the same environments occupied by their native organisms. I am interested in studying how ADK evolved by investigating the effects of mutations on the structural and dynamic properties of the enzyme using biophysical techniques such as X-ray crystallography and NMR spectroscopy.
 
+- name: Christiana Ntangka
+  image: /static/img/members/christiana.jpg
+  position: Graduate Student
+  email: cntangka (at) brandeis.edu
+  startdate: 202105
+  education:
+    - 2020 - BS in Biochemistry, Old Dominion University, Norfolk, VA, USA
+  #description:
+  publications:
+    - Bowitch A, Sahoo A, Clark AM, Ntangka C, Raut KK, Gollnick I, Yu MC, Pascal SM, Walker SE & Ferkey DM. Methylation of the D2 dopamine receptor affects binding with the human regulatory proteins Par-4 and Calmodulin. *MicroPubl Biol.*  **2021**
+
 
 # Master students
 
