@@ -198,6 +198,20 @@
 
 # Master students
 
+- name: Carolyn Morningstar
+  image: /static/img/members/default.jpg
+  position: Master Student
+  email: cmorningstar (at) brandeis.edu
+  startdate: 202201
+  #education:
+
+- name: Lufan Xiao
+  image: /static/img/members/default.jpg
+  position: Master Student
+  email: lux011 (at) brandeis.edu
+  startdate: 202201
+  #education:
+
 
 # Undergraduate students
 
