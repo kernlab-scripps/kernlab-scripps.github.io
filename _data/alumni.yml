@@ -55,7 +55,7 @@
   enddate: 201903
   #thesis_title:
   #thesis_url:
-  current: Scientist II @ Biogen
+  current: Biochemist @ NextRNA Therapeutics
 
 - name: Christopher Wilson
   position: Graduate Student / Postdoctoral Fellow
@@ -71,13 +71,13 @@
   enddate: 201706
   #thesis_title:
   #thesis_url:
-  current: Scientist II @ Relay Therapeutics
+  current: Senior Scientist I @ Relay Therapeutics
 
 - name: Roman Agafonov
   position: Postdoctoral Fellow
   startdate: 201002
   enddate: 201606
-  current: Senior Research Scientist I @ C4 Therapeutics
+  current: Senior Research Scientist II @ C4 Therapeutics
 
 - name: Adelajda Hadzipasic-Zorba
   position: Graduate Student / Postdoctoral Fellow
@@ -85,7 +85,7 @@
   enddate: 201607
   thesis_title: Mechanism of Aurora A kinase activation and catalysis
   thesis_url: https://search.proquest.com/docview/1351296909/
-  current: Scientist II @ Biogen
+  current: Principal Scientist II @ Novartis Institutes for BioMedical Research (NIBR)
 
 - name: Janice Villali
   position: Graduate Student / Postdoctoral Fellow
@@ -93,7 +93,7 @@
   enddate: 200908
   thesis_title: Mechanism of activation at atomic resolution of the signaling protein NtrC
   thesis_url: https://search.proquest.com/docview/304846122
-  current: Senior Scientist @ Relay Therapeutics
+  current: Senior Scientist II @ Relay Therapeutics
 
 - name: Wladimir Labeikovsky
   position: Graduate Student
@@ -142,7 +142,7 @@
   enddate: 2005
   thesis_title: Mechanism and energetics of phosphorylation-mediated signaling
   thesis_url: https://search.proquest.com/docview/305027830
-  current: Associate Director @ Accent Therapeutics
+  current: Director @ Accent Therapeutics
 
 - name: Daryl A. Bosco
   position: Graduate Student
@@ -150,7 +150,7 @@
   enddate: 2003
   thesis_title: Investigation of a catalytic role for cyclophilin A in HIV-1 replication
   thesis_url: https://search.proquest.com/docview/305208275
-  current: Associate Professor - Department of Neurology @ UMASS Medical
+  current: Professor - Department of Neurology @ UMASS Medical
   website: https://www.boscolab.com
 
 - name: Katherine Henzler-Wildman
