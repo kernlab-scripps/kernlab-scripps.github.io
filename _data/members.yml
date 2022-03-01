@@ -199,11 +199,12 @@
 # Master students
 
 - name: Carolyn Morningstar
-  image: /static/img/members/default.jpg
+  image: /static/img/members/carolyn.jpg
   position: Master Student
   email: cmorningstar (at) brandeis.edu
   startdate: 202201
-  #education:
+  education:
+    - 2021 - BS in Biochemistry, Juniata College, Huntingdon PA, USA
 
 - name: Lufan Xiao
   image: /static/img/members/default.jpg
