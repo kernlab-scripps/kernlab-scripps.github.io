@@ -21,6 +21,24 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
+- citation: "Stiller JB, Otten R, Häussinger D, Rieder PS, Theobald DL & Kern D. Structure determination of high-energy states in a dynamic protein ensemble. *Nature* **2022**"
+  date: 20220302
+  image: "/static/img/publications/stiller_2022.jpg"
+  pmid: 35236984
+  pmcid: Epub Ahead of Print
+  doi: 10.1038/s41586-022-04468-9
+  # pdf: "/static/pdf/lastname_year.pdf"
+  bmrb:
+    - 51232
+    - 51233
+  links:
+    - name: "Theobald Lab"
+      url: "https://theobald.brandeis.edu"
+    - name: "Häussinger Lab"
+      url: "https://haeussinger.chemie.unibas.ch/en/group/daniel-haeussinger"
+    - name: "Kern-Lab GitHub"
+      url: "https://github.com/kernlab-brandeis/PCS-CPMG"
+
 - citation: "Otten R<sup>#</sup>, Pádua RAP<sup>#</sup>, Bunzel HA<sup>#</sup>, Nguyen V, Pitsawong W, Patterson M, Sui S, Perry SL, Cohen AE, Hilvert D & Kern D. How directed evolution reshapes the energy landscape in an enzyme to boost catalysis. *Science* **2020**"
   date: 20201116
   image: "/static/img/publications/otten_2020.jpg"
