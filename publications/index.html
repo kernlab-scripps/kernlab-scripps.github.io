@@ -10,6 +10,7 @@ group: publications
 
 {%- for publication in sorted_publications -%}
 {%- assign pmid_number = publication.pmid | abs -%}
+{%- assign pmcid_number = publication.pmcid | abs -%}
 
 {%- if pmid_number != 0 -%}
   <div style="padding-top: 60px; margin-top: -60px;" id="{{ publication.pmid }}"></div>
@@ -28,9 +29,9 @@ group: publications
     <div class="col-lg-4">
       <strong>Access the paper</strong>
       <ul>
-        <li>PMID: {% if pmid_number != 0 -%}<a href="https://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}">{{ publication.pmid }}</a>{%- else -%}{{ publication.pmid }} {%- endif %}</li>
+        <li>PMID: {% if pmid_number != 0 -%}<a href="https://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}">{{ publication.pmid }}</a>{%- else -%}{{ publication.pmid }}{%- endif %}</li>
       {%- if publication.pmcid %}
-        <li>PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ publication.pmcid }}">{{ publication.pmcid }}</a></li>
+        <li>PMCID: {% if pmcid_number != 0 -%}<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ publication.pmcid }}">{{ publication.pmcid }}</a>{%- else -%}{{ publication.pmcid }}{%- endif %}</li>
       {%- endif -%}
       {% if publication.biorxiv %}
         <li>bioRxiv Preprint: <a href="https://dx.doi.org/10.1101/{{ publication.biorxiv }}">{{ publication.biorxiv }}</a></li>
