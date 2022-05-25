@@ -62,26 +62,6 @@
       - Louhivuori M, Otten R, Lindorff-Larsen K & Annila A. Conformational Fluctuations Affect Protein Alignment in Dilute Liquid Crystal Media. *J. Am. Chem. Soc.* **2006**
       - 'Otten R, van Lune FS, Dijkstra K & Scheek RM. Letter to the Editor: <sup>1</sup>H, <sup>13</sup>C, and <sup>15</sup>N Resonance Assignments of the Phosphorylated Enzyme IIB of the Mannitol-Specific Phophoenolpyruvate-Dependent Phosphotransferase System of *Escherichia coli*. *J. Biomol. NMR* **2004**'
 
-- name: Warintra Pitsawong
-  image: /static/img/members/warintra.jpg
-  position: Postdoctoral Fellow
-  email: warintra (at) brandeis.edu
-  scholar: fyoW_PIAAAAJ
-  orcid: 0000-0001-5438-1783
-  startdate: 201505
-  education:
-    - 2007 - BSc Chemistry, Mahidol University, Bangkok, Thailand
-    - 2009 - MSc Biochemistry, Mahidol University, Bangkok, Thailand
-    - 2014 - PhD Chemistry, University of Kentucky, Lexington, KY, USA
-  #description:
-  publications:
-    - Pitsawong W, Chenprakhon P, Dhammaraj T, Medhanavyn D, Sucharitakul J, Tonsook C, van Berkel WJH, Chaiyen P & Miller A-F. Tuning of pKas activates substrates in flavin-dependent aromatic hydroxylases. *J. Biol. Chem.* **2020**
-    - Miller A-F, Park JT, Ferguson KL, Pitsawong W & Bommarius AS. Informing Efforts to Develop Nitroreductase for Amine Production. *Molecules* **2018**
-    - "Pitsawong W, Haynes CA, Koder RL, Rodgers DW & Miller A-F. Mechanism-Informed Refinement Reveals Altered Substrate-Binding Mode for Catalytically Competent Nitroreductase. *Structure* **2017**"
-    - Pitsawong W, Hoben JP & Miller A-F. Understanding and Exploiting the Broad Substrate Repertoire of Nitroreductase via Kinetic Mechanism. *J. Biol. Chem.* **2014**
-    - Tinikul R<sup>#</sup>, Pitsawong W<sup>#</sup>, Sucharitakul J, Nijvipakul S, Ballou DP & Chaiyen P. The Transfer of Reduced Flavin Mononucleotide from LuxG Oxidoreductase to Luciferase Occurs via Free Diffusion. *Biochemistry* **2013**
-    - "Tan T-C, Pitsawong W, Wongnate T, Spadiut O, Haltrich D, Chaiyen P & Divne C. H-bonding and Positive Charge at the N(5)/O(4) Locus Are Critical for Covalent Flavin Attachment in Trametes Pyranose 2-Oxidase. *J. Mol. Biol.* **2010**"
-    - Pitsawong W, Sucharitakul J, Prongjit M, Tan T-C, Spadiut O, Haltrich D, Divne C, & Chaiyen P. A Conserved Active-site Threonine Is Important for Both Sugar and Flavin Oxidation of Pyranose 2-Oxidase. *J. Biol. Chem.* **2010**
 
 - name: Ricardo Pádua
   image: /static/img/members/ricardo.jpg
@@ -118,21 +98,6 @@
     - Czekster CM, Ludewig H, McMahon SA & Naismith JH. Characterization of a dual function macrocyclase enables design and use of efficient macrocyclization substrates. *Nat. Commun.* **2017**
     - 'Oueis E, Adamson C, Mann G, Ludewig H, Redpath P, Migaud M, Westwood NJ & Naismith JH. Derivatisable Cyanobactin Analogues: A Semisynthetic Approach. *ChemBioChem* **2015**'
     - Koehnke J, Mann G, Bent AF, Ludewig H, Shirran S, Botting C, Lebl T, Houssen WE, Jaspars M & Naismith JH. Structural analysis of leader peptide binding enables leader-free cyanobactin processing. *Nat. Chem. Biol.* **2015**
-
-- name: Zachary Boswell
-  image: /static/img/members/zach.jpg
-  position: Postdoctoral Fellow
-  email: zboswell (at) brandeis.edu
-  startdate: 202010
-  education:
-    - 2015 - BSc Biochemistry and Molecular Biology, Hardin-Simmons University, Abilene, TX, USA
-    - 2020 - PhD Biochemistry, Texas Tech University, Lubbock, TX, USA
-  publications:
-    - Boswell ZK, Canny MD, Buschmann TA, Sang J & Latham, MP. Adjacent mutations in the archaeal Rad50 ABC ATPase D-loop disrupt allosteric regulation of ATP hydrolysis through different mechanisms. *Nucleic Acids Res.* **2020**
-    - Boswell ZK & Latham MP. Methyl-Based NMR Spectroscopy Methods for Uncovering Structural Dynamics in Large Proteins and Protein Complexes. *Biochemistry* **2019**
-    - Boswell ZK, Rahman S, Canny, MD & Latham MP. A dynamic allosteric pathway underlies Rad50 ABC ATPase function in DNA repair. *Sci. Rep.* **2018**
-  #description:
-  orcid: 0000-0003-4205-4907
 
 
 # Graduate students
@@ -195,6 +160,20 @@
   publications:
     - Bowitch A, Sahoo A, Clark AM, Ntangka C, Raut KK, Gollnick I, Yu MC, Pascal SM, Walker SE & Ferkey DM. Methylation of the D2 dopamine receptor affects binding with the human regulatory proteins Par-4 and Calmodulin. *MicroPubl Biol.*  **2021**
 
+- name: Camille Sullivan
+  image: /static/img/members/default.jpg
+  position: Graduate Student
+  email: camillesullivan (at) brandeis.edu
+##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
+##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
+  startdate: 202205
+##  education:
+##    - YYYY - BSc Biochemistry, University, Country
+##    - YYYY - MSc Biochemistry, University, Country
+##    - YYYY - PhD Biochemistry, University, Country
+##  description:
+##  publications:
+##    - citation (only for papers not published in the Kern Lab)
 
 # Master students
 

@@ -8,6 +8,18 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Warintra Pitsawong
+  position: Postdoctoral Fellow
+  startdate: 201505
+  enddate: 202205
+  current: Scientist II @ Relay Therapeutics
+
+- name: Zachary Boswell
+  position: Postdoctoral Fellow
+  startdate: 202010
+  enddate: 202204
+  current: Scientist @ Scholar Rock
+
 - name: Joseph Irvin
   position: Undergraduate Student
   startdate: 201808
