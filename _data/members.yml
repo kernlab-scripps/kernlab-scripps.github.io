@@ -48,6 +48,7 @@
     - Pádua RAP & Nonato MC. Cloning, Expression, Purification, Crystallization and Preliminary X-ray Diffraction Analysis of Recombinant Human Fumarase. *Acta Crystallogr. F. Struct. Biol. Commun.* **2014**
 
 - name: Hannes Ludewig
+  webmaster: "True"
   image: /static/img/members/hannes.jpg
   position: Postdoctoral Fellow
   email: hannesludewig (at) brandeis.edu
