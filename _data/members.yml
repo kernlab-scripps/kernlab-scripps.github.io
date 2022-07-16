@@ -30,39 +30,6 @@
 
 # Postdoctoral Fellows
 
-- name: Renee Otten
-  webmaster: "True"
-  image: /static/img/members/renee.jpg
-  position: Postdoctoral Fellow
-  email: ottenr (at) brandeis.edu
-  scholar: FK0VswsAAAAJ&hl
-  orcid: 0000-0001-7342-6131
-  startdate: 201104
-  education:
-    - 2006 - MSc Chemistry, Department of Biophysical Chemistry, University of Groningen, Groningen, The Netherlands
-    - 2011 - PhD Chemistry, Department of Biophysical Chemistry, Groningen Biomolecular Sciences and Biotechnology Institute (GBB), University of Groningen, Groningen, The Netherlands
-  description: Over the past decade(s) it has been become increasingly evident that both a high-resolution structure and a detailed insight in its dynamics are of critical importance to understand the function of a biological macromolecule. Nuclear magnetic resonance (NMR) spectroscopy is one of the most powerful techniques to study protein dynamics over a wide range of time scales and, moreover, can provide such information for many different nuclei with atomic resolution. I am interested in the development and application of NMR methodology to study protein structure/dynamics, with the goal to elucidate the intricate relationship between protein structure/dynamics and enzyme catalysis.
-  publications:
-      - Niklasson M, Otten R, Ahlner A, Andresen C, Schlagnitweit J, Petzhold K & Lundström P. Comprehensive Analysis of NMR Data Using Advanced Line Shape Fitting. *J. Biomol. NMR* **2017**
-      - Oktaviani NA, Risor MW, Lee YH, Megens RP, de Jong DH, Otten R, Scheek RM, Enghild JJ, Nielsen NC, Ikegami T & Mulder FAA. Optimized Co-Solute Paramagnetic Relaxation Enhancement for the Rapid NMR Analysis of a Highly Fibrillogenic Peptide. *J. Biomol. NMR* **2015**
-      - 'Maeno SJ, Sindhikara D, Hirata F, Otten R, Dahlquist FW, Yokoyama S, Akasaka K, Mulder FAA & Kitahara R. Cavity as a Source of Conformational Fluctuation and High-Energy State: High-Pressure NMR Study of a Cavity-Enlarged Mutant of T4 Lysozyme. *Biophys. J.* **2015**'
-      - Chu BCH, Otten R, Krewulak KD, Mulder FAA & Vogel HJ. The Solution Structure, Binding Properties, and Dynamics of the Bacterial Siderophore-Binding Protein FepB. *J. Biol. Chem.* **2014**
-      - Meniche X, Otten R, Siegrist MS, Baer CE, Murphy KC, Bertozzi CR & Sassetti CM. Subpolar Addition of New Cell Wall Is Directed by DivIVA in Mycobacteria. *Proc Natl. Acad. Sci. USA* **2014**
-      - Wood K<sup>#</sup>, Gallat FX<sup>#</sup>, Otten R<sup>#</sup>, van Heel AJ, Lethier M, van Eijck L, Moulin M, Haertlein M, Weik M & Mulder FAA. Protein Surface and Core Dynamics Show Concerted Hydration-Dependent Activation. *Angew. Chem. Int. Ed.* **2013**
-      - Stockbridge RB, Lim HH, Otten R, Williams C, Shane T, Weinberg Z & Miller C. Fluoride Resistance and Transport by Riboswitch-Controlled CLC Antiporters. *Proc Natl. Acad. Sci. USA* **2012**
-      - Wood K, Paz A, Dijkstra K, Scheek RM, Otten R, Silman I, Sussman JL & Mulder FAA. Backbone and Side Chain NMR Assignments for the Intrinsically Disordered Cytoplasmic Domain of Human neuroligin-3. *Biomol. NMR Assign.* **2012**
-      - Karasawa A, Erkens GB, Berntsson RPA, Otten R, Schuurman-Wolters GK, Mulder FAA & Poolman B. Cystathionine β-Synthase (CBS) Domains 1 and 2 Fulfill Different Roles in Ionic Strength Sensing of the ATP-binding Cassette (ABC) Transporter OpuA. *J. Biol. Chem.* **2011**
-      - Mulder FAA, Otten R & Scheek RM. Origin and Removal of Mixed-Phase Artifacts in Gradient Sensitivity Enhanced Heteronuclear Single Quantum Correlation Spectra. *J. Biomol. NMR* **2011**
-      - Meinema AC<sup>#</sup>, Laba JK<sup>#</sup>, Hapsari RA<sup>#</sup>, Otten R, Mulder FAA, Kralt A, van den Bogaart G, Lusk CP, Poolman B & Veenhoff LM. Long Unfolded Linkers Facilitate Membrane Protein Import Through the Nuclear Pore Complex. *Science* **2011**
-      - Oktaviani NA, Otten R, Dijkstra K, Scheek RM, Thulin E, Akke M & Mulder FAA. 100% Complete Assignment of Non-Labile <sup>1</sup>H, <sup>13</sup>C, and <sup>15</sup>N Signals for Calcium-Loaded Calbindin D<sub>9k</sub> P43G. *Biomol. NMR Assign.* **2011**
-      - 'Otten R, Villali J, Kern D & Mulder FAA. Probing Microsecond Time Scale Dynamics in Proteins by Methyl <sup>1</sup>H Carr−Purcell−Meiboom−Gill Relaxation Dispersion     NMR Measurements. Application to Activation of the Signaling Protein NtrC<sup>r</sup>. *J. Am. Chem. Soc.* **2010**'
-      - Otten R, Chu B, Krewulak KD, Vogel HJ & Mulder FAA. Comprehensive and Cost-Effective NMR Spectroscopy of Methyl Groups in Large Proteins. *J. Am. Chem. Soc.* **2010**
-      - Otten R<sup>#</sup>, Wood K<sup>#</sup> & Mulder FAA. Comprehensive Determination of <sup>3</sup>J<sub>HNHα</sub> for Unfolded Proteins Using <sup>13</sup>C′-Resolved Spin-Echo Difference Spectroscopy. *J. Biomol. NMR* **2009**
-      - Louhivuori M, Otten R, Salminen T & Annila A. Evidence of Molecular Alignment Fluctuations in Aqueous Dilute Liquid Crystalline Media. *J. Biomol. NMR* **2007**
-      - Louhivuori M, Otten R, Lindorff-Larsen K & Annila A. Conformational Fluctuations Affect Protein Alignment in Dilute Liquid Crystal Media. *J. Am. Chem. Soc.* **2006**
-      - 'Otten R, van Lune FS, Dijkstra K & Scheek RM. Letter to the Editor: <sup>1</sup>H, <sup>13</sup>C, and <sup>15</sup>N Resonance Assignments of the Phosphorylated Enzyme IIB of the Mannitol-Specific Phophoenolpyruvate-Dependent Phosphotransferase System of *Escherichia coli*. *J. Biomol. NMR* **2004**'
-
-
 - name: Ricardo Pádua
   image: /static/img/members/ricardo.jpg
   position: Postdoctoral Fellow

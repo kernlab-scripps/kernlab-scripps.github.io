@@ -8,6 +8,12 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Renee Otten
+  position: Postdoctoral Fellow
+  startdate: 201104
+  enddate: 202206
+  current: Senior Scientist @ Treeline Biosciences
+
 - name: Warintra Pitsawong
   position: Postdoctoral Fellow
   startdate: 201505
