@@ -24,7 +24,7 @@
   position: Postdoctoral Fellow
   startdate: 202010
   enddate: 202204
-  current: Scientist @ Scholar Rock
+  #current: ???
 
 - name: Joseph Irvin
   position: Undergraduate Student
@@ -73,7 +73,7 @@
   enddate: 201903
   #thesis_title:
   #thesis_url:
-  current: Biochemist @ NextRNA Therapeutics
+  current: Senior Scientist @ Treeline Biosciences
 
 - name: Christopher Wilson
   position: Graduate Student / Postdoctoral Fellow
@@ -144,7 +144,7 @@
   enddate: 201112
   thesis_title: Peptidyl-prolyl Isomerization in the Regulation of Neuronal Signaling Pathways
   thesis_url: https://search.proquest.com/docview/871453656
-  current: Scientist III @ Zymergen, Inc.
+  current: Senior Scientist @ Zymergen, Inc.
 
 - name: Dimitar Pachov
   position: Graduate Student
@@ -232,7 +232,7 @@
   position: Postdoctoral Fellow
   startdate: 200806
   enddate: 201207
-  current: Principal Scientist @ Arrakis Therapeutics
+  #current: ???
 
 - name: Kalyan S. Chakrabarti
   position: Postdoctoral Fellow
@@ -245,7 +245,7 @@
   position: Postdoctoral Fellow
   startdate: 201101
   enddate: 201407
-  current: Project Manager @ Sanofi Pasteur, France
+  current: Alliance Manager @ Evotec, France
 
 - name: Timo Eichner
   position: Postdoctoral Fellow
@@ -257,25 +257,25 @@
   position: Postdoctoral Fellow / Research Computing Specialist
   startdate: 200810
   enddate: 2017
-  current: Cyber Infrastructure Research Consultant @ SEAS & FAS RC Harvard University
+  current: Head of HPC Infrastructure @ Roivant Sciences
 
 - name: Steffen Kutter
   position: Postdoctoral Fellow
   startdate: 200907
   enddate: 201708
-  current: Scientist @ Xtal BioStructures
+  current: Principal Scientist I @ Schrödinger
 
 - name: Julius Rentergent
   position: Postdoctoral Fellow
   startdate: 201601
   enddate: 201712
-  current: Data Scientist @ The Trade Desk, Inc.
+  current: Senior Data Scientist @ The Trade Desk, Inc.
 
 - name: Yizhi Sun
   position: Postdoctoral Fellow
   startdate: 201505
   enddate: 201711
-  current: Research Fellow - Spiegelman Lab @  Dana-Farber Cancer Institute and Harvard Medical School
+  current: Research Fellow - Spiegelman Lab @ Dana-Farber Cancer Institute and Harvard Medical School
 
 - name: Ole Clausen
   position: Exchange Graduate Student
