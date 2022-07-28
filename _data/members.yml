@@ -68,6 +68,31 @@
     - 'Oueis E, Adamson C, Mann G, Ludewig H, Redpath P, Migaud M, Westwood NJ & Naismith JH. Derivatisable Cyanobactin Analogues: A Semisynthetic Approach. *ChemBioChem* **2015**'
     - Koehnke J, Mann G, Bent AF, Ludewig H, Shirran S, Botting C, Lebl T, Houssen WE, Jaspars M & Naismith JH. Structural analysis of leader peptide binding enables leader-free cyanobactin processing. *Nat. Chem. Biol.* **2015**
 
+- name: Hannah Wayment-Steele
+##  webmaster: "True" (only for the person who is currently webmaster)
+  image: /static/img/members/hannah.jpg
+  position: Postdoctoral Fellow
+  email: wayment (at) brandeis.edu
+  scholar: MHNfkuUAAAAJ
+  orcid: 0000-0003-4949-2010  
+  startdate: 202206
+##  startdatelab: YYYYMM [date for joining the lab]
+  education:
+    - 2015 - B.A. Chemistry & Mathematics, Pomona College, USA
+    - 2016 - M.Phil. Chemistry, Cambridge University, UK
+    - 2021 - PhD Chemistry, Stanford, USA
+##  description:
+  publications:
+    - Wayment-Steele HK, Kladwang W, Strom AI, Becka A, Lee J, Treuille A, Eterna Participants, Das R. RNA secondary structure packages evaluated and improved by high-throughput experiments. *bioRxiv* **2022** 
+    - Wayment-Steele HK, Kladwang W, Watkins AM, Kim DS, Tunguz B, ... Das R. Deep learning models for predicting RNA degradation via dual crowdsourcing. *Arxiv* **2022**
+    - Leppek K, Byeon GW, Kladwang W, Wayment-Steele HK, Kerr CH, ... Barna M & Das R. Combinatorial optimization of mRNA structure, stability, and translation for RNA-based therapeutics. *Nature Communications* **2021**
+    - Wayment-Steele HK, Kim DS, Choe CA, Nicol JJ, Wellington-Oguri R, Sperberg RAP, Huang P, Eterna Participants & Das R. Theoretical basis for stabilizing messenger RNA through secondary structure design. *Nucleic Acids Research* **2021**
+    - Wayment-Steele HK, Wu M, Gotrik M & Das R. Evaluating riboswitch optimality. *Methods in Enzymology* **2019**
+    - Kostrz D, Wayment-Steele HK, Wang JL, Follenfant M, Pande VS, Strick TR & Gosse C. A modular DNA scaffold to study protein–protein interactions at single-molecule resolution. *Nature Nanotechnology* **2019**
+    - Wayment-Steele HK & Pande VS. Variational encoding of protein dynamics benefits from maximizing latent autocorrelation. *The Journal of Chemical Physics* **2018**
+    - Hernandez CX, Wayment-Steele HK, Sultan MM, Husic BE & Pande VS. Variational Encoding of Complex Dynamics. *Physical Review E* **2018**
+    - Sultan MM, Wayment-Steele HK & Pande VS. Transferable neural networks for enhanced sampling of protein dynamics. *Journal of Chemical Theory and Computation* **2018**
+
 
 # Graduate students
 
@@ -130,7 +155,7 @@
     - Bowitch A, Sahoo A, Clark AM, Ntangka C, Raut KK, Gollnick I, Yu MC, Pascal SM, Walker SE & Ferkey DM. Methylation of the D2 dopamine receptor affects binding with the human regulatory proteins Par-4 and Calmodulin. *MicroPubl Biol.*  **2021**
 
 - name: Camille Sullivan
-  image: /static/img/members/default.jpg
+  image: /static/img/members/camille.jpg
   position: Graduate Student
   email: camillesullivan (at) brandeis.edu
 ##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
