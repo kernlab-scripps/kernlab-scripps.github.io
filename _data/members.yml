@@ -93,6 +93,23 @@
     - Hernandez CX, Wayment-Steele HK, Sultan MM, Husic BE & Pande VS. Variational Encoding of Complex Dynamics. *Physical Review E* **2018**
     - Sultan MM, Wayment-Steele HK & Pande VS. Transferable neural networks for enhanced sampling of protein dynamics. *Journal of Chemical Theory and Computation* **2018**
 
+- name: Adedolapo Ojoawo
+##  webmaster: "True" (only for the person who is currently webmaster)
+  image: /static/img/members/dolapo.jpg
+  position: Postdoctoral Fellow
+  email: ojoawoa (at) brandeis.edu
+##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
+##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
+  startdate: 202206
+##  startdatelab: YYYYMM [date for joining the lab]
+##  education:
+##    - YYYY - BSc Biochemistry, University, Country
+##    - YYYY - MSc Biochemistry, University, Country
+##    - YYYY - PhD Biochemistry, University, Country
+##  description:
+##  publications:
+##    - citation (only for papers not published in the Kern Lab)
+
 
 # Graduate students
 
