@@ -73,7 +73,7 @@
   image: /static/img/members/hannah.jpg
   position: Postdoctoral Fellow
   email: wayment (at) brandeis.edu
-  scholar: MHNfkuUAAAAJ&hl
+  scholar: MHNfkuUAAAAJ
   orcid: 0000-0003-4949-2010  
   startdate: 202206
 ##  startdatelab: YYYYMM [date for joining the lab]
@@ -82,7 +82,7 @@
     - 2016 - M.Phil. Chemistry, Cambridge University, UK
     - 2021 - PhD Chemistry, Stanford, USA
 ##  description:
-publications:
+  publications:
     - Wayment-Steele HK, Kladwang W, Strom AI, Becka A, Lee J, Treuille A, Eterna Participants, Das R. RNA secondary structure packages evaluated and improved by high-throughput experiments. *bioRxiv* **2022** 
     - Wayment-Steele HK, Kladwang W, Watkins AM, Kim DS, Tunguz B, ... Das R. Deep learning models for predicting RNA degradation via dual crowdsourcing. *Arxiv* **2022**
     - Leppek K, Byeon GW, Kladwang W, Wayment-Steele HK, Kerr CH, ... Barna M & Das R. Combinatorial optimization of mRNA structure, stability, and translation for RNA-based therapeutics. *Nature Communications* **2021**
@@ -161,8 +161,8 @@ publications:
 ##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
 ##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
   startdate: 202205
-education:
-- 2018 - BA Molecular Biology, Princeton University, USA
+##  education:
+##    - YYYY - BSc Biochemistry, University, Country
 ##    - YYYY - MSc Biochemistry, University, Country
 ##    - YYYY - PhD Biochemistry, University, Country
 ##  description:
