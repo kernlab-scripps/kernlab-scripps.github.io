@@ -178,8 +178,8 @@
 ##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
 ##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
   startdate: 202205
-##  education:
-##    - YYYY - BSc Biochemistry, University, Country
+  education:
+    - 2018 - BA Molecular Biology, Princeton University, USA
 ##    - YYYY - MSc Biochemistry, University, Country
 ##    - YYYY - PhD Biochemistry, University, Country
 ##  description:
@@ -201,7 +201,30 @@
   position: Master Student
   email: lux011 (at) brandeis.edu
   startdate: 202201
-  #education:
+  education:
+    - 2021 - BS Biochemistry, University of California San Diego, USA
+##    - YYYY - MSc Biochemistry, University, Country
+##    - YYYY - PhD Biochemistry, University, Country
+##  description:
+##  publications:
+##    - citation (only for papers not published in the Kern Lab)
+
+- name: Nicholas Greco
+##  webmaster: "True" (only for the person who is currently webmaster)
+  image: /static/img/members/nicholasgreco.jpg
+  position: Master Student
+  email: nicholasgreco (at) brandeis.edu
+##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
+##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
+  startdate: 202206
+##  startdatelab: YYYYMM [date for joining the lab]
+  education:
+    - 2022 - BS Biochemistry, Brandeis University, USA
+##    - YYYY - MSc Biochemistry, University, Country
+##    - YYYY - PhD Biochemistry, University, Country
+##  description:
+##  publications:
+##    - citation (only for papers not published in the Kern Lab)
 
 
 # Undergraduate students
