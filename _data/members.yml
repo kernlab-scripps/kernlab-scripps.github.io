@@ -99,13 +99,13 @@
   position: Postdoctoral Fellow
   email: ojoawoa (at) brandeis.edu
 ##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
-##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
+  orcid: 0000-0003-3961-8935  # as in https://orcid.org/????-????-????-????
   startdate: 202206
 ##  startdatelab: YYYYMM [date for joining the lab]
-##  education:
-##    - YYYY - BSc Biochemistry, University, Country
-##    - YYYY - MSc Biochemistry, University, Country
-##    - YYYY - PhD Biochemistry, University, Country
+  education:
+    - 2015 - B.Sc. Chemistry, Saint Catherine University, USA
+    - 2020 - Ph.D. Biochemistry, University of Illinois at Urbana Champaign, USA
+    - 2022 - Postdoctoral fellow at Saint Jude Children's Hospital Structural Biology Department, USA
 ##  description:
 ##  publications:
 ##    - citation (only for papers not published in the Kern Lab)
