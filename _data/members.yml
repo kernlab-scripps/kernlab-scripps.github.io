@@ -113,17 +113,6 @@
 
 # Graduate students
 
-- name: Austin Bannister
-  image: /static/img/members/austin.jpg
-  position: Graduate Student
-  email: bannista (at) brandeis.edu
-  startdate: 201705
-  education:
-    - 2016 - BSc Biochemistry  BA French and Francophone Studies, Union College, Schenectady, NY, USA
-  description: Proteins are highly dynamic macromolecules that adopt various high-energy conformational states in solution to perform catalysis. These states are often fleeting and exist at low concentrations, which is why they are often thought of as subpopulations of a protein. Although X-ray crystallography has made recent advances in observing subpopulations, nuclear magnetic resonance (NMR) spectroscopy remains the most powerful instrument to understand the dynamic processes involved in the interconversion between major and minor conformational states. Therefore, my research interests lie in using NMR spectroscopy, to detect these subpopulations and understand how they contribute to protein regulation and catalysis.
-  publications:
-      - Kretschmer PM, Bannister AM, MacManus-Spencer LA & Paulick MG. A Liquid Chromatography Tandem Mass Spectrometry Assay for the Detection and Quantification of Trehalose in Biological Samples. *J. Chromatogr. B* **2016**
-
 - name: Chansik Kim
   image: /static/img/members/chansik.jpg
   position: Graduate Student
