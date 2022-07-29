@@ -8,6 +8,12 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Austin Bannister 
+  position: Graduate Student 
+  startdate: 201705
+  enddate: 202206
+  current: Scientist @ RADD Pharmaceuticals
+
 - name: Renee Otten
   position: Postdoctoral Fellow
   startdate: 201104
