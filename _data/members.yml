@@ -134,11 +134,12 @@
 
 - name: Chansik Kim
   image: /static/img/members/chansik.jpg
-  position: Graduate Student
+  position: Postdoctoral Fellow
   email: kva0987 (at) brandeis.edu
   startdate: 201705
   education:
     - 2016 - BSc Biochemistry, Texas A&M University, College Station, TX, USA
+    - 2022 - Ph.D. Biochemistry, Brandeis University, Waltham, MA, USA
   #description:
 
 - name: Ingrid Marko
