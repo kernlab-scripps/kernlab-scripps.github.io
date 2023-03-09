@@ -112,35 +112,7 @@
     - 'Ojoawo A & Moldoveanu T. A killer metamorphosis: catching BAK in action at the membrane. *The EMBO Journal* **2021**'
     - McClain SM, Ojoawo A, Lin W, Rienstra MC & Murphy CJ. Interaction of Alpha-Synuclein and Its Mutants with Rigid Lipid Vesicle Mimics of Varying Surface Curvature. *ACS Nano* **2020**
 
-- name: Emily Schmitz
-##  webmaster: "True"
-  image: /static/img/members/emily.jpg
-  position: Postdoctoral Fellow
-  email: emilyschmitz (at) brandeis.edu
-##  scholar: GRtUKOEAAAAJ
-  orcid: 0000-0002-5122-8991
-  startdate: 202210
-  education:
-    - 2017 - BS Biochemistry, Chemistry and Mathematics, Campbell University, Buies Creek, NC, USA
-    - 2022 - PhD Chemical and Physical Biology, Vanderbilt University, Nashville, TN, USA
-##  description:
-  publications:
-    - Schmitz S, Schmitz E, Crowe Jr JE & Meiler J. The human antibody sequence space and structural design of the V, J regions, and CDRH3 with Rosetta. *MAbs* **2022**
-    - Schmitz E, Takahashi H & Karakas E. Structural basis for activation and gating of IP3 receptors. *Nature Communications* **2022**
-    - Azumaya C, Linton E, Risener C, Nakagawa T & Karakas E. Cryo-EM structure of human type-3 inositol triphosphate receptor reveals the presence of a self-binding peptide that acts as an antagonist. *J. Biol. Chem.* **2020**
-    - Ellis J, Suhan-Thomas M, Lawson P, Patel N, Faircloth W, Hayes S, Linton E, Norden D, Severenchuk I, West C, Brown J, Plante R & Plante C. Kistimonas alittae sp. nov., a gammaproteobacterium isolated from the marine annelid Alitta succinea. *International Journal of Systematic and Evolutionary Microbiology* **2019**
-
 # Graduate students
-
-- name: Chansik Kim
-  image: /static/img/members/chansik.jpg
-  position: Postdoctoral Fellow
-  email: kva0987 (at) brandeis.edu
-  startdate: 201705
-  education:
-    - 2016 - BSc Biochemistry, Texas A&M University, College Station, TX, USA
-    - 2022 - Ph.D. Biochemistry, Brandeis University, Waltham, MA, USA
-  #description:
 
 - name: Ingrid Marko
   image: /static/img/members/ingrid.jpg
@@ -217,24 +189,6 @@
 ##  description:
 ##  publications:
 ##    - citation (only for papers not published in the Kern Lab)
-
-- name: Nicholas Greco
-##  webmaster: "True" (only for the person who is currently webmaster)
-  image: /static/img/members/nicholasgreco.jpg
-  position: Master Student
-  email: nicholasgreco (at) brandeis.edu
-##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
-##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
-  startdate: 202206
-##  startdatelab: YYYYMM [date for joining the lab]
-  education:
-    - 2022 - BS Biochemistry, Brandeis University, USA
-##    - YYYY - MSc Biochemistry, University, Country
-##    - YYYY - PhD Biochemistry, University, Country
-##  description:
-##  publications:
-##    - citation (only for papers not published in the Kern Lab)
-
 
 # Undergraduate students
 
