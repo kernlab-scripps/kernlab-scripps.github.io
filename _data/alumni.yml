@@ -8,6 +8,24 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Chansik Kim
+  position: Graduate Student / Postdoctoral Fellow
+  startdate: 201705
+  enddate: 202301
+  current: Scientist @ NoveltyNobility
+
+- name: Emily Schmitz
+  position: Postdoctoral Fellow
+  startdate: 202210
+  enddate: 202301
+  current: Scientist I @ Sanofi
+
+- name: Nicholas Greco 
+  position: Masters Student 
+  startdate: 202206
+  enddate: 202211
+  current: Masters student @ Brandeis University
+
 - name: Austin Bannister 
   position: Graduate Student 
   startdate: 201705
@@ -30,7 +48,7 @@
   position: Postdoctoral Fellow
   startdate: 202010
   enddate: 202204
-  #current: ???
+  current: Scientist @ Arrakis Therapeutics
 
 - name: Joseph Irvin
   position: Undergraduate Student
