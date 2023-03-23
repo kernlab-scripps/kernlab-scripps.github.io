@@ -21,6 +21,24 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
+- citation: "Wayment-Steele HK, Ovchinnikov S, Colwell L & Kern D. Prediction of multiple conformational states by combining sequence clustering with AlphaFold2. *bioRxiv* **2022**"
+  date: 20221017
+  image: "/static/img/publications/Wayment-Steele_2022.png"
+  ##pmid: 35236984
+  ##pmcid: Epub Ahead of Print
+  ##doi: 10.1101/2022.10.17.512570
+  ##biorxiv: "https://www.biorxiv.org/content/10.1101/2022.10.17.512570v1"
+  # pdf: "/static/pdf/lastname_year.pdf"
+  links:
+    - name: "bioRxiv: Prediction of multiple conformational states by combining sequence clustering with AlphaFold2"
+      url: "https://www.biorxiv.org/content/10.1101/2022.10.17.512570v1.article-info"
+    - name: "Ovchinnikov Lab"
+      url: "https://www.solab.org"
+    - name: "Dr. Lucy Colwell"
+      url: "https://www.ch.cam.ac.uk/person/ljc37"
+    - name: "Data availability"
+      url: "https://github.com/HWaymentSteele/AF_Cluster"
+
 - citation: "Stiller JB, Otten R, Häussinger D, Rieder PS, Theobald DL & Kern D. Structure determination of high-energy states in a dynamic protein ensemble. *Nature* **2022**"
   date: 20220302
   image: "/static/img/publications/stiller_2022.jpg"
