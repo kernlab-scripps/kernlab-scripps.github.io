@@ -21,6 +21,19 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
+- citation: "Kim C, Ludewig H, Hadzipasic A, Kutter S, Nguyen V & Kern D. A biophysical framework for double-drugging kinases. *bioRxiv* **2023**"
+  date: 20230318
+  image: "/static/img/publications/Kim_2023.jpg"
+  ##pmid: 35236984
+  ##pmcid: Epub Ahead of Print
+  ##doi: 10.1101/2023.03.17.533217
+  ##biorxiv: "test"
+  # pdf: "/static/pdf/lastname_year.pdf"
+  links:
+    - name: "bioRxiv: A biophysical framework for double-drugging kinases"
+      url: "https://www.biorxiv.org/content/10.1101/2023.03.17.533217v1"
+
+
 - citation: "Wayment-Steele HK, Ovchinnikov S, Colwell L & Kern D. Prediction of multiple conformational states by combining sequence clustering with AlphaFold2. *bioRxiv* **2022**"
   date: 20221017
   image: "/static/img/publications/Wayment-Steele_2022.png"
