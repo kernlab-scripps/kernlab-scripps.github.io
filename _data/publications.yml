@@ -21,6 +21,28 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
+- citation: "Pitsawong W, Pádua RAP, Grant T, Hoemberger M, Otten R, Bradshaw N, Grigorieff N & Kern D. From primordial clocks to circadian oscillators. *Nature* **2023**"
+  date: 20230322
+  image: "/static/img/publications/Pitsawong_2023.png"
+  pmid:  36949197
+##   pmcid: PMC####### or [Submitted; Epub Ahead of Print]
+  doi: 10.1038/s41586-023-05836-9
+  pdb:
+     - 8DBA
+     - 8DB3
+     - 8FWI
+     - 8FWJ
+  emdb:
+     - "29505"
+     - "29506"
+  links:
+     - name: "Research Briefing: The mechanism of the simplest biological 24-hour clock"
+       url: "https://www.nature.com/articles/d41586-023-00718-6"
+     - name: "Bradshaw Lab"
+       url: "https://sites.google.com/brandeis.edu/bradshawlab"
+     - name: "Grigorieff Lab"
+       url: "https://grigoriefflab.umassmed.edu"
+
 - citation: "Kim C, Ludewig H, Hadzipasic A, Kutter S, Nguyen V & Kern D. A biophysical framework for double-drugging kinases. *bioRxiv* **2023**"
   date: 20230318
   image: "/static/img/publications/Kim_2023.jpg"
