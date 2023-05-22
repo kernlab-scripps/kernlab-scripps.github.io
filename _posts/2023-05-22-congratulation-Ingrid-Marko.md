@@ -1,5 +1,5 @@
 ---
-title: Congratulatiosn Dr. Marko!
+title: Congratulations Dr. Marko!
 author: Hannes
 layout: post
 group: news
