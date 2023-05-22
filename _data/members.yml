@@ -158,6 +158,21 @@
 ##  publications:
 ##    - citation (only for papers not published in the Kern Lab)
 
+- name: Julia Apitz
+  image: /static/img/members/juliaapitz.jpeg
+  position: Graduate Student
+  email: juliaapitz (at) brandeis.edu
+##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
+##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
+  startdate: 202305
+  education:
+    - 2022 - BA Biochemistry & Molecular Biology, Saint Anselm College, USA
+##    - YYYY - MSc Biochemistry, University, Country
+##    - YYYY - PhD Biochemistry, University, Country
+##  description:
+##  publications:
+##    - citation (only for papers not published in the Kern Lab)
+
 # Master students
 
 - name: Carolyn Morningstar
