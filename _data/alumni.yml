@@ -8,6 +8,12 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Ingrid Marko
+  position: Graduate Student
+  startdate: 201705
+  enddate: 202305
+  current: Postdoctoral Fellow @ The University of Texas at Austin
+
 - name: Chansik Kim
   position: Graduate Student / Postdoctoral Fellow
   startdate: 201705
