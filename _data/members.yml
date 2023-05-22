@@ -114,15 +114,6 @@
 
 # Graduate students
 
-- name: Ingrid Marko
-  image: /static/img/members/ingrid.jpg
-  position: Graduate Student
-  email: imarko (at) brandeis.edu
-  startdate: 201705
-  education:
-    - 2016 - BSc Biochemistry, Worcester Polytechnic Institute, Worcester, MA, USA
-  #description:
-
 - name: Andrew Glaser
   image: /static/img/members/andrew.jpg
   position: Graduate Student
