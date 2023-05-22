@@ -1,8 +1,8 @@
 ---
-title: <!-- Title Goes Here -->
-author: <!-- Author's full name goes here -->
+title: title goes here	
+author: author goes here
 layout: post
 group: news
 ---
 
-<!-- Content goes here in the markdown format. -->
+post itself goes here

@@ -182,6 +182,7 @@
   startdate: 202201
   education:
     - 2021 - BS in Biochemistry, Juniata College, Huntingdon PA, USA
+    - 2023 - MS Biochemistry, Brandeis University, USA
 
 - name: Lufan Xiao
   image: /static/img/members/lufan.jpg
@@ -190,7 +191,7 @@
   startdate: 202201
   education:
     - 2021 - BS Biochemistry, University of California San Diego, USA
-##    - YYYY - MSc Biochemistry, University, Country
+    - 2023 - MS Biochemistry, Brandeis University, USA
 ##    - YYYY - PhD Biochemistry, University, Country
 ##  description:
 ##  publications:
