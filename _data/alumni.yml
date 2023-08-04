@@ -8,6 +8,12 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Carolyn Morningstar 
+  position: Master Student
+  startdate: 202201
+  enddate: 202307
+  current: Graduate Student @ Emory University
+
 - name: Nick Buongiorno 
   position: Undergraduate Student
   startdate: 202108
@@ -35,7 +41,7 @@
   position: Masters Student 
   startdate: 202206
   enddate: 202211
-  current: Masters student @ Brandeis University
+  current: Master Student @ Brandeis University
 
 - name: Austin Bannister 
   position: Graduate Student 
