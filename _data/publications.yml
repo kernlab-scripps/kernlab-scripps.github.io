@@ -21,6 +21,31 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
+- citation: "Kim C, Ludewig H, Hadzipasic A, Kutter S, Nguyen V & Kern D. A biophysical framework for double-drugging kinases. *Proc. Natl. Acad. Sci. US* **2023**"
+  date: 20230817
+  image: "/static/img/publications/Kim_2023.jpg"
+##   pmid:  number or [Submitted ; Epub Ahead of Print]
+##   pmcid: PMC####### or [Submitted; Epub Ahead of Print]
+  doi: 10.1073/pnas.2304611120
+##   biorxiv: "??????"
+##   chemrxiv: "??????"
+##   pdf: "/static/pdf/lastname_year.pdf"
+  pdb:
+     - 8SSP
+     - 8SSO
+     - 8SSN
+##   bmrb:
+##     - BMRB_ID
+##   emdb:
+##     - "entrynumber"
+##   sasdb:
+##     - entryname
+##   data:
+##     - DOI to other dataset(s), not in the pre-defined categories above
+##   links:
+##     - name: "Fraser Lab"
+##       url: "https://fraser-lab.com/"
+
 - citation: "Pitsawong W, Pádua RAP, Grant T, Hoemberger M, Otten R, Bradshaw N, Grigorieff N & Kern D. From primordial clocks to circadian oscillators. *Nature* **2023**"
   date: 20230322
   image: "/static/img/publications/Pitsawong_2023.png"
