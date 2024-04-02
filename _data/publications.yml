@@ -21,6 +21,51 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
+- citation: "Zhang Z, Wayment-Steele HK, Brixi G, Wang H, Dal Peraro M, Kern D & Ovchinnikov S. Protein language models learn evolutionary statistics of interacting sequence motifs. *bioRxiv* **2024**"
+  date: 20240131
+  ##image: "/static/img/publications/Wayment-Steele_2022.png"
+  ##pmid: 37956700
+  ##pmcid: PMC10808063
+  doi: 10.1101/2024.01.30.577970
+  biorxiv: "https://www.biorxiv.org/content/10.1101/2024.01.30.577970v1.full.pdf+html"
+  # pdf: "/static/pdf/lastname_year.pdf"
+  links:
+    - name: "bioRxiv: Protein language models learn evolutionary statistics of interacting sequence motifs"
+      url: "https://www.biorxiv.org/content/10.1101/2024.01.30.577970v1.full.pdf+html"
+    - name: "Ovchinnikov Lab"
+      url: "https://www.solab.org"
+
+
+- citation: "Wayment-Steele HK,Ojoawo A, Otten R, Apitz JM, Pitsawong W, Hoemberger M, Ovchinnikov S, Colwell L & Kern D. Predicting multiple conformations via sequence clustering and AlphaFold2. *Nature* **2023**"
+  date: 20231113
+  image: "/static/img/publications/Wayment-Steele_2022.png"
+  pmid: 37956700
+  pmcid: PMC10808063
+  doi: 10.1038/s41586-023-06832-9
+  ##biorxiv: "https://www.biorxiv.org/content/10.1101/2022.10.17.512570v1"
+  # pdf: "/static/pdf/lastname_year.pdf"
+  links:
+    - name: "bioRxiv: Prediction of multiple conformational states by combining sequence clustering with AlphaFold2"
+      url: "https://www.biorxiv.org/content/10.1101/2022.10.17.512570v1.article-info"
+    - name: "Ovchinnikov Lab"
+      url: "https://www.solab.org"
+    - name: "Dr. Lucy Colwell"
+      url: "https://www.ch.cam.ac.uk/person/ljc37"
+    - name: "Data availability"
+      url: "https://github.com/HWaymentSteele/AF_Cluster"
+
+- citation: "Jara GE, Pontiggia F, Otten R, Agafonov RV, Marti MA & Kern D. Wide Trasition-State Ensemble as Key Component for Enzyme Catalysis. *bioRxiv* **2023**"
+  date: 20231005
+  ##image: "/static/img/publications/Wayment-Steele_2022.png"
+  ##pmid: 37956700
+  ##pmcid: PMC10808063
+  doi: 10.1101/2023.10.03.560706
+  biorxiv: "https://www.biorxiv.org/content/10.1101/2023.10.03.560706v1"
+  # pdf: "/static/pdf/lastname_year.pdf"
+  links:
+    - name: "bioRxiv: Wide Trasition-State Ensemble as Key Component for Enzyme Catalysis"
+      url: "https://www.biorxiv.org/content/10.1101/2023.10.03.560706v1"
+
 - citation: "Kim C, Ludewig H, Hadzipasic A, Kutter S, Nguyen V & Kern D. A biophysical framework for double-drugging kinases. *Proc. Natl. Acad. Sci. US* **2023**"
   date: 20230817
   image: "/static/img/publications/Kim_2023.jpg"
