@@ -23,11 +23,11 @@
 
 - citation: "Zhang Z, Wayment-Steele HK, Brixi G, Wang H, Dal Peraro M, Kern D & Ovchinnikov S. Protein language models learn evolutionary statistics of interacting sequence motifs. *bioRxiv* **2024**"
   date: 20240131
-  ##image: "/static/img/publications/Wayment-Steele_2022.png"
+  image: "/static/img/publications/Wayment_Steele_esm2_scheme_2024.png"
   ##pmid: 37956700
   ##pmcid: PMC10808063
   doi: 10.1101/2024.01.30.577970
-  biorxiv: "https://www.biorxiv.org/content/10.1101/2024.01.30.577970v1.full.pdf+html"
+  ##biorxiv: "https://www.biorxiv.org/content/10.1101/2024.01.30.577970v1.full.pdf+html"
   # pdf: "/static/pdf/lastname_year.pdf"
   links:
     - name: "bioRxiv: Protein language models learn evolutionary statistics of interacting sequence motifs"
@@ -60,7 +60,7 @@
   ##pmid: 37956700
   ##pmcid: PMC10808063
   doi: 10.1101/2023.10.03.560706
-  biorxiv: "https://www.biorxiv.org/content/10.1101/2023.10.03.560706v1"
+  ##biorxiv: "https://www.biorxiv.org/content/10.1101/2023.10.03.560706v1"
   # pdf: "/static/pdf/lastname_year.pdf"
   links:
     - name: "bioRxiv: Wide Trasition-State Ensemble as Key Component for Enzyme Catalysis"
@@ -69,7 +69,7 @@
 - citation: "Kim C, Ludewig H, Hadzipasic A, Kutter S, Nguyen V & Kern D. A biophysical framework for double-drugging kinases. *Proc. Natl. Acad. Sci. US* **2023**"
   date: 20230817
   image: "/static/img/publications/Kim_2023.jpg"
-##   pmid:  number or [Submitted ; Epub Ahead of Print]
+  pmid: 37590418
 ##   pmcid: PMC####### or [Submitted; Epub Ahead of Print]
   doi: 10.1073/pnas.2304611120
 ##   biorxiv: "??????"
@@ -87,9 +87,9 @@
 ##     - entryname
 ##   data:
 ##     - DOI to other dataset(s), not in the pre-defined categories above
-##   links:
-##     - name: "Fraser Lab"
-##       url: "https://fraser-lab.com/"
+  links:
+     - name: "bioRxiv: A biophysical framework for double-drugging kinases"
+       url: "https://www.biorxiv.org/content/10.1101/2023.03.17.533217v1/"
 
 - citation: "Pitsawong W, Pádua RAP, Grant T, Hoemberger M, Otten R, Bradshaw N, Grigorieff N & Kern D. From primordial clocks to circadian oscillators. *Nature* **2023**"
   date: 20230322
@@ -112,37 +112,6 @@
        url: "https://sites.google.com/brandeis.edu/bradshawlab"
      - name: "Grigorieff Lab"
        url: "https://grigoriefflab.umassmed.edu"
-
-- citation: "Kim C, Ludewig H, Hadzipasic A, Kutter S, Nguyen V & Kern D. A biophysical framework for double-drugging kinases. *bioRxiv* **2023**"
-  date: 20230318
-  image: "/static/img/publications/Kim_2023.jpg"
-  ##pmid: 35236984
-  ##pmcid: Epub Ahead of Print
-  ##doi: 10.1101/2023.03.17.533217
-  ##biorxiv: "test"
-  # pdf: "/static/pdf/lastname_year.pdf"
-  links:
-    - name: "bioRxiv: A biophysical framework for double-drugging kinases"
-      url: "https://www.biorxiv.org/content/10.1101/2023.03.17.533217v1"
-
-
-- citation: "Wayment-Steele HK, Ovchinnikov S, Colwell L & Kern D. Prediction of multiple conformational states by combining sequence clustering with AlphaFold2. *bioRxiv* **2022**"
-  date: 20221017
-  image: "/static/img/publications/Wayment-Steele_2022.png"
-  ##pmid: 35236984
-  ##pmcid: Epub Ahead of Print
-  ##doi: 10.1101/2022.10.17.512570
-  ##biorxiv: "https://www.biorxiv.org/content/10.1101/2022.10.17.512570v1"
-  # pdf: "/static/pdf/lastname_year.pdf"
-  links:
-    - name: "bioRxiv: Prediction of multiple conformational states by combining sequence clustering with AlphaFold2"
-      url: "https://www.biorxiv.org/content/10.1101/2022.10.17.512570v1.article-info"
-    - name: "Ovchinnikov Lab"
-      url: "https://www.solab.org"
-    - name: "Dr. Lucy Colwell"
-      url: "https://www.ch.cam.ac.uk/person/ljc37"
-    - name: "Data availability"
-      url: "https://github.com/HWaymentSteele/AF_Cluster"
 
 - citation: "Stiller JB, Otten R, Häussinger D, Rieder PS, Theobald DL & Kern D. Structure determination of high-energy states in a dynamic protein ensemble. *Nature* **2022**"
   date: 20220302
