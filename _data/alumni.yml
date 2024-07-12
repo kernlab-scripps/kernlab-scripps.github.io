@@ -8,6 +8,17 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Julia Apitz
+  position: Graduate Student
+  startdate: 202305
+  enddate: 202407
+
+- name: Clara Kursinski  
+  position: Undergraduate Student
+  startdate: 202309
+  enddate: 202402
+  current: Undergraduate Student @ Brandeis University
+
 - name: Carolyn Morningstar 
   position: Master Student
   startdate: 202201

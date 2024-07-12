@@ -21,6 +21,38 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
+- citation: "Wayment-Steele HK<sup>#</sup>, Otten R<sup>#</sup>, Pitsawong W<sup>#</sup>, Ojoawo A<sup>#</sup>, Glaser A, Calderone LA & Kern D. The conformational landscape of fold-switcher KaiB is tuned to the circadian rhythm timescale. *bioRxiv* **2024**"
+  date: 20240603
+  ##image: "/static/img/publications/"
+  ##pmid: 37956700
+  ##pmcid: PMC10808063
+  doi: 10.1101/2024.06.03.597139
+  ##biorxiv: "https://www.biorxiv.org/content/10.1101/2024.01.30.577970v1.full.pdf+html"
+  # pdf: "/static/pdf/lastname_year.pdf"
+  links:
+    - name: "bioRxiv: The conformational landscape of fold-switcher KaiB is tuned to the circadian rhythm timescale"
+      url: "https://www.biorxiv.org/content/10.1101/2024.06.03.597139v1"
+
+- citation: "Stadnicki EJ, Ludewig H, Ramasamy PK, Wang X, Qiao Y, Kern D & Bradshaw N. Dual-Action Kinase Inhibitors Control p38α MAP Kinase Threonine Dephosphorylation. *bioRxiv* **2024**"
+  date: 20240515
+  image: "/static/img/publications/p38a_Emily_Hannes_2024.tif"
+  ##pmid: 37956700
+  ##pmcid: PMC10808063
+  doi: 10.1101/2024.05.15.594272
+  ##pdb:
+    ##- 9CJ1
+    ##- 9CJ2
+    ##- 9CJ3
+    ##- 9CJ4
+    ##- 9CJ5
+  ##biorxiv: "https://www.biorxiv.org/content/10.1101/2024.01.30.577970v1.full.pdf+html"
+  # pdf: "/static/pdf/lastname_year.pdf"
+  links:
+    - name: "bioRxiv: Dual-Action Kinase Inhibitors Control p38α MAP Kinase Threonine Dephosphorylation"
+      url: "https://www.biorxiv.org/content/10.1101/2024.05.15.594272v1"
+    - name: "Bradshaw Lab"
+      url: "https://sites.google.com/brandeis.edu/bradshawlab"
+
 - citation: "Zhang Z, Wayment-Steele HK, Brixi G, Wang H, Dal Peraro M, Kern D & Ovchinnikov S. Protein language models learn evolutionary statistics of interacting sequence motifs. *bioRxiv* **2024**"
   date: 20240131
   image: "/static/img/publications/Wayment_Steele_esm2_scheme_2024.png"
@@ -36,7 +68,7 @@
       url: "https://www.solab.org"
 
 
-- citation: "Wayment-Steele HK,Ojoawo A, Otten R, Apitz JM, Pitsawong W, Hoemberger M, Ovchinnikov S, Colwell L & Kern D. Predicting multiple conformations via sequence clustering and AlphaFold2. *Nature* **2023**"
+- citation: "Wayment-Steele HK<sup>#</sup>, Ojoawo A<sup>#</sup>, Otten R, Apitz JM, Pitsawong W, Hoemberger M, Ovchinnikov S, Colwell L & Kern D. Predicting multiple conformations via sequence clustering and AlphaFold2. *Nature* **2023**"
   date: 20231113
   image: "/static/img/publications/Wayment-Steele_2022.png"
   pmid: 37956700
@@ -45,6 +77,8 @@
   ##biorxiv: "https://www.biorxiv.org/content/10.1101/2022.10.17.512570v1"
   # pdf: "/static/pdf/lastname_year.pdf"
   links:
+    - name: "paper"
+      url: "https://www.nature.com/articles/s41586-023-06832-9"
     - name: "bioRxiv: Prediction of multiple conformational states by combining sequence clustering with AlphaFold2"
       url: "https://www.biorxiv.org/content/10.1101/2022.10.17.512570v1.article-info"
     - name: "Ovchinnikov Lab"
@@ -56,7 +90,7 @@
 
 - citation: "Jara GE, Pontiggia F, Otten R, Agafonov RV, Marti MA & Kern D. Wide Trasition-State Ensemble as Key Component for Enzyme Catalysis. *bioRxiv* **2023**"
   date: 20231005
-  ##image: "/static/img/publications/Wayment-Steele_2022.png"
+  image: "/static/img/publications/TSE_doro_2024.png"
   ##pmid: 37956700
   ##pmcid: PMC10808063
   doi: 10.1101/2023.10.03.560706
