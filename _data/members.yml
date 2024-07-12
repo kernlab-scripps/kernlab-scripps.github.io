@@ -130,7 +130,11 @@
   startdate: 201905
   education:
     - 2018 - BSc Biochemistry, University of Massachusetts Boston, Boston, MA, USA
-  description: Adenylate kinase (ADK) is a phosphotransferase that regulates energy homeostasis by controlling intracellular nucleotide levels. ADK is an essential enzyme that is found across all domains of life, and its stability is correlated to organismal growth. This stability/fitness relationship imposes that ancestral ADK evolved modern sequences that are stable in the same environments occupied by their native organisms. I am interested in studying how ADK evolved by investigating the effects of mutations on the structural and dynamic properties of the enzyme using biophysical techniques such as X-ray crystallography and NMR spectroscopy.
+  publications:
+    - Ramasamy PK, Matos JO, Black BY, Ellenburg WH, Chen J, Patterson M, Gehtman J, Theoblad DL, Krauss IJ & Oprian DD. Crystal Structure of Caryolan-1-ol Synthase, a Sesquiterpene Synthase Catalyzing an Initial Anti-Markovnikov Cyclization Reaction. *bioRxiv* **2024**
+    - Webb J, Lieu JJM, Gnann AD, Patterson M, Paul S, Forés M, Jiménez G, Veraksa A & Downling DP. Molecular Basis of DNA recognition by the HMG=box-C1 module of Capicua. *bioRxiv* **2022**
+    - Matos JO, Ramasamy PK, Ma AC, Patterson M, Krauss IJ & Oprian DD. Mechanism Underlying Anti-Markovnikov Addition in the Reaction of Pentalenene Synthase. *Biochemistry* **2020**
+  #description: Adenylate kinase (ADK) is a phosphotransferase that regulates energy homeostasis by controlling intracellular nucleotide levels. ADK is an essential enzyme that is found across all domains of life, and its stability is correlated to organismal growth. This stability/fitness relationship imposes that ancestral ADK evolved modern sequences that are stable in the same environments occupied by their native organisms. I am interested in studying how ADK evolved by investigating the effects of mutations on the structural and dynamic properties of the enzyme using biophysical techniques such as X-ray crystallography and NMR spectroscopy.
 
 - name: Christiana Ntangka
   image: /static/img/members/christiana.jpg
@@ -142,6 +146,19 @@
   #description:
   publications:
     - Bowitch A, Sahoo A, Clark AM, Ntangka C, Raut KK, Gollnick I, Yu MC, Pascal SM, Walker SE & Ferkey DM. Methylation of the D2 dopamine receptor affects binding with the human regulatory proteins Par-4 and Calmodulin. *MicroPubl Biol.*  **2021**
+
+- name: Lufan Xiao
+  image: /static/img/members/lufan.jpg
+  position: Graduate Student
+  email: lux011 (at) brandeis.edu
+  startdate: 202201
+  education:
+    - 2021 - BS Biochemistry, University of California San Diego, USA
+    - 2023 - MS Biochemistry, Brandeis University, USA
+##    - YYYY - PhD Biochemistry, University, Country
+##  description:
+##  publications:
+##    - citation (only for papers not published in the Kern Lab)
 
 - name: Camille Sullivan
   image: /static/img/members/camille.jpg
@@ -158,35 +175,24 @@
 ##  publications:
 ##    - citation (only for papers not published in the Kern Lab)
 
-- name: Julia Apitz
-  image: /static/img/members/juliaapitz.jpeg
+- name: Bo Kim 
+  image: /static/img/members/Bo_Kim.JPG
   position: Graduate Student
-  email: juliaapitz (at) brandeis.edu
+  email: bokim (at) brandeis.edu
 ##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
 ##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
-  startdate: 202305
+  startdate: 202405
   education:
-    - 2022 - BS Biochemistry & Molecular Biology, Saint Anselm College, USA
-##    - YYYY - MSc Biochemistry, University, Country
+    - 2020 - BS Bioscience & Biotechnology, Hankuk University of Foreign Studies, Yongin, Republic of Korea
+    - 2022 - MS Biochemistry, Korea University, Seoul, Republic of Korea
 ##    - YYYY - PhD Biochemistry, University, Country
 ##  description:
-##  publications:
-##    - citation (only for papers not published in the Kern Lab)
+  publications:
+    - Ames A, Seman M, Larkin A, Raiymbek G, Chen Z, Levashkevich A, Kim B, Biteen JS & Ragunathan K. Epigenetic memory is governed by an effector recruitment specificity toggle in Heterochromatin Protein I. *bioRxiv* **2024**
 
 # Master students
 
-- name: Lufan Xiao
-  image: /static/img/members/lufan.jpg
-  position: Graduate Student
-  email: lux011 (at) brandeis.edu
-  startdate: 202201
-  education:
-    - 2021 - BS Biochemistry, University of California San Diego, USA
-    - 2023 - MS Biochemistry, Brandeis University, USA
-##    - YYYY - PhD Biochemistry, University, Country
-##  description:
-##  publications:
-##    - citation (only for papers not published in the Kern Lab)
+
 
 # Undergraduate students
 
@@ -196,8 +202,8 @@
   email: aedanusing (at) brandeis.edu
   startdate: 202305
 
-- name: Clara Kursinski
-  image: /static/img/members/ClaraKursinski.jpg
+- name: Gilbert Otoo
+  image: /static/img/members/Gilbert_Otoo.jpg
   position: Undergraduate Student
-  email: clarakursinski (at) brandeis.edu
-  startdate: 202309
+  email: gotoo (at) brandeis.edu
+  startdate: 202404
