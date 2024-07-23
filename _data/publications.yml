@@ -23,7 +23,7 @@
 
 - citation: "Wayment-Steele HK<sup>#</sup>, Otten R<sup>#</sup>, Pitsawong W<sup>#</sup>, Ojoawo A<sup>#</sup>, Glaser A, Calderone LA & Kern D. The conformational landscape of fold-switcher KaiB is tuned to the circadian rhythm timescale. *bioRxiv* **2024**"
   date: 20240603
-  ##image: "/static/img/publications/"
+  image: "/static/img/publications/Wayment-Steele_KaiB_landscape.png"
   ##pmid: 37956700
   ##pmcid: PMC10808063
   doi: 10.1101/2024.06.03.597139
@@ -35,7 +35,7 @@
 
 - citation: "Stadnicki EJ, Ludewig H, Ramasamy PK, Wang X, Qiao Y, Kern D & Bradshaw N. Dual-Action Kinase Inhibitors Control p38α MAP Kinase Threonine Dephosphorylation. *bioRxiv* **2024**"
   date: 20240515
-  image: "/static/img/publications/p38a_Emily_Hannes_2024.tif"
+  image: "/static/img/publications/p38a_Emily_Hannes_2024.png"
   ##pmid: 37956700
   ##pmcid: PMC10808063
   doi: 10.1101/2024.05.15.594272
