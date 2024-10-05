@@ -1,7 +1,7 @@
 name: "Kern Lab"
-description: "This is the official web page for Dorothee Kern's lab at Brandeis University."
+description: "This is the official web page for Dorothee Kern's lab at the Scripps Research Institute in San Diego."
 
-url: "https://kernlab-brandeis.github.io"
+url: "https://kernlab-scripps.github.io"
 
 plugins:
   - jekyll-paginate
