@@ -1,5 +1,5 @@
 ---
-title: Kern Lab @ Brandeis University
+title: Kern Lab @ Scripps Research Institute
 layout: home
 group: home
 ---
@@ -7,7 +7,7 @@ group: home
 # Welcome to the Kern Lab!
 
 <br>
-We are part of the [Department of Biochemistry](https://www.bio.brandeis.edu/biochem)
+We are part of the [Integrative Structural and Computational Biology](https://www.scripps.edu/science-and-medicine/research-departments/integrative-structural-and-computational-biology/) at [Scripps Research Institute](https://www.scripps.edu/). Until Fall 2024 we were at the [Department of Biochemistry](https://www.bio.brandeis.edu/biochem)
 at Brandeis University and since 2005 supported by the
 [Howard Hughes Medical Institute](https://www.hhmi.org/scientists/dorothee-kern).
 
