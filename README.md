@@ -1,6 +1,10 @@
 # kernlab-scripps.github.io
 ============================
 
+Oct 5: Hannah renamed this repo from kernlab-brandeis to kernlab-scripps. Then set up placeholder organization / website kernlab-brandeis to create a page at kernlab-brandeis.github.io that redirects to kernlab-scripps.github.io
+
+======= 
+
 This website uses the following technologies:
 
     Jekyll (https://jekyllrb.com)
@@ -22,6 +26,3 @@ the website:
     bundle exec jekyll serve
 
 the website will be available at [http://127.0.0.1:4000](http://127.0.0.1:4000).
-
-Oct 5: Hannah renamed this repo from kernlab-brandeis to kernlab-scripps. Then set up placeholder organization / website kernlab-brandeis to create a page at kernlab-brandeis.github.io that redirects to kernlab-scripps.github.io
-
