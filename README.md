@@ -1,4 +1,4 @@
-# kernlab-brandeis.github.io
+# kernlab-scripps.github.io
 ============================
 
 This website uses the following technologies:
