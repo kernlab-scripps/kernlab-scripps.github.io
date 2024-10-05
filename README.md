@@ -23,4 +23,5 @@ the website:
 
 the website will be available at [http://127.0.0.1:4000](http://127.0.0.1:4000).
 
-For specific instructions about making changes to the website, please ask Renee.
+Oct 5: Hannah renamed this repo from kernlab-brandeis to kernlab-scripps. Then set up placeholder organization / website kernlab-brandeis to create a page at kernlab-brandeis.github.io that redirects to kernlab-scripps.github.io
+
