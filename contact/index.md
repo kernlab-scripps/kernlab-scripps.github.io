@@ -13,18 +13,16 @@ group: contact
   Professor of Biochemistry <br>
   HHMI Investigator <br>
   <br>
-  email: dkern (at) brandeis.edu <br>
+  email: dkern (at) scripps.edu <br>
   <br>
-  Volen 444 (Office) <br>
-  Brandeis University <br>
-  Department of Biochemistry, MS 009 <br>
-  415 South Street <br>
-  Waltham, MA 02453-2728 <br>
-  tel: 781 736 2354 <br><br><br>
+  BCC 238 (Office) <br>
+  Scripps Research Institute <br>
+  10550 North Torrey Pines Rd <br>
+  La Jolla, CA 92037 <br>
 
   <h4>Lab Area</h4>
-  Volen 443 <br>
-  tel: 781 736 2326 <br><br><br>
+  BCC  <br>
+  tel: 858-784-9748 <br><br><br>
 
   <h4>Shipping address</h4>
   "Firstname Lastname", Kern-lab <br>
