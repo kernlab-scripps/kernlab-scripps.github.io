@@ -82,8 +82,8 @@ Drive around to the lower level and park.
 Walk under the road using the Nelson Tunnel to the Hazen Campus building (see campus map).
  
 ---
-<a href="/static/img/campus_map.pdf" id="pop">
-  <img class="rounded mx-auto d-block" src="/static/img/campus_map.jpg" style="max-width: 75%;" title="Brandeis campus map - click to enlarge" alt="How to reach us">
+<a href="/static/img/scripps-california-campus-map.png" id="pop">
+  <img class="rounded mx-auto d-block" src="/static/img/scripps-california-campus-map.png" style="max-width: 75%;" title="Scripps campus map - click to enlarge" alt="How to reach us">
 </a>
 </div>
 </div>
