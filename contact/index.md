@@ -25,21 +25,62 @@ group: contact
   tel: 858-784-9748 <br><br><br>
 
   <h4>Shipping address</h4>
-  "Firstname Lastname", Kern-lab <br>
-  c/o Lab. Supplies & Services <br>
-  Kalman Building <br>
-  Brandeis University <br>
-  415 South Street <br>
-  Waltham, MA 02453-2728 <br>
+
+  <h4>Physical Location/Mailing Address</h4>
+  
+  (envelopes/magazines/small parcel)  <br>
+ 
+The Scripps Research Institute  <br>
+\[Recipient Name, Mail Code No.\]  <br>
+10550 North Torrey Pines Rd  <br>
+La Jolla, CA  92037  <br>
+ 
+Shipping address for packages:  <br>
+ 
+The Scripps Research Institute  <br>
+\[Recipient Name, Room No.\]  <br>
+9060 Activity Road, Unit F  <br>
+San Diego, CA  92126​​​​​​​  <br>
+
 </div>
 
 <div class="col-md-8">
-#### Directions
+  
+# Directions
 
-Brandeis University is easy to reach by public transport or car; the official directions for getting to campus are [here](https://www.brandeis.edu/about/visiting/directions.html).
+## From San Diego (Downtown, Airport, East San Diego County):
 
-The [MBTA commuter train](https://www.mbta.com/schedules_and_maps/rail/lines/?route=FITCHBRG&direction=O&timing=W&RedisplayTime=Redisplay+Time) to Brandeis from Boston and Cambridge is infrequent, but fast (~15 minutes). The train route is the Fitchburg line, which starts at North Station in Boston and stops at Porter Square in Cambridge on its way to Brandeis. From the Brandeis/Roberts stop, it is a short walk (~10 mintues) to the "The Volen National Center for Complex Systems" as marked with a yellow line on the map below. If you are driving to campus, please contact us so that we can arrange for a parking permit and we will provide instructions on where to park. Alternatively, you can stop yourself at the main entrance (if open) or the Public Safety office (shown in cyan) to pick up a permit and they will assign you a parking lot.
+Take I-5 North, to the Genesee Ave. exit.
 
+Keep left at the fork in the ramp, turn left onto Genesee Ave.
+
+Genesee Ave. merges with North Torrey Pines Road. Stay in the far left lane, but do not turn left onto North Torrey Pines Road; follow the merge to the right.
+
+Turn left at Scripps Clinic South.
+
+At the third driveway on the right, turn right into parking lot 4 (marked by one way sign).
+
+Drive around to the lower level and park.
+
+Walk under the road using the Nelson Tunnel to the Hazen Campus building  (see campus map).
+
+
+## From Los Angeles and North San Diego County:
+
+Take I-5 South, to the Genesee Ave. exit.
+
+Turn right onto Genesee Ave.
+
+Genesee Ave. merges with North Torrey Pines Road. Stay in the far left lane, but do not turn left onto North Torrey Pines Road; follow the merge to the right.
+
+Turn left at Scripps Clinic South.
+
+At the third driveway on the right, turn right into parking lot 4 (marked by one way sign).
+
+Drive around to the lower level and park.
+
+Walk under the road using the Nelson Tunnel to the Hazen Campus building (see campus map).
+ 
 ---
 <a href="/static/img/campus_map.pdf" id="pop">
   <img class="rounded mx-auto d-block" src="/static/img/campus_map.jpg" style="max-width: 75%;" title="Brandeis campus map - click to enlarge" alt="How to reach us">
