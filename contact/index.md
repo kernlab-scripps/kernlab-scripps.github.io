@@ -15,13 +15,13 @@ group: contact
   <br>
   email: dkern (at) scripps.edu <br>
   <br>
-  BCC 238 (Office) <br>
+  BCC229 (Office) <br>
   Scripps Research Institute <br>
   10550 North Torrey Pines Rd <br>
   La Jolla, CA 92037 <br>
 
   <h4>Lab Area</h4>
-  BCC  <br>
+  BCC238 <br>
   tel: 858-784-9748 <br><br><br>
 
   <h4>Shipping address</h4>
