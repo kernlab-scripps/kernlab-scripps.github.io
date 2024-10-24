@@ -18,7 +18,7 @@
 - name: Dorothee Kern
   image: /static/img/members/dorothee.jpg
   position: Principal Investigator
-  email: dkern (at) brandeis.edu
+  email: dkern (at) scripps.edu
   orcid: 0000-0002-7631-8328
   education:
     - 1988 - BSc Biochemistry, Martin-Luther University of Halle, Germany
@@ -33,7 +33,7 @@
 - name: Ricardo Pádua
   image: /static/img/members/ricardo.jpg
   position: Postdoctoral Fellow
-  email: rpadua (at) brandeis.edu
+  email: rpadua (at) scripps.edu
   orcid: 0000-0001-9719-3440
   startdate: 201505
   education:
@@ -51,7 +51,7 @@
   webmaster: "True"
   image: /static/img/members/hannes.jpg
   position: Postdoctoral Fellow
-  email: hannesludewig (at) brandeis.edu
+  email: hludewig (at) scripps.edu
   scholar: GRtUKOEAAAAJ
   orcid: 0000-0003-1130-1442
   startdate: 202002
@@ -72,7 +72,7 @@
 ##  webmaster: "True" (only for the person who is currently webmaster)
   image: /static/img/members/hannah.jpg
   position: Postdoctoral Fellow
-  email: wayment (at) brandeis.edu
+  email: hwayment (at) scripps.edu
   scholar: MHNfkuUAAAAJ
   orcid: 0000-0003-4949-2010  
   startdate: 202206
@@ -97,7 +97,7 @@
 ##  webmaster: "True" (only for the person who is currently webmaster)
   image: /static/img/members/dolapo.jpg
   position: Postdoctoral Fellow
-  email: ojoawoa (at) brandeis.edu
+  email: aojoawo (at) scripps.edu
 ##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
   orcid: 0000-0003-3961-8935  # as in https://orcid.org/????-????-????-????
   startdate: 202206
@@ -117,7 +117,7 @@
 - name: Andrew Glaser
   image: /static/img/members/andrew.jpg
   position: Graduate Student
-  email: andrewglaser (at) brandeis.edu
+  email: aglaser (at) scripps.edu
   startdate: 201905
   education:
     - 2016 - BSc Biochemistry, Union College, Schenectady, NY, USA
@@ -126,7 +126,7 @@
 - name: MacKenzie Patterson
   image: /static/img/members/mackenzie.jpg
   position: Graduate Student
-  email: mpatterson (at) brandeis.edu
+  email: mpatterson (at) scripps.edu
   startdate: 201905
   education:
     - 2018 - BSc Biochemistry, University of Massachusetts Boston, Boston, MA, USA
@@ -139,7 +139,7 @@
 - name: Christiana Ntangka
   image: /static/img/members/christiana.jpg
   position: Graduate Student
-  email: cntangka (at) brandeis.edu
+  email: cntangka (at) scripps.edu
   startdate: 202105
   education:
     - 2020 - BS in Biochemistry, Old Dominion University, Norfolk, VA, USA
@@ -150,7 +150,7 @@
 - name: Lufan Xiao
   image: /static/img/members/lufan.jpg
   position: Graduate Student
-  email: lux011 (at) brandeis.edu
+  email: lxiao (at) scripps.edu
   startdate: 202201
   education:
     - 2021 - BS Biochemistry, University of California San Diego, USA
@@ -178,7 +178,7 @@
 - name: Bo Kim 
   image: /static/img/members/Bo_Kim.JPG
   position: Graduate Student
-  email: bokim (at) brandeis.edu
+  email: bokyungk (at) scripps.edu
 ##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
 ##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
   startdate: 202405
