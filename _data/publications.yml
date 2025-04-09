@@ -23,6 +23,7 @@
 
 - citation: "Wayment-Steele HK, Ovchinnikov S, Colwell L, Kern D. Sequence clustering enhances AlphaFold2. *bioRxiv* **2025**"
   date: 20250301
+  image: "/static/img/publications/Wayment-Steele_2022.png"
   doi: 10.1101/2024.07.29.605333
    links:
     - name: "bioRxiv: Sequence clustering enhances AlphaFold2"
