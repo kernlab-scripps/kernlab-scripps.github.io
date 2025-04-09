@@ -25,10 +25,10 @@
   date: 20250319
   image: "/static/img/publications/dyna1.png"
   doi: 10.1101/2025.03.19.642801v1
-   links:
+  links:
     - name: "bioRxiv: Learning millisecond protein dynamics from what is missing in NMR spectra"
       url: "https://www.biorxiv.org/content/10.1101/2025.03.19.642801v1"
-    - name: "code & data"
+    - name: "Code & Data"
       url: "https://github.com/WaymentSteeleLab/Dyna-1/tree/main"
     - name: "Dyna-1 Colab notebook"
       url: "https://colab.research.google.com/github/WaymentSteeleLab/Dyna-1/blob/main/colab/Dyna_1.ipynb"
