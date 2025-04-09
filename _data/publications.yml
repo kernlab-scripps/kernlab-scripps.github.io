@@ -97,9 +97,9 @@
 - citation: "Jara GE, Pontiggia F, Otten R, Agafonov RV, Marti MA & Kern D. Wide Trasition-State Ensemble as Key Component for Enzyme Catalysis. *eLife* **2025**"
   date: 20250117
   image: "/static/img/publications/TSE_doro_2024.png"
-  ##pmid: 37956700
-  ##pmcid: PMC10808063
-  doi: 10.1101/2023.10.03.560706
+  pmid: 39963964
+  pmcid: PMC11835391
+  doi: 10.7554/eLife.93099.4
   ##biorxiv: "https://www.biorxiv.org/content/10.1101/2023.10.03.560706v1"
   # pdf: "/static/pdf/lastname_year.pdf"
   links:
