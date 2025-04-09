@@ -21,26 +21,6 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
-- citation: "Wayment-Steele HK<sup>#</sup>, El Nesr G<sup>#</sup>, Hettiarachchi R, Kariyawasam H, Ovchinnikov S, & Kern D. Learning millisecond protein dynamics from what is missing in NMR spectra. *bioRxiv* **2025**"
-  date: 20250319
-  doi: https://www.biorxiv.org/content/10.1101/2025.03.19.642801v1
-   links:
-    - name: "bioRxiv: Learning millisecond protein dynamics from what is missing in NMR spectra"
-      url: "https://www.biorxiv.org/content/10.1101/2025.03.19.642801v1"
-    - name: "code"
-      url: "https://github.com/WaymentSteeleLab/Dyna-1/tree/main"
-    - name: "Dyna-1 Colab notebook"
-      url: "https://colab.research.google.com/github/WaymentSteeleLab/Dyna-1/blob/main/colab/Dyna_1.ipynb"
-    - name: "Dyna-1 on HuggingFace"
-      url: "https://huggingface.co/spaces/gelnesr/Dyna-1"
-
-- citation: "Wayment-Steele HK, Ovchinnikov S, Colwell L, Kern D. Sequence clustering enhances AlphaFold2. *bioRxiv* **2025**"
-  date: 20250301
-  doi: 10.1101/2024.07.29.605333
-   links:
-    - name: "bioRxiv: Sequence clustering enhances AlphaFold2"
-      url: "https://www.biorxiv.org/content/10.1101/2024.07.29.605333v2"
-      
 - citation: "Wayment-Steele HK<sup>#</sup>, Otten R<sup>#</sup>, Pitsawong W<sup>#</sup>, Ojoawo A<sup>#</sup>, Glaser A, Calderone LA & Kern D. The conformational landscape of fold-switcher KaiB is tuned to the circadian rhythm timescale. *Proc. Natl. Acad. Sci. US* **2024**"
   date: 20240603
   image: "/static/img/publications/Wayment-Steele_KaiB_landscape.png"
@@ -60,7 +40,7 @@
   image: "/static/img/publications/p38a_Emily_Hannes_2024.png"
   ##pmid: 37956700
   ##pmcid: PMC10808063
-  doi: 10.1101/2024.05.15.594272
+  doi: 10.1073/pnas.2415150122
   ##pdb:
     ##- 9CJ1
     ##- 9CJ2
