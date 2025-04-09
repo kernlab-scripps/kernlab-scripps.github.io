@@ -23,7 +23,7 @@
 
 - citation: "Wayment-Steele HK<sup>#</sup>, El Nesr G<sup>#</sup>, Hettiarachchi R, Kariyawasam H, Ovchinnikov S, & Kern D. Learning millisecond protein dynamics from what is missing in NMR spectra. *bioRxiv* **2025**"
   date: 20250319
-  image: "/static/img/publications/Dyna1.png"
+  image: "/static/img/publications/dyna1.png"
   doi: 10.1101/2025.03.19.642801v1
    links:
     - name: "bioRxiv: Learning millisecond protein dynamics from what is missing in NMR spectra"
