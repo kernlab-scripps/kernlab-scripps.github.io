@@ -123,14 +123,48 @@
     - 2019 - B.S. Chemical and Biological Engineering, Seoul National University, Seoul, Republic of Korea
     - 2024 - Ph.D. Chemical Engineering, University of Texas at Austin, USA
   publications:
-    - Miller, L. G.#, Kim, W.#, Schowe, S.#, Taylor, K., Han, R., Jain, V., Park, R., Sherman, M., Fang, J., Ramirez, H., Ellington, A.D., Tamamis, P., Resendiz, M., Zhang, Y.J., Contreras, L. Selective 8-oxoG stalling occurs in the catalytic core of polynucleotide phosphorylase during degradation. *Proc. Natl. Acad. Sci. USA* **2024**
-    - Zhang, Q.#, Kim, W.#, Panina, S., Mayfield, J.E., Portz, B., Zhang, Y.J. Variation of C-terminal domain governs RNA polymerase II genomic locations and alternative splicing in eukaryotic transcription. *Nature Communications* **2024**
-    - Reed, K. B., Kim, W., Lu, H., Larue, C. T., Guo, S., Brooks, S. M., Montez, M., Wagner, J. M., Zhang, Y., Alper H. S. Evolving dual-trait EPSP synthase variants using a synthetic yeast selection system. *Proc. Natl. Acad. Sci. USA* **2024**
-    - D\'Oelsnitz, S., Diaz, D., Kim, W., Acosta, D., Schechter, M., Minus, M., Howard, J., Do, H., Dangerfield, T., Loy, J., Alper, H. S., Zhang, Y., Ellington, A. D. Biosensor and machine learning-aided engineering of an Amaryllidaceae enzyme. *Nature Communications* **2024**
-    - Kim, W.#, Chen, T.#, Cha, L., Zhou, G., Xing, K., Canty, N., Zhang, Y.J., Chang, W. Elucidation of divergent desaturation pathways in the formation of vinyl isonitrile and isocyanoacrylate. *Nature Communications* **2022**
-    - D\'Oelsnitz, S., Kim, W., Burkholder, N. T., Javanmardi, K., Thyer, R., Zhang, Y. J., Alper, H. S., Ellington, A. D. Using structurally fungible biosensors to evolve improved alkaloid biosynthesis. *Nature Chemical Biology* **2022**
-    - Lu, H., Diaz, D. J., Czarnecki, N. J., Zhu, C., Kim, W., Shroff, R., Acosta, D. J., Alexander, B., Cole, H., Zhang, Y. J., Lynd, N., Ellington, A. D., Alper, H. S. Machine learning-aided engineering of hydrolases for PET depolymerization. *Nature* **2022**
-    - Kim, W., LeBlanc, B., Matthews, W. L., Zhang, Z-Y., Zhang, Y. J. Advancements in chemical biology targeting the kinases and phosphatases of RNA polymerase II-mediated transcription. *Current Opinion in Chemical Biology* **2021**
+    - Miller LG#, Kim W#, Schowe S#, Taylor K, Han R, Jain V, Park R, Sherman M, Fang J, Ramirez H, Ellington AD, Tamamis P, Resendiz M, Zhang YJ, Contreras L. Selective 8-oxoG stalling occurs in the catalytic core of polynucleotide phosphorylase during degradation. *Proc Natl Acad Sci USA* **2024**
+    - Zhang Q# Kim W# Panina S, Mayfield JE, Portz B, Zhang YJ. Variation of C-terminal domain governs RNA polymerase II genomic locations and alternative splicing in eukaryotic transcription. *Nature Communications* **2024**
+    - Reed KB, Kim W, Lu H, Larue CT, Guo S, Brooks SM, Montez M, Wagner JM, Zhang Y, Alper HS. Evolving dual-trait EPSP synthase variants using a synthetic yeast selection system. *Proc Natl Acad Sci USA* **2024**
+    - D\'Oelsnitz S, Diaz D, Kim W, Acosta D, Schechter M, Minus M, Howard J, Do H, Dangerfield T, Loy J, Alper HS, Zhang Y, Ellington AD. Biosensor and machine learning-aided engineering of an Amaryllidaceae enzyme. *Nature Communications* **2024**
+    - Kim W#, Chen T#, Cha L, Zhou G, Xing K, Canty N, Zhang YJ, Chang W. Elucidation of divergent desaturation pathways in the formation of vinyl isonitrile and isocyanoacrylate. *Nature Communications* **2022**
+    - D\'Oelsnitz S, Kim W, Burkholder NT, Javanmardi K, Thyer R, Zhang YJ, Alper HS, Ellington AD. Using structurally fungible biosensors to evolve improved alkaloid biosynthesis. *Nature Chemical Biology* **2022**
+    - Lu H, Diaz DJ, Czarnecki NJ, Zhu C, Kim W, Shroff R, Acosta DJ, Alexander B, Cole H, Zhang YJ, Lynd N, Ellington AD, Alper HS. Machine learning-aided engineering of hydrolases for PET depolymerization. *Nature* **2022**
+    - Kim W, LeBlanc B, Matthews WL, Zhang Z-Y, Zhang YJ. Advancements in chemical biology targeting the kinases and phosphatases of RNA polymerase II-mediated transcription. *Current Opinion in Chemical Biology* **2021**
+
+- name: Marta Massari
+  image: /static/img/members/Massari.jpeg
+  position: Postdoctoral Fellow
+  email: mmassari (at) scripps.edu
+  scholar: XrgXXnsAAAAJ
+  orcid: 0000-0002-7731-7626
+  startdate: 202505
+  publications:
+    - Noce B#, Marchese S#, Massari M#, Lambona C, Reis J, Fiorentino F, Raucci A, Fioravanti R, Castelôa M, Mormino A, Garofalo S, Limatola C, Basile L, Gottinger A, Binda C, Mattevi A, Mai A, Valente S. Design of Benzyl-triazolopyrimidine-Based NADPH Oxidase Inhibitors Leads to the Discovery of a Potent Dual Covalent NOX2/MAOB Inhibitor. *J Med Chem* **2025**, *68*(6): 6292–6311.
+    - Reis J#, Gorgulla C#, Massari M#, Marchese S#, Valente S, Noce B, Basile L, Törner R, Cox H, Viennet T, Yang MH, Ronan MM, Rees MG, Roth JA, Capasso L, Nebbioso A, Altucci L, Mai A, Arthanari H, Mattevi A. Targeting ROS production through inhibition of NADPH oxidases. *Nat Chem Biol* **2023**, *19*(12): 1540–1550.
+    - Nicoll CR, Massari M, Fraaije MW, Mascotti ML, Mattevi A. Impact of ancestral sequence reconstruction on mechanistic and structural enzymology. *Curr Opin Struct Biol* **2023**, *82*: 102669.
+    - Massari M, Nicoll CR, Marchese S, Mattevi A, Mascotti ML. Evolutionary and structural analyses of the NADPH oxidase family in eukaryotes reveal an initial calcium dependency. *Redox Biol* **2022**, *56*: 102436.
+    - Massari M, Nicoll CR, Mattevi A. A lonely electron blocks incoming pairs. *J Biol Chem* **2021**, *296*: 100294.
+    - Reis J, Massari M, Marchese S, Ceccon M, Aalbers FS, Corana F, Valente S, Mai A, Magnani F, Mattevi A. A closer look into NADPH oxidase inhibitors: Validation and insight into their mechanism of action. *Redox Biol* **2020**, *32*: 101466.
+
+- name: Callum Nicoll
+  image: /static/img/members/Nicoll.jpeg
+  position: Postdoctoral Fellow
+  email: cnicoll (at) scripps.edu
+  scholar: Oei5qI0AAAAJ
+  orcid: 0000-0002-2122-9387
+  startdate: 202505
+  publications:
+    - Nicoll CR#, Alvigini L#, Gottinger A#. In vitro construction of the COQ metabolon unveils the molecular determinants of coenzyme Q biosynthesis. *Nat Catal* **2024**, *7*: 148–160.
+    - Nicoll CR, Mascotti ML. Investigating the biochemical signatures and physiological roles of the FMO family using molecular phylogeny. *BBA Adv* **2023**, *4*: 100108.
+    - Nicoll CR#, Massari M#, et al. Impact of ancestral sequence reconstruction on mechanistic and structural enzymology. *Curr Opin Struct Biol* **2023**, *82*: 102669.
+    - Bailleul G, Yang G, Nicoll CR et al. Evolution of enzyme functionality in the flavin-containing monooxygenases. *Nat Commun* **2023**, *14*: 1042.
+    - Massari M, Nicoll CR et al. Evolutionary and structural analyses of the NADPH oxidase family in eukaryotes reveal an initial calcium dependency. *Redox Biol* **2022**, *56*: 102436.
+    - Fiorentini F, Nicoll CR, Mattevi A. Baeyer–Villiger Monooxygenases and Their Mechanism of Oxygen Activation: From Microbes to Humans. *Biochemistry* **2021**, *60*(46): 3419–3421.
+    - Massari M, Nicoll CR, Mattevi A. A lonely electron blocks incoming pairs. *J Biol Chem* **2021**, *296*: 100294.
+    - Bailleul G, Nicoll CR et al. Ancestral reconstruction of mammalian FMO1 enables structural determination, revealing unique features that explain its catalytic properties. *J Biol Chem* **2021**, *296*: 100221.
+    - Nicoll CR et al. Ancestral Sequence Reconstruction Unveils the Structural Basis of Catalysis and Membrane Binding in Mammalian Flavin-Containing Monooxygenases. *Nat Struct Mol Biol* **2020**, *27*: 14–24.
+    - Paradisi A, Johnston EM, Tovborg M, Nicoll CR et al. Evidence for a hole-hopping mechanism in lytic polysaccharide monooxygenases: characterization of an active site copper(II)-tyrosyl complex following oxidation by H₂O₂. *J Am Chem Soc* **2019**, *14*: 18585–18599.
 
 # Graduate students
 
