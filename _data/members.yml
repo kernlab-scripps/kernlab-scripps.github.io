@@ -140,12 +140,12 @@
   orcid: 0000-0002-7731-7626
   startdate: 202505
   publications:
-    - Noce B#, Marchese S#, Massari M#, Lambona C, Reis J, Fiorentino F, Raucci A, Fioravanti R, Castelôa M, Mormino A, Garofalo S, Limatola C, Basile L, Gottinger A, Binda C, Mattevi A, Mai A, Valente S. Design of Benzyl-triazolopyrimidine-Based NADPH Oxidase Inhibitors Leads to the Discovery of a Potent Dual Covalent NOX2/MAOB Inhibitor. *J Med Chem* **2025**, *68*(6): 6292–6311.
-    - Reis J#, Gorgulla C#, Massari M#, Marchese S#, Valente S, Noce B, Basile L, Törner R, Cox H, Viennet T, Yang MH, Ronan MM, Rees MG, Roth JA, Capasso L, Nebbioso A, Altucci L, Mai A, Arthanari H, Mattevi A. Targeting ROS production through inhibition of NADPH oxidases. *Nat Chem Biol* **2023**, *19*(12): 1540–1550.
-    - Nicoll CR, Massari M, Fraaije MW, Mascotti ML, Mattevi A. Impact of ancestral sequence reconstruction on mechanistic and structural enzymology. *Curr Opin Struct Biol* **2023**, *82*: 102669.
-    - Massari M, Nicoll CR, Marchese S, Mattevi A, Mascotti ML. Evolutionary and structural analyses of the NADPH oxidase family in eukaryotes reveal an initial calcium dependency. *Redox Biol* **2022**, *56*: 102436.
-    - Massari M, Nicoll CR, Mattevi A. A lonely electron blocks incoming pairs. *J Biol Chem* **2021**, *296*: 100294.
-    - Reis J, Massari M, Marchese S, Ceccon M, Aalbers FS, Corana F, Valente S, Mai A, Magnani F, Mattevi A. A closer look into NADPH oxidase inhibitors: Validation and insight into their mechanism of action. *Redox Biol* **2020**, *32*: 101466.
+    - Noce B#, Marchese S#, Massari M#, Lambona C, Reis J, Fiorentino F, Raucci A, Fioravanti R, Castelôa M, Mormino A, Garofalo S, Limatola C, Basile L, Gottinger A, Binda C, Mattevi A, Mai A, Valente S. Design of Benzyl-triazolopyrimidine-Based NADPH Oxidase Inhibitors Leads to the Discovery of a Potent Dual Covalent NOX2/MAOB Inhibitor. *J Med Chem* **2025**
+    - Reis J#, Gorgulla C#, Massari M#, Marchese S#, Valente S, Noce B, Basile L, Törner R, Cox H, Viennet T, Yang MH, Ronan MM, Rees MG, Roth JA, Capasso L, Nebbioso A, Altucci L, Mai A, Arthanari H, Mattevi A. Targeting ROS production through inhibition of NADPH oxidases. *Nat Chem Biol* **2023**
+    - Nicoll CR, Massari M, Fraaije MW, Mascotti ML, Mattevi A. Impact of ancestral sequence reconstruction on mechanistic and structural enzymology. *Curr Opin Struct Biol* **2023**
+    - Massari M, Nicoll CR, Marchese S, Mattevi A, Mascotti ML. Evolutionary and structural analyses of the NADPH oxidase family in eukaryotes reveal an initial calcium dependency. *Redox Biol* **2022**
+    - Massari M, Nicoll CR, Mattevi A. A lonely electron blocks incoming pairs. *J Biol Chem* **2021**
+    - Reis J, Massari M, Marchese S, Ceccon M, Aalbers FS, Corana F, Valente S, Mai A, Magnani F, Mattevi A. A closer look into NADPH oxidase inhibitors: Validation and insight into their mechanism of action. *Redox Biol* **2020**
 
 - name: Callum Nicoll
   image: /static/img/members/Nicoll.jpeg
@@ -155,16 +155,16 @@
   orcid: 0000-0002-2122-9387
   startdate: 202505
   publications:
-    - Nicoll CR#, Alvigini L#, Gottinger A#. In vitro construction of the COQ metabolon unveils the molecular determinants of coenzyme Q biosynthesis. *Nat Catal* **2024**, *7*: 148–160.
-    - Nicoll CR, Mascotti ML. Investigating the biochemical signatures and physiological roles of the FMO family using molecular phylogeny. *BBA Adv* **2023**, *4*: 100108.
-    - Nicoll CR#, Massari M#, et al. Impact of ancestral sequence reconstruction on mechanistic and structural enzymology. *Curr Opin Struct Biol* **2023**, *82*: 102669.
-    - Bailleul G, Yang G, Nicoll CR et al. Evolution of enzyme functionality in the flavin-containing monooxygenases. *Nat Commun* **2023**, *14*: 1042.
-    - Massari M, Nicoll CR et al. Evolutionary and structural analyses of the NADPH oxidase family in eukaryotes reveal an initial calcium dependency. *Redox Biol* **2022**, *56*: 102436.
-    - Fiorentini F, Nicoll CR, Mattevi A. Baeyer–Villiger Monooxygenases and Their Mechanism of Oxygen Activation: From Microbes to Humans. *Biochemistry* **2021**, *60*(46): 3419–3421.
-    - Massari M, Nicoll CR, Mattevi A. A lonely electron blocks incoming pairs. *J Biol Chem* **2021**, *296*: 100294.
-    - Bailleul G, Nicoll CR et al. Ancestral reconstruction of mammalian FMO1 enables structural determination, revealing unique features that explain its catalytic properties. *J Biol Chem* **2021**, *296*: 100221.
-    - Nicoll CR et al. Ancestral Sequence Reconstruction Unveils the Structural Basis of Catalysis and Membrane Binding in Mammalian Flavin-Containing Monooxygenases. *Nat Struct Mol Biol* **2020**, *27*: 14–24.
-    - Paradisi A, Johnston EM, Tovborg M, Nicoll CR et al. Evidence for a hole-hopping mechanism in lytic polysaccharide monooxygenases: characterization of an active site copper(II)-tyrosyl complex following oxidation by H₂O₂. *J Am Chem Soc* **2019**, *14*: 18585–18599.
+    - Nicoll CR#, Alvigini L#, Gottinger A#. In vitro construction of the COQ metabolon unveils the molecular determinants of coenzyme Q biosynthesis. *Nat Catal* **2024**
+    - Nicoll CR, Mascotti ML. Investigating the biochemical signatures and physiological roles of the FMO family using molecular phylogeny. *BBA Adv* **2023**
+    - Nicoll CR#, Massari M#, et al. Impact of ancestral sequence reconstruction on mechanistic and structural enzymology. *Curr Opin Struct Biol* **2023**
+    - Bailleul G, Yang G, Nicoll CR et al. Evolution of enzyme functionality in the flavin-containing monooxygenases. *Nat Commun* **2023**
+    - Massari M, Nicoll CR et al. Evolutionary and structural analyses of the NADPH oxidase family in eukaryotes reveal an initial calcium dependency. *Redox Biol* **2022**
+    - Fiorentini F, Nicoll CR, Mattevi A. Baeyer–Villiger Monooxygenases and Their Mechanism of Oxygen Activation: From Microbes to Humans. *Biochemistry* **2021**
+    - Massari M, Nicoll CR, Mattevi A. A lonely electron blocks incoming pairs. *J Biol Chem* **2021**
+    - Bailleul G, Nicoll CR et al. Ancestral reconstruction of mammalian FMO1 enables structural determination, revealing unique features that explain its catalytic properties. *J Biol Chem* **2021**
+    - Nicoll CR et al. Ancestral Sequence Reconstruction Unveils the Structural Basis of Catalysis and Membrane Binding in Mammalian Flavin-Containing Monooxygenases. *Nat Struct Mol Biol* **2020**
+    - Paradisi A, Johnston EM, Tovborg M, Nicoll CR et al. Evidence for a hole-hopping mechanism in lytic polysaccharide monooxygenases: characterization of an active site copper(II)-tyrosyl complex following oxidation by H₂O₂. *J Am Chem Soc* **2019**
 
 # Graduate students
 
