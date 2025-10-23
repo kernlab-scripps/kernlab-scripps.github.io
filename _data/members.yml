@@ -68,25 +68,6 @@
     - 'Oueis E, Adamson C, Mann G, Ludewig H, Redpath P, Migaud M, Westwood NJ & Naismith JH. Derivatisable Cyanobactin Analogues: A Semisynthetic Approach. *ChemBioChem* **2015**'
     - Koehnke J, Mann G, Bent AF, Ludewig H, Shirran S, Botting C, Lebl T, Houssen WE, Jaspars M & Naismith JH. Structural analysis of leader peptide binding enables leader-free cyanobactin processing. *Nat. Chem. Biol.* **2015**
 
-- name: Adedolapo Ojoawo
-##  webmaster: "True" (only for the person who is currently webmaster)
-  image: /static/img/members/dolapo.jpg
-  position: Postdoctoral Fellow
-  email: aojoawo (at) scripps.edu
-##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
-  orcid: 0000-0003-3961-8935  # as in https://orcid.org/????-????-????-????
-  startdate: 202206
-##  startdatelab: YYYYMM [date for joining the lab]
-  education:
-    - 2015 - B.Sc. Chemistry, Saint Catherine University, USA
-    - 2020 - Ph.D. Biochemistry, University of Illinois at Urbana Champaign, USA
-    - 2022 - Postdoctoral fellow at Saint Jude Children's Hospital Structural Biology Department, USA
-##  description:
-  publications:
-    - Sekar G, Ojoawo A & Moldoveanu T. Protein–protein and protein–lipid interactions of pore-forming BCL-2 family proteins in apoptosis initiation. *Biochem Soc Trans* **2022** 
-    - 'Ojoawo A & Moldoveanu T. A killer metamorphosis: catching BAK in action at the membrane. *The EMBO Journal* **2021**'
-    - McClain SM, Ojoawo A, Lin W, Rienstra MC & Murphy CJ. Interaction of Alpha-Synuclein and Its Mutants with Rigid Lipid Vesicle Mimics of Varying Surface Curvature. *ACS Nano* **2020**
-
 - name: Wantae Kim
   image: /static/img/members/wantae.jpg
   position: Postdoctoral Fellow
@@ -171,28 +152,6 @@
   - Kragelj J#, Orand T#, Delaforge E, Tengo L, Blackledge M, Palencia A, Jensen MR. Enthalpy-Entropy Compensation in the Promiscuous Interaction of an Intrinsically Disordered Protein with Homologous Protein Partners. *Biomolecules* **2021**
   - 'Machol K, Jain M, Almannai M, Orand T, Lu JT, Tran A, Chen Y, Schlesinger A, Gibbs R, Bonafe L, Campos-Xavier AB, Unger S, Superti-Furga A, Lee BH, Campeau PM, Burrage LC. Corner fracture type spondylometaphyseal dysplasia: Overlap with type II collagenopathies. *Am J Med Genet A* **2017**'
 # Graduate students
-
-- name: Andrew Glaser
-  image: /static/img/members/andrew.jpg
-  position: Graduate Student
-  email: aglaser (at) scripps.edu
-  startdate: 201905
-  education:
-    - 2016 - BSc Biochemistry, Union College, Schenectady, NY, USA
-  #description:
-
-- name: MacKenzie Patterson
-  image: /static/img/members/mackenzie.jpg
-  position: Graduate Student
-  email: mpatterson (at) scripps.edu
-  startdate: 201905
-  education:
-    - 2018 - BSc Biochemistry, University of Massachusetts Boston, Boston, MA, USA
-  publications:
-    - Ramasamy PK, Matos JO, Black BY, Ellenburg WH, Chen J, Patterson M, Gehtman J, Theoblad DL, Krauss IJ & Oprian DD. Crystal Structure of Caryolan-1-ol Synthase, a Sesquiterpene Synthase Catalyzing an Initial Anti-Markovnikov Cyclization Reaction. *bioRxiv* **2024**
-    - Webb J, Lieu JJM, Gnann AD, Patterson M, Paul S, Forés M, Jiménez G, Veraksa A & Downling DP. Molecular Basis of DNA recognition by the HMG=box-C1 module of Capicua. *bioRxiv* **2022**
-    - Matos JO, Ramasamy PK, Ma AC, Patterson M, Krauss IJ & Oprian DD. Mechanism Underlying Anti-Markovnikov Addition in the Reaction of Pentalenene Synthase. *Biochemistry* **2020**
-  #description: Adenylate kinase (ADK) is a phosphotransferase that regulates energy homeostasis by controlling intracellular nucleotide levels. ADK is an essential enzyme that is found across all domains of life, and its stability is correlated to organismal growth. This stability/fitness relationship imposes that ancestral ADK evolved modern sequences that are stable in the same environments occupied by their native organisms. I am interested in studying how ADK evolved by investigating the effects of mutations on the structural and dynamic properties of the enzyme using biophysical techniques such as X-ray crystallography and NMR spectroscopy.
 
 - name: Christiana Ntangka
   image: /static/img/members/christiana.jpg
