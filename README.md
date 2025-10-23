@@ -1,4 +1,18 @@
 # kernlab-scripps.github.io
+
+Quick tips for what a webmaster needs to regularly update:
+
+```
+_data/
+alumni.yml
+members.yml
+publications.yml
+
+posts/
+
+YYYY-MM-DD-Title.md
+```
+
 ============================
 
 Oct 5: Hannah renamed this repo from kernlab-brandeis to kernlab-scripps. Then set up placeholder organization / website kernlab-brandeis to create a page at kernlab-brandeis.github.io that redirects to kernlab-scripps.github.io
