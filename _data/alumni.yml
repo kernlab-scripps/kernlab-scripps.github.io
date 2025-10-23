@@ -7,19 +7,7 @@
 ##      or      https://bir.brandeis.edu/handle/?????/????? for BSc/MSc thesis
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
-
-- name: Andrew Glaser
-  position: PhD Student
-  startdate: 201905
-  enddate: 202504
-  current: ''
   
-- name: Mackenzie Patterson
-  position: PhD Student
-  startdate: 201905
-  enddate: 202507
-  current: Postdoctoral Fellow, Alex Johnson lab, Brandeis
-
 - name: Adedolapo Ojoawo
   position: Postdoctoral Fellow
   startdate: 202206
@@ -31,6 +19,30 @@
   startdate: 202206
   enddate: 202508
   current: Asst professor @ University of Wisconsin, Madison
+
+- name: Mackenzie Patterson
+  position: PhD Student
+  startdate: 201905
+  enddate: 202507
+  current: Postdoctoral Fellow, Alex Johnson lab, Brandeis
+
+- name: Andrew Glaser
+  position: PhD Student
+  startdate: 201905
+  enddate: 202504
+  current: ''
+
+- name: Gilbert Otoo
+  position: Undergraduate Student
+  startdate: 202404
+  enddate: 202412
+  current: Graduate Student-Athlete @ Johns Hopkins University
+  
+- name: Aedan Using
+  position: Undergraduate Student
+  startdate: 202305
+  enddate: 202412
+  current: Undergraduate Student @ Brandeis University
   
 - name: Julia Apitz
   position: Master Student
