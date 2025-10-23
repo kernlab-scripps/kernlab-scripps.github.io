@@ -174,8 +174,8 @@
     - 2023 - MS Biochemistry, Brandeis University, USA
 ##    - YYYY - PhD Biochemistry, University, Country
 ##  description:
-##  publications:
-##    - citation (only for papers not published in the Kern Lab)
+  publications:
+    - 'Torres-Paris C, Chen Y, Xiao L, Song HJ, Chen P & Komives EA. The autoactivation of human single-chain urokinase-type plasminogen activator (uPA). *Journal of Biological Chemistry.* **2023**'
 
 - name: Camille Sullivan
   image: /static/img/members/camille.jpg
@@ -213,14 +213,4 @@
 
 # Undergraduate students
 
-- name: Aedan Using
-  image: /static/img/members/aedan.jpg
-  position: Undergraduate Student
-  email: aedanusing (at) brandeis.edu
-  startdate: 202305
 
-- name: Gilbert Otoo
-  image: /static/img/members/Gilbert_Otoo.jpg
-  position: Undergraduate Student
-  email: gotoo (at) brandeis.edu
-  startdate: 202404
