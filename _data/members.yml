@@ -48,7 +48,6 @@
     - Pádua RAP & Nonato MC. Cloning, Expression, Purification, Crystallization and Preliminary X-ray Diffraction Analysis of Recombinant Human Fumarase. *Acta Crystallogr. F. Struct. Biol. Commun.* **2014**
 
 - name: Hannes Ludewig
-  webmaster: "True"
   image: /static/img/members/hannes.jpg
   position: Postdoctoral Fellow
   email: hludewig (at) scripps.edu
@@ -165,9 +164,12 @@
     - Bowitch A, Sahoo A, Clark AM, Ntangka C, Raut KK, Gollnick I, Yu MC, Pascal SM, Walker SE & Ferkey DM. Methylation of the D2 dopamine receptor affects binding with the human regulatory proteins Par-4 and Calmodulin. *MicroPubl Biol.*  **2021**
 
 - name: Lufan Xiao
+  webmaster: "True"
   image: /static/img/members/lufan.jpg
   position: Graduate Student
   email: lxiao (at) scripps.edu
+##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
+##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
   startdate: 202201
   education:
     - 2021 - BS Biochemistry, University of California San Diego, USA
