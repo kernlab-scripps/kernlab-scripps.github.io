@@ -8,6 +8,24 @@
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
 
+- name: Andrew Glaser
+  position: PhD Student
+  startdate: 201905
+  enddate: 202507
+  current: ''
+  
+- name: Mackenzie Patterson
+  position: PhD Student
+  startdate: 201905
+  enddate: 202507
+  current: Postdoctoral Fellow, Alex Johnson lab, Brandeis
+
+- name: Adedolapo Ojoawo
+  position: Postdoctoral Fellow
+  startdate: 202206
+  enddate: 202508
+  current: Senior Scientist II in NMR Biophysics, Abbvie 
+
 - name: Hannah Wayment-Steele
   position: Postdoctoral Fellow
   startdate: 202206
