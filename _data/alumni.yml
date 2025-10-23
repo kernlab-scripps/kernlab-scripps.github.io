@@ -12,7 +12,7 @@
   position: Postdoctoral Fellow
   startdate: 202206
   enddate: 202508
-  current: Senior Scientist II in NMR Biophysics, Abbvie 
+  current: Senior Scientist II @ Abbvie 
 
 - name: Hannah Wayment-Steele
   position: Postdoctoral Fellow
@@ -21,16 +21,19 @@
   current: Asst professor @ University of Wisconsin, Madison
 
 - name: Mackenzie Patterson
-  position: PhD Student
+  position: Graduate Student
   startdate: 201905
   enddate: 202507
-  current: Postdoctoral Fellow, Alex Johnson lab, Brandeis
+  thesis_title: Evolution: How We Use It, and How It Works Around Us
+  #thesis_url:
+  current: Postdoctoral Fellow @ Brandeis University
 
 - name: Andrew Glaser
-  position: PhD Student
+  position: Graduate Student
   startdate: 201905
   enddate: 202504
-  current: ''
+  thesis_title: Unlocking SHP2 Phosphatase: From Natural Activation to Pathogenic Dysregulation
+  #thesis_url:
 
 - name: Gilbert Otoo
   position: Undergraduate Student
@@ -42,7 +45,7 @@
   position: Undergraduate Student
   startdate: 202305
   enddate: 202412
-  current: Undergraduate Student @ Brandeis University
+  current: Graduate Student-Athlete @ Brandeis University
   
 - name: Julia Apitz
   position: Master Student
@@ -70,12 +73,16 @@
   position: Graduate Student
   startdate: 201705
   enddate: 202305
+  thesis_title: Inhibition, Activation, and Evolution of SHP2: Understanding the Dynamics of a Key Signaling Enzyme
+  #thesis_url:
   current: Postdoctoral Fellow @ The University of Texas at Austin
 
 - name: Chansik Kim
   position: Graduate Student / Postdoctoral Fellow
   startdate: 201705
   enddate: 202301
+  thesis_title: Exploiting Natural Traits of Kinases: Double-Drugging and Forward Evolution
+  #thesis_url:
   current: Scientist @ NoveltyNobility
 
 - name: Emily Schmitz
@@ -94,6 +101,8 @@
   position: Graduate Student 
   startdate: 201705
   enddate: 202206
+  thesis_title: Src kinase dissected: conformational dynamics reveal how to hijack natural regulatory mechanisms
+  #thesis_url:
   current: Scientist @ RADD Pharmaceuticals
 
 - name: Renee Otten
@@ -124,12 +133,16 @@
   position: Graduate Student / Postdoctoral Fellow
   startdate: 201505
   enddate: 202104
+  thesis_title: Beyond the Ground-State: High-Energy Structural Determination
+  #thesis_url:
   current: Scientist @ Prime Medicine
 
 - name: Patrick Finneran
   position: Graduate Student
   startdate: 201505
   enddate: 202008
+  thesis_title: Resurrecting Ancient Kinases to Understand the Evolution of Kinase Specificity and Regulation
+  #thesis_url:
   current: Senior Scientist Biophysics @ Menten AI
 
 - name: Liuyu Chen
@@ -167,7 +180,7 @@
   position: Graduate Student / Postdoctoral Fellow
   startdate: 201109
   enddate: 201708
-  #thesis_title:
+  thesis_title: Rewinding the Tape: A Study on Enzyme Evolution
   #thesis_url:
   current: Scientist @ Prime Medicine
 
@@ -175,7 +188,7 @@
   position: Graduate Student / Postdoctoral Fellow
   startdate: 201109
   enddate: 201706
-  #thesis_title:
+  thesis_title: Ancient Origins of Enzyme Catalysis and Allosteric Activation in Kinases - Exploitation for Novel Cancer Drugs
   #thesis_url:
   current: Senior Scientist I @ Relay Therapeutics
 
@@ -320,7 +333,7 @@
   position: Postdoctoral Fellow
   startdate: 200806
   enddate: 201207
-  #current: ???
+  current: Consultant, VP @ Biostar Two Consulting, LLC
 
 - name: Kalyan S. Chakrabarti
   position: Postdoctoral Fellow
