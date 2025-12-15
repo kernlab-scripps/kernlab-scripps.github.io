@@ -31,7 +31,7 @@
   links:
 ##    - name: "paper"
 ##      url: "https://doi.org/xxxxxx"
-    - name: "Phosphatase SHP2 pathogenic mutations enhance activity by altering conformational sampling"
+    - name: "bioRxiv: Phosphatase SHP2 pathogenic mutations enhance activity by altering conformational sampling"
       url: "https://www.biorxiv.org/content/10.64898/2025.12.12.694068v1"
 
 - citation: "Wayment-Steele HK<sup>#</sup>, El Nesr G<sup>#</sup>, Hettiarachchi R, Kariyawasam H, Ovchinnikov S, & Kern D. Learning millisecond protein dynamics from what is missing in NMR spectra. *bioRxiv* **2025**"
