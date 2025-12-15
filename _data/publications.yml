@@ -21,6 +21,19 @@
 ##     - name: "Fraser Lab"
 ##       url: "https://fraser-lab.com/"
 
+
+- citation: "Glaser A, Pádua RAP, Ojoawo A, Sullivan C, Kern D. Phosphatase SHP2 pathogenic mutations enhance activity by altering conformational sampling *boiRxiv* **2025**"
+  date: 20251212
+  image: "/static/img/publications/AWG_SH2_2025.png"
+##  pmid: 
+  doi: 10.64898/2025.12.12.694068
+  biorxiv: "https://www.biorxiv.org/content/10.64898/2025.12.12.694068v1"
+  links:
+##    - name: "paper"
+##      url: "https://doi.org/xxxxxx"
+    - name: "bioRxiv: Phosphatase SHP2 pathogenic mutations enhance activity by altering conformational sampling"
+      url: "https://www.biorxiv.org/content/10.64898/2025.12.12.694068v1"
+
 - citation: "Wayment-Steele HK<sup>#</sup>, El Nesr G<sup>#</sup>, Hettiarachchi R, Kariyawasam H, Ovchinnikov S, & Kern D. Learning millisecond protein dynamics from what is missing in NMR spectra. *bioRxiv* **2025**"
   date: 20250319
   image: "/static/img/publications/dyna1.png"
