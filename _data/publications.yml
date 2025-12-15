@@ -22,12 +22,12 @@
 ##       url: "https://fraser-lab.com/"
 
 
-- citation: "Glaser A, Pádua RAP, Ojoawo A, Sullivan C, Kern D. Phosphatase SHP2 pathogenic mutations enhance activity by altering conformational sampling *boiRxiv* **2025**"
+- citation: "Glaser A, Pádua RAP, Ojoawo A, Sullivan C, Kern D. Phosphatase SHP2 pathogenic mutations enhance activity by altering conformational sampling *bioRxiv* **2025**"
   date: 20251212
   image: "/static/img/publications/AWG_SH2_2025.png"
 ##  pmid: 
   doi: 10.64898/2025.12.12.694068
-  biorxiv: "https://www.biorxiv.org/content/10.64898/2025.12.12.694068v1"
+##  biorxiv: "https://www.biorxiv.org/content/10.64898/2025.12.12.694068v1"
   links:
 ##    - name: "paper"
 ##      url: "https://doi.org/xxxxxx"
