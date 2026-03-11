@@ -95,10 +95,10 @@
   orcid: 0000-0002-7731-7626
   startdate: 202505
   education:
-    2015 - Bachelor Degree in Biotechnology, University of Pavia, Italy
-    2017 - Master Degree in Advanced Biotechnology, University of Pavia, Italy
-    2021 - Ph.D. in Genetics, Molecular and Cellular Biology, University of Pavia, Italy
-    2025 - Postdoctoral Fellow, University of Pavia, Italy
+    - 2015 - Bachelor Degree in Biotechnology, University of Pavia, Italy
+    - 2017 - Master Degree in Advanced Biotechnology, University of Pavia, Italy
+    - 2021 - Ph.D. in Genetics, Molecular and Cellular Biology, University of Pavia, Italy
+    - 2025 - Postdoctoral Fellow, University of Pavia, Italy
   publications:
     - Ogboo BC, Patel KB, Massari M, Marchese S, Reis J, Joyce E, Lin M-CJ, Rabb JD, Abidakun OA, Lin Q, van der Vliet A, Mattevi A, Heppner DE. 2025. Enhancing Selectivity and Potency of SNAr Covalent Inhibitors of NADPH Oxidase Enzymes. *J Med Chem* **2025**
     - Noce B#, Marchese S#, Massari M#, Lambona C, Reis J, Fiorentino F, Raucci A, Fioravanti R, Castelôa M, Mormino A, Garofalo S, Limatola C, Basile L, Gottinger A, Binda C, Mattevi A, Mai A, Valente S. Design of Benzyl-triazolopyrimidine-Based NADPH Oxidase Inhibitors Leads to the Discovery of a Potent Dual Covalent NOX2/MAOB Inhibitor. *J Med Chem* **2025**
@@ -116,9 +116,9 @@
   orcid: 0000-0002-2122-9387
   startdate: 202505
   education:
-    2017 - MChem Chemistry, Biological and Medicinal Chemistry, University of York, UK
-    2021 - Ph.D. Biomolecular Sciences and Biotechnology, University of Pavia, Italy
-    2025 - Postdoctoral Fellow, University of Pavia, Italy
+    - 2017 - MChem Chemistry, Biological and Medicinal Chemistry, University of York, UK
+    - 2021 - Ph.D. Biomolecular Sciences and Biotechnology, University of Pavia, Italy
+    - 2025 - Postdoctoral Fellow, University of Pavia, Italy
   publications:
     - Wang D, Gottinger A, Jeong J, Nicoll CR, Liu J, Kadavá T, Cecchini D, Malatesta M, Heck AJR, Mattevi A, Shakhnovich EI. Complete Enzyme Clustering Enhances Coenzyme Q Biosynthesis via Substrate Channeling. *bioRxiv* **2025**
     - Nicoll CR#, Alvigini L#, Gottinger A#. In vitro construction of the COQ metabolon unveils the molecular determinants of coenzyme Q biosynthesis. *Nat Catal* **2024**
@@ -126,7 +126,7 @@
     - Nicoll CR#, Massari M#, et al. Impact of ancestral sequence reconstruction on mechanistic and structural enzymology. *Curr Opin Struct Biol* **2023**
     - Bailleul G, Yang G, Nicoll CR et al. Evolution of enzyme functionality in the flavin-containing monooxygenases. *Nat Commun* **2023**
     - Massari M, Nicoll CR et al. Evolutionary and structural analyses of the NADPH oxidase family in eukaryotes reveal an initial calcium dependency. *Redox Biol* **2022**
-    - 'Fiorentini F, Nicoll CR, Mattevi A. Baeyer–Villiger Monooxygenases and Their Mechanism of Oxygen Activation: From Microbes to Humans. *Biochemistry* **2021**'
+    - 'Fiorentini F, Nicoll CR, Mattevi A. Baeyer–Villiger. Monooxygenases and Their Mechanism of Oxygen Activation: From Microbes to Humans. *Biochemistry* **2021**'
     - Massari M, Nicoll CR, Mattevi A. A lonely electron blocks incoming pairs. *J Biol Chem* **2021**
     - Bailleul G, Nicoll CR et al. Ancestral reconstruction of mammalian FMO1 enables structural determination, revealing unique features that explain its catalytic properties. *J Biol Chem* **2021**
     - Nicoll CR et al. Ancestral Sequence Reconstruction Unveils the Structural Basis of Catalysis and Membrane Binding in Mammalian Flavin-Containing Monooxygenases. *Nat Struct Mol Biol* **2020**
@@ -177,7 +177,7 @@
 ##    - YYYY - PhD Biochemistry, University, Country
 ##  description:
   publications:
-    - 'Torres-Paris C, Chen Y, Xiao L, Song HJ, Chen P & Komives EA. The autoactivation of human single-chain urokinase-type plasminogen activator (uPA). *Journal of Biological Chemistry.* **2023**'
+    - 'Torres-Paris CP, Chen Y, Xiao L, Song HJ, Chen P & Komives EA. The autoactivation of human single-chain urokinase-type plasminogen activator (uPA). *Journal of Biological Chemistry.* **2023**'
 
 - name: Camille Sullivan
   image: /static/img/members/camille.jpg
@@ -214,5 +214,19 @@
 
 
 # Undergraduate students
+- name: Jai Anish Penumarthi
+  image: /static/img/members/Jai_Penumarthi.JPG
+  position: Undergraduate Student
+##  email: someone (at) scripps.edu
+##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
+##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
+  startdate: 202601
+  education:
+##    - YYYY - BS Bioscience & Biotechnology, Hankuk University of Foreign Studies, Yongin, Republic of Korea
+##    - YYYY - MS Biochemistry, Korea University, Seoul, Republic of Korea
+##    - YYYY - PhD Biochemistry, University, Country
+##  description:
+  publications:
+##    - Ames A, Seman M, Larkin A, Raiymbek G, Chen Z, Levashkevich A, Kim B, Biteen JS & Ragunathan K. Epigenetic memory is governed by an effector recruitment specificity toggle in Heterochromatin Protein I. *bioRxiv* **2024**
 
 
