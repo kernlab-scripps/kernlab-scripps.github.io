@@ -50,6 +50,8 @@
   image: "/static/img/publications/dyna1.png"
   doi: 10.1101/2025.03.19.642801v1
   links:
+    - name: "Nature Accelerated Preview"
+      url: "https://www.nature.com/articles/s41586-026-10989-4.epdf?sharing_token=mtMM95wLwGzUaaI1XRu72tRgN0jAjWel9jnR3ZoTv0MMqKRfd7vOGj2zV2dPjoNCV32sGugI_2efpYYKsPyHUhojIV9v-D8e7xCbkJ2gUIw43uQHs2b1F3z-ozJ_NdtUbwRafXp2E46BMTbld6YLdwDq4j8MdZErU--vnzB6SeM%3D"
     - name: "bioRxiv: Learning millisecond protein dynamics from what is missing in NMR spectra"
       url: "https://www.biorxiv.org/content/10.1101/2025.03.19.642801v2"
     - name: "Code & Data"
