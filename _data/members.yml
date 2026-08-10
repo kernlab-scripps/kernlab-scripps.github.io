@@ -169,7 +169,7 @@
   position: Graduate Student
   email: lxiao (at) scripps.edu
 ##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
-##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
+  orcid: 0000-0003-1449-4227  # as in https://orcid.org/????-????-????-????
   startdate: 202201
   education:
     - 2021 - BS Biochemistry, University of California San Diego, USA
@@ -194,24 +194,23 @@
 ##  publications:
 ##    - citation (only for papers not published in the Kern Lab)
 
-- name: Bo Kim 
-  image: /static/img/members/Bo_Kim.JPG
-  position: Graduate Student
-  email: bokyungk (at) scripps.edu
-##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
-##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
-  startdate: 202405
-  education:
-    - 2020 - BS Bioscience & Biotechnology, Hankuk University of Foreign Studies, Yongin, Republic of Korea
-    - 2022 - MS Biochemistry, Korea University, Seoul, Republic of Korea
-##    - YYYY - PhD Biochemistry, University, Country
-##  description:
-  publications:
-    - Ames A, Seman M, Larkin A, Raiymbek G, Chen Z, Levashkevich A, Kim B, Biteen JS & Ragunathan K. Epigenetic memory is governed by an effector recruitment specificity toggle in Heterochromatin Protein I. *bioRxiv* **2024**
-
 # Master students
 
-
+# Research Assistants/Technicians
+- name: Marcos Ngo
+  image: /static/img/members/Marcos_Ngo.JPG
+  position: Research Assistant
+  email: mngo (at) scripps.edu
+##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
+  orcid: 0009-0009-2454-0208  # as in https://orcid.org/????-????-????-????
+  startdate: 202608
+  education:
+    - 2026 - BS Chemistry, University of Vermont, USA
+##    - YYYY - MSc Biochemistry, University, Country
+##    - YYYY - PhD Biochemistry, University, Country
+##  description:
+##  publications:
+##    - citation (only for papers not published in the Kern Lab)
 
 # Undergraduate students
 - name: Jai Anish Penumarthi
