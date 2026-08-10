@@ -7,7 +7,11 @@
 ##      or      https://bir.brandeis.edu/handle/?????/????? for BSc/MSc thesis
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
-  
+- name: Bo Kim
+  position: Graduate Student
+  startdate: 202412
+  enddate: 202605
+
 - name: Adedolapo Ojoawo
   position: Postdoctoral Fellow
   startdate: 202206
