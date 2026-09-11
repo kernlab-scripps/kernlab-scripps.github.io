@@ -150,6 +150,28 @@
   - 'Orand T, Jensen MR. Binding mechanisms of intrinsically disordered proteins: Insights from experimental studies and structural predictions. *Curr Opin Struct Biol* **2025**'
   - Kragelj J#, Orand T#, Delaforge E, Tengo L, Blackledge M, Palencia A, Jensen MR. Enthalpy-Entropy Compensation in the Promiscuous Interaction of an Intrinsically Disordered Protein with Homologous Protein Partners. *Biomolecules* **2021**
   - 'Machol K, Jain M, Almannai M, Orand T, Lu JT, Tran A, Chen Y, Schlesinger A, Gibbs R, Bonafe L, Campos-Xavier AB, Unger S, Superti-Furga A, Lee BH, Campeau PM, Burrage LC. Corner fracture type spondylometaphyseal dysplasia: Overlap with type II collagenopathies. *Am J Med Genet A* **2017**'
+
+- name: Gina El Nesr
+  image: /static/img/members/gina_el_nesr.jpg
+  position: Postdoctoral Fellow
+  email: gelnesr (at) scripps.edu
+  orcid: 0000-0003-4857-9464
+  scholar: # (not provided)
+  startdate: 202609
+  education:
+    - 2021 - B.A. Biophysics, The Johns Hopkins University, USA
+    - 2021 - B.S. Computer Science, The Johns Hopkins University, USA
+    - 2021 - B.S. Applied Math & Statistics, The Johns Hopkins University, USA
+    - 2026 - Ph.D. Biophysics, Stanford University, USA
+  publications:
+  - Wayment-Steele HK#, El Nesr G#, Hettiarachchi R, Kariyawasam H, Ovchinnikov S, & Kern D. Learning millisecond protein dynamics from what is missing in NMR spectra. *Nature* **2026**
+  - Townley J#, Kladwang W#, §Baker D, §Blair HM, §Choe C, §El Nesr G, §Favor A, §Fisker E, §Haack DB, §He S, §Hingey J, §Huang R, §Huang PS, §Joshi CK, §Karagianes TG, §Kubaney A, §Lio P, §Mancino A, §Romano J, §Rudolfs B, §Spellmon N, §Toor N, §Wu V, §Yu Z, Eterna players & Das R. De novo design of RNA pseudoknots with deep learning. *Science* **2026**
+  - Desai BJ, Spinner A, Estell DA, Armer C, Paul S, El Nesr G, Thomas N, Komp E, Guitrrez DNZ, Bondarevaite O, Kononenko A, Dhroso A, Apel AR & Kelly PJ. Development & Assessment of Assays Capable of Data Generation for Training and Benchmarking Models for PET Hydrolase Engineering. *Zenodo* **2026**
+  - Rubio AA, Baharani VA, Parada M, Abernathy ME, Wang Z, Lee YE, Eso MR, Phung J, Ramos I, Chen T, El Nesr G, Bloom JD, Bieniasz PD, Nussenzweig MC & Barnes CO. Bispecific antibodies with broad neutralization potency against SARS-CoV-2 variants of concern. *Sci. Transl. Med.* **2025**
+  - Du H, Mallik L, Hwang D, Sun Y, Kaku C, Hoces D, Sun SM, Ghinnagow R, Carro SD, Phan HAT, Gupta S, Blackson W, Lee H, Choe CA, Dersh D, Liu J, Bell B, Yang H, Papadaki GF, Young MC, Zhou E, El Nesr G, Goli KD, Eisenlohr LC, Minn AJ, Hernandez-Lopez RA, Jardine JG, Sgourakis NG & Huang PS. Targeting peptide antigens using a multiallelic MHC I-binding system. *Nat. Biotechnol.* **2024**
+  - Chu AE, Kim J, Cheng L, El Nesr G, Xu M, Shuai R & Huang PS. An all-atom protein generative model. *Proc. Natl. Acad. Sci. U.S.A.* **2024**
+  - Baxter-Koenigs AR#, El Nesr G# & Barrick D. Singular value decomposition of protein sequences as a method to visualize sequence and residue space. *Protein Sci.* **2022**
+
 # Graduate students
 
 - name: Christiana Ntangka
@@ -178,21 +200,6 @@
 ##  description:
   publications:
     - 'Torres-Paris CP, Chen Y, Xiao L, Song HJ, Chen P & Komives EA. The autoactivation of human single-chain urokinase-type plasminogen activator (uPA). *Journal of Biological Chemistry.* **2023**'
-
-- name: Camille Sullivan
-  image: /static/img/members/camille.jpg
-  position: Graduate Student
-  email: camillesullivan (at) brandeis.edu
-##  scholar: ????????????  # as in https://scholar.google.com/citations?user=????????????
-##  orcid: ????-????-????-????  # as in https://orcid.org/????-????-????-????
-  startdate: 202205
-  education:
-    - 2018 - BA Molecular Biology, Princeton University, USA
-##    - YYYY - MSc Biochemistry, University, Country
-##    - YYYY - PhD Biochemistry, University, Country
-##  description:
-##  publications:
-##    - citation (only for papers not published in the Kern Lab)
 
 # Master students
 
