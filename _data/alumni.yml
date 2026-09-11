@@ -7,6 +7,12 @@
 ##      or      https://bir.brandeis.edu/handle/?????/????? for BSc/MSc thesis
 ##  current: PositionTitle @ Company/University
 ##  website: URL to current job (mainly used for PIs)
+
+- name: Camille Sullivan
+  position: Graduate Student
+  startdate: 202212
+  enddate: 202609
+
 - name: Bo Kim
   position: Graduate Student
   startdate: 202412
